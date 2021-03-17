@@ -1,0 +1,8 @@
+{
+    "name": "Slook v0.1",
+    "description": "Slook Theme.",
+    "version": "0.1",
+    "author": "Leeprky",
+    "license": "MIT",
+    "theme": "slook_theme.css"
+}
