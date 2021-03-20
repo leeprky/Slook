@@ -1,7 +1,7 @@
-## SLOOT THEME 0.1
-a A Discord Theme Focused On Your Chats.
+## SLOOT THEME 0.2
+a A Discord Theme Focused On Your Messages.
 
-## How To Install SLOOK V0.1
+## How To Install SLOOK V0.2
 
 > Head to C:\Users\[USER]\powercord\src\Powercord
 
