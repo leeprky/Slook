@@ -1,5 +1,5 @@
 ## SLOOT THEME V1
-a A Discord Theme Focused On Your Messages.
+A Discord Theme Focused On Your Messages.
 
 ## INFO
 
