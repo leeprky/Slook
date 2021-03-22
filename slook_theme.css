@@ -594,6 +594,9 @@ code {
 .colorDefault-2K3EoJ { border-radius: 15px; }
 .menu-3sdvDG  {border-radius: 18px;}
 .separator-2I32lJ { display: none; }
+.userPopout-3XzG_A {
+  box-shadow: none;
+}
 /* Channelist*/
 .sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
   border-radius: 0px 18px 0 0 !important
