@@ -45,6 +45,11 @@ MIT, see LICENSE.md for more details
 
 Also Checkout
 
-- https://github.com/leeprky/cybercordtheme-yellow & https://github.com/leeprky/cybercordtheme-cyan
+- ![image](https://user-images.githubusercontent.com/71296232/112064691-47557600-8b5b-11eb-95ad-ada1f0e7f413.png)
+&
+![image](https://user-images.githubusercontent.com/71296232/112064701-4c1a2a00-8b5b-11eb-92d2-2e36a48d4f59.png)
 
-- https://github.com/leeprky/cybercordtheme-transparent
+## OR
+
+![image](https://user-images.githubusercontent.com/71296232/112064718-54726500-8b5b-11eb-8c79-7e960458a152.png)
+
