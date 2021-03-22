@@ -25,11 +25,18 @@ MIT, see LICENSE.md for more details
 
 ## Previews
 
-![preview](./previews/preview1.jpg)
-![preview](./previews/preview2.jpg)
+![preview](./previews/preview1.png)
+![preview](./previews/preview2.png)
 ![preview](./previews/preview3.jpg)
 ![preview](./previews/preview4.jpg)
-![preview](./previews/preview1.1.jpg)
-![preview](./previews/preview1.2.jpg)
-![preview](./previews/preview1.3.jpg)
-![preview](./previews/preview1.4.jpg)
+![preview](./previews/preview1.5.png)
+## No ChannelList
+
+## Light Mode
+![preview](./previews/preview1.1.png)
+![preview](./previews/preview1.2.png)
+![preview](./previews/preview1.3.png)
+![preview](./previews/preview1.4.png)
+## No ChannelList
+![preview](./previews/preview1.5.png)
+
