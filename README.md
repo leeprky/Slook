@@ -41,3 +41,10 @@ MIT, see LICENSE.md for more details
 ## No ChannelList
 ![preview](./previews/preview1.5.png)
 
+## MY OTHER THEMES
+
+Also Checkout
+
+- https://github.com/leeprky/cybercordtheme-yellow & https://github.com/leeprky/cybercordtheme-cyan
+
+- https://github.com/leeprky/cybercordtheme-transparent
