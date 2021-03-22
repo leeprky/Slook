@@ -1,8 +1,8 @@
 {
     "name": "Slook v1",
-    "description": "A Chatbox Focused Theme",
+    "description": "Slook Theme - Theme For Your Chats",
     "version": "1.0",
-    "author": "Leeprky#2063",
+    "author": "Leeprky#2063
     "license": "MIT",
     "theme": "slook_theme.css"
 }
