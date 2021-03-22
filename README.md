@@ -29,8 +29,8 @@ MIT, see LICENSE.md for more details
 ![preview](./previews/preview2.png)
 ![preview](./previews/preview3.jpg)
 ![preview](./previews/preview4.jpg)
-![preview](./previews/preview1.5.png)
 ## No ChannelList
+![preview](./previews/preview5.png)
 
 ## Light Mode
 ![preview](./previews/preview1.1.png)
