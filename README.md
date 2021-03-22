@@ -5,6 +5,7 @@ a A Discord Theme Focused On Your Messages.
 
 Slook Theme primary goal is to make you focus on your chats while looking stylish :)
 So Enjoy!
+- Any Issues open up one or DM Leeprky#2063
 
 If You Wish To Use The Popout ChannelList Please go to line "1153" And remove it
 *Make Sure Horizontal Server List Is OFF*
