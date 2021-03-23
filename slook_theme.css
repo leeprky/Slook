@@ -496,8 +496,12 @@ USRBG Profile Modals by Tropix126.
   margin-left: 2px
 }
 /* ChannelRoleArea */
-.container-SDBvD6 {
+.theme-light .container-SDBvD6 {
   background-color: #D8D1CB;
+  border-radius: 10px;
+}
+.theme-dark .container-SDBvD6 {
+  background-color: #24262B;
   border-radius: 10px;
 }
 .scroller-305q3I {
