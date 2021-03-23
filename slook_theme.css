@@ -14,10 +14,10 @@
    --interactive-active: #fff;
    --interactive-muted: #b7bec9;
    --background-primary: #24262b;
-   --background-secondary: #222427ad;
+   --background-secondary: #1d1f22ad;
    --background-secondary-alt: #2224277a;
    --background-tertiary: #1D1F22;
-   --background-accent: #32353a;
+   --background-accent: #dadde2;
    --background-floating: #18191caf;
    --background-chatbox: #8e9297;
    --background-modifier-hover: rgba(79,84,92,0.16);
@@ -62,12 +62,12 @@
   --interactive-hover: #2e3338;
   --interactive-active: #40a113;
   --interactive-muted: #c2c5c7;
-  --background-primary: rgb(230, 225, 221);
+  --background-primary: rgb(216, 209, 203);
   --background-secondary: rgba(219, 214, 210, 0.61);
   --background-secondary-alt: rgba(219, 214, 210, 0.61);
   --background-tertiary: rgba(219, 214, 210, 0.61);
   --background-accent: #323538;
-  --background-floating: rgba(255, 255, 255, 0.884);
+  --background-floating: rgba(226, 219, 215, 0.884);
   --background-modifier-hover: rgba(116,127,141,0.08);
   --background-modifier-active: rgba(116,127,141,0.16);
   --background-modifier-selected: rgba(116,127,141,0.24);
@@ -107,10 +107,10 @@
 }
 /* AdditionalTheming For Slook*/
 .peopleColumn-29fq28 {
-   background-color: #2F3136;
+   background-color: #1D1F22;
 }
 .nowPlayingColumn-2sl4cE {
-  background-color: #2F3136
+  background-color: #1D1F22;
 }
 .container-1r6BKw.themed-ANHk51 {
     background-color: var(--background-primary);
@@ -613,13 +613,15 @@ code {
   width:24px;
   height:24px;
 }
+.userPopout-3XzG_A {
+  box-shadow: none;
+}
 /* TopBar */
 [class|=toolbar] a {/*Help Button*/
   display: none;
 }
 .hovered-d5PMVU {opacity: 1;transform:none;position: initial;}
 .hovered-d5PMVU ~ .default-3sgIpy {display: none;}
-
 /* ChatBox */
 /* -- */
 .iconWrapper-2OrFZ1 {
@@ -633,7 +635,31 @@ code {
 .selected-1GqIat .icon-22AiRD {
   display: none;
 }
+.page-3njELR {
+  max-width: 1040px;
+}
+.contentWidth-xLB44s {
+  max-width: 808px;
+}
 
+/* Better roles */
+.role-2irmRk {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  padding: 6px;
+}
+.roleCircle-3xAZ1j::before {
+  content: '';
+  position: absolute;
+  top: -0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  opacity: 0.2;
+  pointer-events: none;
+}
 /* Bubble Member List By Leeprky#2063*/
 :root {
   --hover-animation-speed: 0.35s;
