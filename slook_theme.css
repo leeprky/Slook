@@ -394,6 +394,7 @@
    clip-path: none !important;
  }
 
+ /* Settings Background */
  .layers-3iHuyZ>.layer-3QrUeG:first-child{
    transform: scale(1) !important;
    opacity: 1 !important;
@@ -601,7 +602,15 @@ code {
 .colorable-1bkp8v.red-33-Lnk {
   background: none !important;
 }
-
+/* Activity Status */
+.activityPanel-28dQGo {
+  background-image: url(https://imgur.com/L0Iih63.jpg);
+  border-radius: 12px;
+  margin-bottom: 7px;
+  width: 220px;
+  margin-left: 4px;
+  box-shadow: none;
+}
 /* FIXES */
 /* Connceted Account Fix */
 .connectedAccount-36nQx7 {
