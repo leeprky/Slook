@@ -2,9 +2,11 @@
 @import url("https://ghostmander.github.io/discordfont/DiscordFont.css");
 
 /* USRBG */ 
-/* USRBG Profile Modals by Tropix126.
+/*
+USRBG Profile Modals by Tropix126.
 =========================================== */
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
+
 
 .root-SR8cQa {
   transform: translateZ(0);
@@ -56,7 +58,6 @@
 .userPopout-3XzG_A  .footer-1fjuF6 {
 	z-index: 1;
 }
-/* USRBG END */
 
 /* MainColouring */
 .theme-dark {
@@ -813,7 +814,6 @@ margin-right: 15px;
   position: relative;
   left: -1px
 }
-
 
 /* ChannelistEdit By Leeprky#2063 */ /* REMOVE THE LINE BELOW */
 /*
