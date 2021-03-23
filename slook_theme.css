@@ -495,6 +495,14 @@ USRBG Profile Modals by Tropix126.
 .item-1tOPte {
   margin-left: 2px
 }
+/* ChannelRoleArea */
+.container-SDBvD6 {
+  background-color: #D8D1CB;
+  border-radius: 10px;
+}
+.scroller-305q3I {
+  border-radius: 18px;
+}
 /* SlookSpotify */
 /* DARKMODE IMGUR - https://imgur.com/L0Iih63.jpg
   LIGHTMODE IMGUR - https://imgur.com/GZyPIBZ.jpg
@@ -697,8 +705,7 @@ code {
 [class|=toolbar] a {/*Help Button*/
   display: none;
 }
-.hovered-d5PMVU {opacity: 1;transform:none;position: initial;}
-.hovered-d5PMVU ~ .default-3sgIpy {display: none;}
+
 /* ChatBox */
 /* -- */
 .iconWrapper-2OrFZ1 {
