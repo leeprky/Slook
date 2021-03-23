@@ -1,4 +1,4 @@
-## SLOOT THEME V1
+## SLOOT THEME V1.12
 A Discord Theme Focused On Your Messages.
 
 ## INFO
@@ -7,10 +7,10 @@ Slook Theme primary goal is to make you focus on your chats while looking stylis
 So Enjoy!
 - Any Issues open up one or DM Leeprky#2063
 
-If You Wish To Use The Popout ChannelList Please go to line "714" And remove it
+If You Wish To Use The Popout ChannelList Please go to line "734" And remove it
 *Make Sure Horizontal Server List Is OFF*
 
-## How To Install SLOOK V1
+## How To Install SLOOK V1.12
 
 > Head to C:\Users\[USER]\powercord\src\Powercord
 
