@@ -148,74 +148,7 @@
   position: absolute;
   top: 5px;
 }
-/* Bubble Member List By Leeprky#2063*/
-:root {
-   --hover-animation-speed: 0.35s;
-   --seperator-color: var(--background-accent);
-}
-.members-1998pB {
-   transition: transform var(--hover-animation-speed);
-}
-.membersWrap-2h-GB4 {
-  min-width: unset;
-  width: 40px;
-  justify-content: left;
-}
-.content-3QAtGj .subText-1KtqkB {
-  display: none;
-}
-.membersWrap-2h-GB4:hover .members-1998pB {
-   transform: translateX(-260px);
-}
-.membersWrap-2h-GB4 .members-1998pB .member-3-YXUe {
-   background-color: unset;
-   margin-left: 0px;
-   transition: margin-left var(--hover-animation-speed);
-}
-.membersWrap-2h-GB4:hover .members-1998pB .member-3-YXUe {
-   margin-left: 15px;
-}
-.membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
-   transform: translateX(2px);
-}
-.membersWrap-2h-GB4 .membersGroup-v9BXpm {
-   cursor: default;
-   transform: translateX(-10px);
-   transition: transform var(--hover-animation-speed);
-   overflow: visible;
-}
-.members-1998pB {
- border-radius: 18px 18px 18px 18px !important;
- left: 37px;
- margin-top: 100px;
- margin-bottom: 15px;
-}
-::-webkit-scrollbar {
-  display: none;
-}
-.membersWrap-2h-GB4 {
- left: 45px;
- margin-right: 40px;
- bottom: 75px;
- background-color: rgba(216, 27, 27, 0);
-}
-.chatContent-a9vAAp {
- background-color: var(--background-primary);
- border-radius: 0 15px 0 0 !important;
- margin-left: -0px;
- margin-right: -40px;
-}
-.channelTextArea-rNsIhG, .channelTextArea-2VhZ6z { 
-   margin-left: 20px;
- }
- .base-gE7OpD {
-   right: -5px;
-   top: 45px;
-}
-.buttons-3JBrkn {
-   position: relative;
-   left: -10px
-}
+
 /* SLookDev */
 .avatar-1BDn8e + h2 > span.timestamp-3ZCmNB::before {
   content: var(--epictext);
@@ -316,21 +249,6 @@
     transition: 0.6s ease-in-out;
     color:#fff;
     background: none;
-}
-.focused-31_ccS .searchBar-3dMhjb,
-.open-6_Y_aH .searchBar-3dMhjb,
-.searchBar-3dMhjb:hover {
-    width: 240px;
-    background: var(--background-tertiary);
-}
-.icon-3cZ1F_{height: 24px;width: 24px;color:var(--interactive-normal);}
-.iconContainer-O4O2CN{bottom: 3px;}
-.search-36MZv-{margin-left: 0px;}
-.searchHeader-2XoQg7, section.searchResultsWrap-3-pOjs {
-  border-radius: 15px 0px 0px 0px;
-}
-.ring-13rgEW {
-  background-color: #00b0f4;
 }
 /* Avatars */
  :root {
@@ -568,11 +486,6 @@
 .message-2qnXI6:hover {
   background-color: var(--background-floating)
 }
-.message-2qnXI6:not(.groupStart-23k01U) {
-  clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0, 1px 4px, 2px 5px, 3px 6px, 4px 7px, 8px 8px, calc(100% - 8px) 8px, calc(100% - 4px) 7px, calc(100% - 3px) 6px, calc(100% - 2px) 5px, calc(100% - 1px) 4px);
-  border-radius: 0 0 8px 8px;
-  margin-top: -8px;
-}
 .contents-2mQqc9 {
   margin-top: 5px;
 }
@@ -689,7 +602,6 @@ code {
   background: none !important;
 }
 
-
 /* FIXES */
 /* Connceted Account Fix */
 .connectedAccount-36nQx7 {
@@ -707,7 +619,89 @@ code {
 }
 .hovered-d5PMVU {opacity: 1;transform:none;position: initial;}
 .hovered-d5PMVU ~ .default-3sgIpy {display: none;}
+
+/* ChatBox */
 /* -- */
+.iconWrapper-2OrFZ1 {
+  height: 24px;
+  width: auto;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  margin: 0 2px;
+}
+.selected-1GqIat .icon-22AiRD {
+  display: none;
+}
+
+/* Bubble Member List By Leeprky#2063*/
+:root {
+  --hover-animation-speed: 0.35s;
+  --seperator-color: var(--background-accent);
+}
+.members-1998pB {
+  transition: transform var(--hover-animation-speed);
+}
+.membersWrap-2h-GB4 {
+ min-width: unset;
+ width: 40px;
+ justify-content: left;
+}
+.content-3QAtGj .subText-1KtqkB {
+ display: none;
+}
+.membersWrap-2h-GB4:hover .members-1998pB {
+  transform: translateX(-260px);
+}
+.membersWrap-2h-GB4 .members-1998pB .member-3-YXUe {
+  background-color: unset;
+  margin-left: 0px;
+  transition: margin-left var(--hover-animation-speed);
+}
+.membersWrap-2h-GB4:hover .members-1998pB .member-3-YXUe {
+  margin-left: 15px;
+}
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
+  transform: translateX(2px);
+}
+.membersWrap-2h-GB4 .membersGroup-v9BXpm {
+  cursor: default;
+  transform: translateX(-10px);
+  transition: transform var(--hover-animation-speed);
+  overflow: visible;
+}
+.members-1998pB {
+border-radius: 18px 18px 18px 18px !important;
+left: 37px;
+margin-top: 100px;
+margin-bottom: 15px;
+}
+::-webkit-scrollbar {
+ display: none;
+}
+.membersWrap-2h-GB4 {
+left: 45px;
+margin-right: 40px;
+bottom: 75px;
+background-color: rgba(216, 27, 27, 0);
+}
+.chatContent-a9vAAp {
+background-color: var(--background-primary);
+border-radius: 0 15px 0 0 !important;
+margin-left: -0px;
+margin-right: 15px;
+}
+.channelTextArea-rNsIhG, .channelTextArea-2VhZ6z { 
+  margin-left: 25px;
+}
+.base-gE7OpD {
+  right: -5px;
+  top: -25px;
+}
+.buttons-3JBrkn {
+  position: relative;
+  left: -1px
+}
 
 
 /* ChannelistEdit By Leeprky#2063 */ /* REMOVE THE LINE BELOW */
@@ -749,6 +743,7 @@ code {
 
 
 /* IGNORE UNLESS YOU KNOW WHAT YOUR DOING */
+/* BLURPLE SHIT */
 :root {
   --alt-color: 0, 140, 103; /* Must be an rgb color for opacity to work */
   --radio-group-dot-foreground: rgba(var(--alt-color));
