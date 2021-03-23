@@ -7,7 +7,7 @@ Slook Theme primary goal is to make you focus on your chats while looking stylis
 So Enjoy!
 - Any Issues open up one or DM Leeprky#2063
 
-If You Wish To Use The Popout ChannelList Please go to line "743" And remove it
+If You Wish To Use The Popout ChannelList Please go to line "187" And remove it
 *Make Sure Horizontal Server List Is OFF*
 
 ## How To Install SLOOK V1.12
