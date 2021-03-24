@@ -164,6 +164,7 @@ USRBG Profile Modals by Tropix126.
   --deprecated-text-input-prefix: #b9bbbe;
 }
 /* AdditionalTheming For Slook*/
+/* People Colum */
 .peopleColumn-29fq28 {
    background-color: #1D1F22;
 }
@@ -179,10 +180,107 @@ USRBG Profile Modals by Tropix126.
 .theme-dark .root-1gCeng {
   background-color: var(--background-secondary)
 }
+.theme-light .inset-3sAvek {
+  background-color: #cac6bf;
+}
 .container-1giJp5 {
   border-radius: 10px;
 }
-
+/* NitroSererBoosts */
+.theme-light .tierBody-16Chc9 {
+  background-color: #ebe8e2;
+}
+.theme-light .perk-2WeBWW {
+  background-color: #f0ede8;
+}
+/* NagBar */
+.button-2PWmas, .notice-2X5hT5 {
+  background-color: #4aa516af;
+}
+/* Upload Modal */
+.theme-light .uploadModal-2ifh8j {
+  background-color: rgba(253, 253, 252, 0.849);
+}
+.theme-light .uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC {
+  background-color: rgba(245, 243, 239, 0.904);
+}
+.theme-dark .uploadModal-2ifh8j {
+  background-color: rgba(29, 29, 28, 0.658);
+}
+.theme-dark .uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC {
+  background-color: rgba(22, 22, 21, 0.904);
+}
+.uploadModal-2ifh8j .inner-3nWsbo .comment-4IWttf {
+  margin-left: 2px;
+  width: 470px;
+}
+.uploadModal-2ifh8j .inner-3nWsbo .comment-4IWttf .label-3aiqT2 {
+  text-transform: uppercase;
+  margin-left: 25px;
+}
+/* Add Friends To DM */
+.header-1TKi98 {
+  background-color: rgb(233, 227, 220);
+}
+.errorState-KkUH_2 {
+  background-color: rgba(240, 235, 229, 0.719);
+  border-radius: 0px 0px 18px 18px;
+}
+.noResults-ZTbl5V, .scroller-hUf6zQ, .footer-1eyGBa {
+  background-color: #E9E3DC;
+  margin: 0;
+  box-shadow: none;
+}
+.theme-light .footerSeparator-M9dQY1 {
+  background-color: rgba(212, 200, 200, 0.829);
+}
+/* Gif Area */
+.theme-light .container-3ISnnM {
+  background-color: #ece6df;
+  margin-top: 10px;
+}
+.theme-light .header-1TOWci {
+  margin-top: 10px;
+}
+/* FindCommunites */
+.theme-light .pageWrapper-1PgVDX {
+  background-color: #D7D2CD;
+}
+.theme-light .card-3DjzTQ {
+  background-color: #cac4bd;
+}
+/* AutoComplete */
+.list-17lzo8 {
+  background-color: #1a1a1bb6;
+}
+.categoryHeader-O1zU94 {
+  background-color: #202122
+}
+.theme-light .list-17lzo8 {
+  background-color: #e4e1dbef;
+}
+.theme-light .categoryHeader-O1zU94 {
+  background-color: #e4e1dbef;
+}
+.theme-dark .autocomplete-1vrmpx {
+  background-color: #23242791;
+  border-radius: 10px;
+}
+.theme-light .autocomplete-1vrmpx {
+  background-color: #ebe7e2e1;
+  border-radius: 10px;
+}
+/* NitroScreen */
+.theme-light .root-1gCeng {
+  background-color: #ebe8e4ef;
+}
+.theme-light .footer-2gL1pp {
+  background-color: #ebe8e4ef;
+}
+/* SearchDropbox */
+.container-3ayLPN, .elevationBorderHigh-2WYJ09 {
+  background-color: #ebe8e4ef;
+}
 /* Keko #6043 osx Windows Replacement*/
 /*
 .theme-light .withFrame-haYltI {
@@ -310,7 +408,6 @@ USRBG Profile Modals by Tropix126.
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: absolute;
-  top: 5px;
 }
 
 /* Add transparency & blur to the loading screen */
@@ -345,81 +442,24 @@ USRBG Profile Modals by Tropix126.
   --epic-bg: var(--background-modifier-accent);
   --epictxtcolor: rgb(32, 34, 33);
 }
-
-/* ChatBoxArea */
-:root {
-   --bg-chatbox: var(--background-secondary);
-   --bg-divider: var(--background-modifier-accent); /* discords default color */
-}
-.scroller-2LSbBU {
-   bottom: -39em;
-}
-.scrollerSpacer-avRLaA {
-   height: 41em;
-}
-.scrollerSpacer-avRLaA.empty-6MGttt {
-   height: 40em;
-}
-.scroller-2LSbBU::-webkit-scrollbar-track {
-   margin-bottom: calc(39em + 0.5em);
-}
-.form-2fGMdU::before {
-   display: none;
-}
-.channelTextArea-rNsIhG {
-   background-color: transparent;
-}
+/* JumpToPresentPill */
+.jumpToPresentBar-G1R9s6 .barButtonMain-3K-jeJ { display: none; }
 .jumpToPresentBar-G1R9s6 {
-   bottom: 8px;
-   background-color:transparent;
-   opacity: 1;
+    display: block;
+    background-color: transparent;
+    right: 1px;
 }
-.jumpToPresentBar-G1R9s6 .barButtonMain-3K-jeJ, .jumpToPresentBar-G1R9s6 .barButtonAlt-mYL1lj {
-   height: 37px;
-   bottom: -7px;
-   margin-left: 20px;
+.jumpToPresentBar-G1R9s6 .barButtonAlt-mYL1lj {
+    float: right;
+    bottom: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: rgba(177, 169, 169, 0.849)
 }
-.container-2fRDfG, .scrollableContainer-2NUZem {
-   background-color: var(--bg-chatbox);
-}
-.jumpToPresentBar-G1R9s6::before {
-   content: "";
-   position: absolute;
-   margin-left: 20px;
-   background-color: transparent;
-   bottom: -50em;
-   height: 50em;
-   width: 100%;
-   border-top-left-radius: 8px;
-   border-top-right-radius: 8px;
-   box-shadow: 0 -38px 0 0 var(--bg-chatbox);
-}
-.container-2fRDfG::after /* reply divider */ {
-   content: "";
-   width: calc(100% - 10px); 
-   background: var(--bg-divider);
-   margin-left: 4px;
-   position: absolute;
-   height: 1px;
-   top: 33px;
-}
-.jumpToPresentBar-G1R9s6::after /* jumpto divider */ {
-   content: "";
-   width: calc(100% - 10px); 
-   background: var(--bg-divider);
-   margin-left: 4px;
-   position: absolute;
-   height: 1px;
-   top: 44px; 
-}
-/* Cleaner Search Tab - By Doggybootsy#1333 */
-.search-36MZv- {order: 1;}
-.searchBar-3dMhjb {
-    width: 28px;
-    transition: 0.6s ease-in-out;
-    color:#fff;
-    background: none;
-}
+.search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb { width: 27px; transition: 0.25s; background-color: transparent;}
+.search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb { width: 240px; transition: 0.25s; background-color: var(--background-tertiary);}
+.search-2oPWTC:not(.open-6_Y_aH) .iconContainer-O4O2CN { transform: scale(1.2); transition: 0.25s;}
+.search-2oPWTC:not(.open-6_Y_aH):hover .iconContainer-O4O2CN { transform: scale(1); transition: 0.25s;}
 /* Avatars */
  :root {
    --rs-small-spacing: 1px;
@@ -593,6 +633,11 @@ USRBG Profile Modals by Tropix126.
    padding-bottom: 10px;
    top: 5px;
  }
+ /* Add transparency & blur to the loading screen */
+.container-16j22k {
+  background-color: rgba(0,0,0,0.8);
+  backdrop-filter: blur(5px);
+}
  /* BetterStatus By Leeprky#2063 */
 .description-2L932D {
   display: none;
@@ -734,10 +779,10 @@ code {
   background-color: #d1cecb;
   box-shadow: none;
 }
-
 .body-3ND3kc {
   height: 190px
 }
+/* MemberViewBig */
 .body-3ND3kc {
   background-color: #35333331;
   border-radius: 15px;
@@ -747,6 +792,10 @@ code {
   background-color: #35333331;
   border-radius: 18px;
 }
+.theme-light .topSectionNormal-2-vo2m {
+  background-color: #ece4e47c;
+  border-radius: 18px;
+}
 .body-3iLsc4 {
   border-radius: 12px;
   margin-top: 5px;
@@ -754,8 +803,19 @@ code {
   background-color: #100;
   box-shadow: none;
 }
+.theme-light .body-3iLsc4 {
+  border-radius: 12px;
+  margin-top: 5px;
+  height: 130px;
+  background-color: rgba(248, 240, 240, 0.76);
+  box-shadow: none;
+}
 .footer-1fjuF6 {
   display: none;
+}
+/* ThemeTogglerArea */
+.powercord-product {
+  background-color: rgba(240, 237, 231, 0.329);
 }
 
 /* --- */
@@ -768,11 +828,13 @@ code {
   background-image: url(https://imgur.com/L0Iih63.jpg);
   background-size: 1200px;
   border-radius: 12px 0px 0px 12px;
+  box-shadow: none;
 }
 .theme-light .root-217Brm {
   background-image: url(https://imgur.com/GZyPIBZ.jpg);
   background-size: 1200px;
   border-radius: 12px 0px 0px 12px;
+  box-shadow: none;
 }
 .spriteWrapper-3DD_XY {
   position: absolute;
@@ -780,6 +842,7 @@ code {
   left: 100px;
   bottom: 0;
   right: 0;
+  box-shadow: none;
 }
 /* Call Dock By shotguntown#4936 */
 .wrapper-3EGhDO {
@@ -836,6 +899,7 @@ code {
 
 /* ChatBox */
 /* -- */
+/* MemberListRemove */
 .iconWrapper-2OrFZ1 {
   height: 24px;
   width: auto;
@@ -945,7 +1009,6 @@ margin-right: 15px;
 }
 .base-gE7OpD {
   right: -5px;
-  top: -25px;
 }
 .buttons-3JBrkn {
   position: relative;
