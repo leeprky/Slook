@@ -130,8 +130,8 @@ USRBG Profile Modals by Tropix126.
   --background-modifier-active: rgba(116,127,141,0.16);
   --background-modifier-selected: rgba(116,127,141,0.24);
   --background-modifier-accent: rgba(6,6,7,0.08);
-  --background-mentioned: rgba(250,166,26,0.1);
-  --background-mentioned-hover: rgba(250,166,26,0.2);
+  --background-mentioned: rgba(202, 140, 32, 0.1);
+  --background-mentioned-hover: rgba(113, 148, 102, 0.212);
   --background-message-hover: rgba(6,6,7,0.02);
   --background-help-warning: rgba(250,166,26,0.1);
   --background-help-info: rgba(0,103,224,0.1);
@@ -181,6 +181,13 @@ USRBG Profile Modals by Tropix126.
 }
 .container-1giJp5 {
   border-radius: 10px;
+}
+
+
+/* Add transparency & blur to the loading screen */
+.container-16j22k {
+  background-color: rgba(0,0,0,0.8);
+  backdrop-filter: blur(5px);
 }
 
 /* ChannelistEdit By Leeprky#2063 */ /* REMOVE THE LINE BELOW */
@@ -642,6 +649,18 @@ code {
   background-image: url(https://imgur.com/GZyPIBZ.jpg);
   border-radius: 18px;
 }
+.theme-light .userPopout-3XzG_A .header-2BwW8b, .userPopout-3XzG_A .scroller-2FKFPG, .userPopout-3XzG_A .footer-1fjuF6 {
+  background-color: #d3d0cd;
+}
+.theme-dark .userPopout-3XzG_A .header-2BwW8b, .userPopout-3XzG_A .scroller-2FKFPG, .userPopout-3XzG_A .footer-1fjuF6 {
+  background-color: #282a2e;
+  border-radius: 12px;
+}
+.theme-light .body-3iLsc4, .theme-light .footer-1fjuF6 {
+  background-color: #d1cecb;
+  box-shadow: none;
+}
+
 .body-3ND3kc {
   height: 190px
 }
@@ -657,7 +676,9 @@ code {
 .body-3iLsc4 {
   border-radius: 12px;
   margin-top: 5px;
-  height: 160px;
+  height: 130px;
+  background-color: #100;
+  box-shadow: none;
 }
 .footer-1fjuF6 {
   display: none;
