@@ -122,7 +122,7 @@ USRBG Profile Modals by Tropix126.
   --interactive-muted: #c2c5c7;
   --background-primary: rgb(216, 209, 203);
   --background-secondary: rgba(219, 214, 210, 0.61);
-  --background-secondary-alt: rgba(219, 214, 210, 0.61);
+  --background-secondary-alt: #DAD6D1;
   --background-tertiary: rgba(219, 214, 210, 0.61);
   --background-accent: #323538;
   --background-floating: rgba(226, 219, 215, 0.884);
@@ -183,13 +183,80 @@ USRBG Profile Modals by Tropix126.
   border-radius: 10px;
 }
 
-
-/* Add transparency & blur to the loading screen */
-.container-16j22k {
-  background-color: rgba(0,0,0,0.8);
-  backdrop-filter: blur(5px);
+/* Keko #6043 osx Windows Replacement*/
+/*
+.theme-light .withFrame-haYltI {
+  background: var(--neb-tertiary);
+  margin: 0;
+  height: 24px;
 }
-
+.theme-dark .withFrame-haYltI {
+  background: #1D1F22;
+  margin: 0;
+  height: 24px;
+}
+.withFrame-haYltI .wordmarkWindows-1v0lYD svg {
+  width: 0;
+}
+.withFrame-haYltI .winButton-iRh8-Z > svg {
+  display: none;
+}
+.withFrame-haYltI .winButton-iRh8-Z:hover {
+  background-color: var(--background-teritary);
+}
+.withFrame-haYltI .winButton-iRh8-Z {
+  pointer-events: none;
+  margin-left: -3px;
+  top: 0;
+}
+.withFrame-haYltI .winButton-iRh8-Z::after {
+  content: "";
+  padding: 7px;
+  border-radius: 50px;
+  pointer-events: fill;
+  transition-duration: 200ms;
+}
+.withFrame-haYltI .winButtonClose-1HsbF- {
+  margin-right: 3px;
+}
+.withFrame-haYltI .winButtonClose-1HsbF-::after {
+  background-color: #e92a2a25;
+  margin-top: 3px;
+}
+.theme-light .withFrame-haYltI .winButtonClose-1HsbF-::after {
+  background-color: #380d074b;
+  margin-top: 3px;
+}
+.withFrame-haYltI .winButtonClose-1HsbF-:hover::after {
+  background-color: #e92a2a;
+  transform: scale(1.1);
+}
+.withFrame-haYltI .winButtonMinMax-PBQ2gm:nth-child(3)::after {
+  background-color: #ebdd1721;
+  margin-top: 4px;
+}
+.theme-light .withFrame-haYltI .winButtonMinMax-PBQ2gm:nth-child(3)::after {
+  background-color: #3738074b;
+  margin-top: 4px;
+}
+.withFrame-haYltI .winButtonMinMax-PBQ2gm:nth-child(3):hover::after {
+  background-color: #f7e81b;
+  transform: scale(1.1);
+}
+.withFrame-haYltI .winButtonMinMax-PBQ2gm:nth-child(4):after {
+  background-color: #12db3323;
+  margin-top: 4px;
+}
+.theme-light .withFrame-haYltI .winButtonMinMax-PBQ2gm:nth-child(4):after {
+  background-color: #07380f4b;
+  margin-top: 4px;
+}
+.withFrame-haYltI .winButtonMinMax-PBQ2gm:nth-child(4):hover::after {
+  background-color: #12db33;
+  transform: scale(1.1);
+  margin-top: 4px;
+}
+/* */
 /* ChannelistEdit By Leeprky#2063 */ /* REMOVE THE LINE BELOW */
 /*
  .sidebar-2K8pFh{
@@ -243,6 +310,12 @@ USRBG Profile Modals by Tropix126.
   -webkit-text-fill-color: transparent;
   position: absolute;
   top: 5px;
+}
+
+/* Add transparency & blur to the loading screen */
+.container-16j22k {
+  background-color: rgba(0,0,0,0.8);
+  backdrop-filter: blur(5px);
 }
 
 /* SLookDev */
