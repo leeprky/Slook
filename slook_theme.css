@@ -1,5 +1,5 @@
 /*
-1.13.2.11
+1.13.2.13
 /*
 /* Imports */
 @import url("https://ghostmander.github.io/discordfont/DiscordFont.css");
@@ -284,7 +284,7 @@ body{
   margin-top: 0px;
 }
 /* ChannelistEdit By Leeprky#2063 */ /* REMOVE THE LINE BELOW */
-/*
+/* - DELETE
 .sidebar-2K8pFh{
   width: 0px;
   transition: 0.6s ease;
@@ -309,7 +309,32 @@ body{
   flex-direction: column;
 }
 /*
+/* Channel Arrows */
+/* - DELETE
+.theme-light [class*='modeSelected'] [class*='name']
+{
+    color: rgba(30, 143, 15, 0.925) !important; 
+    padding-left: 5px
+}
 
+[class*='modeSelected'] [class*='name']:before
+{
+    content: "> ";
+}
+
+
+.theme-light [class*='modeUnread'] [class*='name']
+{
+    color: #28a318f1 !important; 
+    padding-left: 3px
+}
+
+[class*='modeUnread'] [class*='name']:after
+{
+    content: " <";
+}
+
+/* */
 /* -=-=-=-=- */
 
 /* AdditionalTheming For Slook*/
@@ -936,30 +961,6 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 }
 .scroller-305q3I {
   border-radius: 18px;
-}
-/* Channel Arrows */
-/* color current channel cyan, and add arrow in front of it */
-.theme-light [class*='modeSelected'] [class*='name']
-{
-    color: rgba(30, 143, 15, 0.925) !important; /* EDIT COLOURS HERE */ 
-    padding-left: 5px
-}
-
-[class*='modeSelected'] [class*='name']:before
-{
-    content: "> ";
-}
-
-/* color unread channels lighter yellow, and add arrows after them */
-.theme-light [class*='modeUnread'] [class*='name']
-{
-    color: #28a318f1 !important; /* EDIT COLOURS HERE */ 
-    padding-left: 3px
-}
-
-[class*='modeUnread'] [class*='name']:after
-{
-    content: " <";
 }
 /* SlookSpotify */
 /* DARKMODE IMGUR - https://imgur.com/L0Iih63.jpg
