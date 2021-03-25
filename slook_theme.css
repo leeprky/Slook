@@ -77,7 +77,6 @@ USRBG Profile Modals by Tropix126.
    --background-tertiary: #1D1F22;
    --background-accent: #dadde2;
    --background-floating: #18191caf;
-   --background-chatbox: #8e9297;
    --background-modifier-hover: rgba(79,84,92,0.16);
    --background-modifier-active: rgba(79,84,92,0.24);
    --background-modifier-selected: rgba(79,84,92,0.32);
@@ -492,13 +491,11 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
   -webkit-text-fill-color: transparent;
   position: absolute;
 }
-
 /* Add transparency & blur to the loading screen */
 .container-16j22k {
   background-color: rgba(0,0,0,0.8);
   backdrop-filter: blur(5px);
 }
-
 /* SLookDev */
 .avatar-1BDn8e + h2 > span.timestamp-3ZCmNB::before {
   content: var(--epictext);
@@ -514,7 +511,6 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
   margin-right: .50rem;
   margin-left: -.25rem;
 }
-
 .theme-dark .avatar-1BDn8e[src*="224524143482241035"] + h2 > span.timestamp-3ZCmNB::before {
   --epictext: 'Slook Dev';
   --epic-bg: var(--background-modifier-accent);
@@ -853,14 +849,17 @@ code {
 .form-2fGMdU::before {
   display: none;
 }
+/* Chatbox */
+
 .channelTextArea-rNsIhG {
   background-color: transparent;
+  right: 25px;
 }
-.theme-dark .container-2fRDfG, .scrollableContainer-2NUZem {
-  background-color: #d8dde2d7;
+.theme-dark .scrollableContainer-2NUZem {
+  background-color: #222324d7;
 }
 .theme-light .container-2fRDfG, .scrollableContainer-2NUZem {
-  background-color: #c4beb9d7;
+  background-color: #ddebeb63;
 }
 .container-2fRDfG::after /* reply divider */ {
   content: "";
@@ -1035,7 +1034,6 @@ code {
   display: none;
 }
 
-/* ChatBox */
 /* -- */
 /* MemberListRemove */
 .iconWrapper-2OrFZ1 {
@@ -1532,3 +1530,6 @@ span[class*="botTagRegular"] {
   color: rgba(var(--alt-color)) !important;
 }
 /* IGNORE END */
+
+
+/* THEME TESTING AREA */
