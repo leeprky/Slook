@@ -526,6 +526,7 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 }
 /* Removes the tooltip from hovering on Emotes */
 .clickCTA-2B6Kbs {display:none;}
+
 /* DiscordTextTopLeftSlook */
 .wordmark-2iDDfm svg {
   width: 0px;
@@ -533,23 +534,34 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 .theme-light .wordmark-2iDDfm:after {
   font-family: "Discord";
   content: "SLOOK";
-  font-size: 12px;
-  background: rgba(41, 41, 39, 0.726);
+  font-size: 20px;
+  text-transform: uppercase;
+  background: var(--background-accent);
   background-size: 400% 400%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: absolute;
-  top: 5px;
+  top: 6px;
+}
+.theme-light .withFrame-haYltI {
+  height: 23px;
+  margin-top: 4px;
 }
 .theme-dark .wordmark-2iDDfm:after {
   font-family: "Discord";
   content: "SLOOK";
-  font-size: 12px;
-  background: rgba(235, 235, 228, 0.521);
+  text-transform: uppercase;
+  font-size: 23px;
+  background: var(--background-accent);
   background-size: 400% 400%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   position: absolute;
+  top: 6px;
+}
+.theme-dark .withFrame-haYltI {
+  height: 23px;
+  margin-top: 4px;
 }
 /* Add transparency & blur to the loading screen */
 .container-16j22k {
