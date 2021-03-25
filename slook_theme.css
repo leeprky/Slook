@@ -1,5 +1,5 @@
 /*
-1.13.2.13
+1.13.2.14
 /*
 /* Imports */
 @import url("https://ghostmander.github.io/discordfont/DiscordFont.css");
@@ -19,6 +19,7 @@ Slook User Modals by Leeprky
 /* -=-=-=-=-=-=-=-=-=-=- */
 
 /* Glasscord Support - No Lightmode*/
+/* YOU NEED GLASSCORD INSTALLED */
 /* - DELETE
 :root{
 	--glasscord-win-blur: blurbehind;
@@ -606,9 +607,9 @@ div[data-list-item-id="guildsnav___guild-discover-button"] svg:hover{
   background-position: 0px 0px !important;
 }
 /* EmojiAnimation */
-.buttons-3JBrkn {opacity: 0; transition: opacity 0.1s;}
+.buttons-3JBrkn {opacity: 0; transition: opacity 0.3s;}
 .channelTextArea-rNsIhG:hover .buttons-3JBrkn {opacity: 1.0;}
-.attachWrapper-2TRKBi {order:1; margin-left:9px;}
+.attachWrapper-2TRKBi {order:1; margin-right: 15px;}
 .attachButton-2WznTc {padding-right:0px}
 .uploadModal-2ifh8j .buttons-3JBrkn {opacity: 1.0;}
 
@@ -1045,7 +1046,6 @@ code {
 }
 .chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
   position: relative;
-  left: 5px;
   padding-right: 5px
 }
 .scroller-2LSbBU {
@@ -1067,7 +1067,7 @@ code {
 
 .channelTextArea-rNsIhG {
   background-color: transparent;
-  right: 25px;
+  right: 15px;
 }
 .theme-dark .scrollableContainer-2NUZem {
   background-color: #222324d7;
@@ -1363,13 +1363,13 @@ margin-right: 15px;
   background-color: #24262B;
   border-radius: 0 15px 0 0 !important;
   margin-left: -0px;
-  margin-right: 15px;
+  margin-right: 10px;
   }
 .channelTextArea-rNsIhG, .channelTextArea-2VhZ6z { 
   margin-left: 25px;
 }
 .base-gE7OpD {
-  right: -5px;
+  right: -0px;
 }
 .buttons-3JBrkn {
   position: relative;
