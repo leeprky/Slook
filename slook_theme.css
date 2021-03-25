@@ -919,19 +919,21 @@ code {
   background-color: #d3d0cd;
 }
 .theme-dark .userPopout-3XzG_A .header-2BwW8b, .userPopout-3XzG_A .scroller-2FKFPG, .userPopout-3XzG_A .footer-1fjuF6 {
-  background-color: #282a2e;
+  background-color: #34373d;
   border-radius: 12px;
 }
 .theme-light .body-3iLsc4, .theme-light .footer-1fjuF6 {
   background-color: #d1cecb;
   box-shadow: none;
 }
-.body-3ND3kc {
-  height: 190px
-}
 /* MemberViewBig */
 .body-3ND3kc {
   background-color: #35333331;
+  border-radius: 15px;
+  margin-top: 12px;
+}
+.theme-light .body-3ND3kc {
+  background-color: #ece4e47c;
   border-radius: 15px;
   margin-top: 12px;
 }
