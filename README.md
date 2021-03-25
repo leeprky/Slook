@@ -8,7 +8,7 @@ So Enjoy!
 - Any Issues open up one or DM Leeprky#2063
 
 If You Wish To Use The Popout ChannelList Please go to line "413" And Remove it
-*Make Sure Horizontal Server List Is OFF*
+*Make Sure Horizontal Server List Is OFF If Installed*
 
 If You Wish To Use The OSX Windows Bar Please go to line "337* And Remove it.
 *Windows Only*
