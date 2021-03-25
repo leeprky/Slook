@@ -7,13 +7,13 @@ Slook Theme primary goal is to make you focus on your chats while looking stylis
 So Enjoy!
 - Any Issues open up one or DM Leeprky#2063
 
-If You Wish To Use The Popout ChannelList Please go to line "413" And Remove it
+If You Wish To Use The Popout ChannelList Please go to line "500" And Remove it
 *Make Sure Horizontal Server List Is OFF If Installed*
 
-If You Wish To Use The OSX Windows Bar Please go to line "337* And Remove it.
+If You Wish To Use The OSX Windows Bar Please go to line "425* And Remove it.
 *Windows Only*
 
-If you wish to use Glasscord With This Theme Please go to line "12" And Remove It.
+If you wish to use Glasscord With This Theme Please go to line "19" And Remove It.
 *Must Have Glasscord* - "https://github.com/AryToNeX/Glasscord"
 
 ## How To Install SLOOK V1.13.1
