@@ -13,7 +13,7 @@ If You Wish To Use The Popout ChannelList Please go to line "413" And remove it
 If You Wish To Use The OSX Windows Bar Please go to line "337* And remove it.
 *Windows Only*
 
-## How To Install SLOOK V1.12
+## How To Install SLOOK V1.13
 
 > Head to C:\Users\[USER]\powercord\src\Powercord
 
