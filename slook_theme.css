@@ -936,11 +936,6 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 }
 /* Channel Arrows */
 /* color current channel cyan, and add arrow in front of it */
-[class*='modeSelected'] [class*='name']
-{
-    color: rgba(30, 104, 216, 0.925) !important; /* EDIT COLOURS HERE */ 
-    padding-left: 5px
-}
 .theme-light [class*='modeSelected'] [class*='name']
 {
     color: rgba(30, 143, 15, 0.925) !important; /* EDIT COLOURS HERE */ 
@@ -953,14 +948,9 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 }
 
 /* color unread channels lighter yellow, and add arrows after them */
-[class*='modeUnread'] [class*='name']
+.theme-light [class*='modeUnread'] [class*='name']
 {
     color: #28a318f1 !important; /* EDIT COLOURS HERE */ 
-    padding-left: 3px
-}
-.theme-dark [class*='modeUnread'] [class*='name']
-{
-    color: #0887B9 !important; /* EDIT COLOURS HERE */ 
     padding-left: 3px
 }
 
