@@ -938,7 +938,7 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 /* color current channel cyan, and add arrow in front of it */
 [class*='modeSelected'] [class*='name']
 {
-    color: rgba(45, 216, 30, 0.925) !important; /* EDIT COLOURS HERE */ 
+    color: rgba(30, 104, 216, 0.925) !important; /* EDIT COLOURS HERE */ 
     padding-left: 5px
 }
 .theme-light [class*='modeSelected'] [class*='name']
@@ -949,7 +949,7 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 
 [class*='modeSelected'] [class*='name']:before
 {
-    content: "-> ";
+    content: "> ";
 }
 
 /* color unread channels lighter yellow, and add arrows after them */
@@ -958,10 +958,15 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
     color: #28a318f1 !important; /* EDIT COLOURS HERE */ 
     padding-left: 3px
 }
+.theme-dark [class*='modeUnread'] [class*='name']
+{
+    color: #0887B9 !important; /* EDIT COLOURS HERE */ 
+    padding-left: 3px
+}
 
 [class*='modeUnread'] [class*='name']:after
 {
-    content: " <-";
+    content: " <";
 }
 /* SlookSpotify */
 /* DARKMODE IMGUR - https://imgur.com/L0Iih63.jpg
