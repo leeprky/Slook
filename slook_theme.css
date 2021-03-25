@@ -16,7 +16,7 @@ Slook User Modals by Leeprky
 /* -=-=-=-=-=-=-=-=-=-=- */
 
 /* Glasscord Support - No Lightmode*/
-/*
+/* - DELETE
 :root{
 	--glasscord-win-blur: blurbehind;
 	--glasscord-macos-vibrancy: fullscreen-ui;
@@ -165,9 +165,9 @@ body{
   --interactive-muted: #c2c5c7;
   --background-primary: rgb(216, 209, 203);
   --background-secondary: rgba(219, 214, 210, 0.61);
-  --background-secondary-alt: #DAD6D1;
+  --background-secondary-alt: #dad6d100;
   --background-tertiary: rgba(219, 214, 210, 0.61);
-  --background-accent: #323538;
+  --background-accent: #424344e5;
   --background-floating: rgba(226, 219, 215, 0.884);
   --background-modifier-hover: rgba(116,127,141,0.08);
   --background-modifier-active: rgba(116,127,141,0.16);
@@ -206,6 +206,109 @@ body{
   --deprecated-text-input-border-disabled: #dcddde;
   --deprecated-text-input-prefix: #b9bbbe;
 }
+/* OPTIONAL */
+/* Keko #6043 osx Windows Replacement*/
+
+.theme-light .withFrame-haYltI {
+  background: var(--neb-tertiary);
+  margin: 0;
+  height: 24px;
+}
+.theme-dark .withFrame-haYltI {
+  background: #1D1F22;
+  margin: 0;
+  height: 24px;
+}
+.withFrame-haYltI .wordmarkWindows-1v0lYD svg {
+  width: 0;
+}
+.withFrame-haYltI .winButton-iRh8-Z > svg {
+  display: none;
+}
+.withFrame-haYltI .winButton-iRh8-Z:hover {
+  background-color: var(--background-teritary);
+}
+.withFrame-haYltI .winButton-iRh8-Z {
+  pointer-events: none;
+  margin-left: -3px;
+  top: 0;
+}
+.withFrame-haYltI .winButton-iRh8-Z::after {
+  content: "";
+  padding: 7px;
+  border-radius: 50px;
+  pointer-events: fill;
+  transition-duration: 200ms;
+}
+.withFrame-haYltI .winButtonClose-1HsbF- {
+  margin-right: 5px;
+}
+.withFrame-haYltI .winButtonClose-1HsbF-::after {
+  background-color: #e92a2a25;
+  margin-top: 0px;
+}
+.theme-light .withFrame-haYltI .winButtonClose-1HsbF-::after {
+  background-color: #380d074b;
+  margin-top: 0px;
+}
+.withFrame-haYltI .winButtonClose-1HsbF-:hover::after {
+  background-color: #e92a2a;
+  transform: scale(1.1);
+}
+.withFrame-haYltI .winButtonMinMax-PBQ2gm:nth-child(3)::after {
+  background-color: #ebdd1721;
+  margin-top: 0px;
+}
+.theme-light .withFrame-haYltI .winButtonMinMax-PBQ2gm:nth-child(3)::after {
+  background-color: #3738074b;
+  margin-top: 0px;
+}
+.withFrame-haYltI .winButtonMinMax-PBQ2gm:nth-child(3):hover::after {
+  background-color: #f7bc1b;
+  transform: scale(1.1);
+}
+.withFrame-haYltI .winButtonMinMax-PBQ2gm:nth-child(4):after {
+  background-color: #12db3323;
+  margin-top: 0px;
+}
+.theme-light .withFrame-haYltI .winButtonMinMax-PBQ2gm:nth-child(4):after {
+  background-color: #07380f4b;
+  margin-top: 0px;
+}
+.withFrame-haYltI .winButtonMinMax-PBQ2gm:nth-child(4):hover::after {
+  background-color: #12db33;
+  transform: scale(1.1);
+  margin-top: 0px;
+}
+/* ChannelistEdit By Leeprky#2063 */ /* REMOVE THE LINE BELOW */
+/*
+.sidebar-2K8pFh{
+  width: 0px;
+  transition: 0.6s ease;
+  height: calc(100% - 47.988px);
+  z-index: 1;
+  bottom: 10px;
+}
+.wrapper-3NnKdC:hover+.base-3dtUhz>.content-98HsJk>.sidebar-2K8pFh{
+  width:240px;
+}
+.sidebar-2K8pFh:hover{
+  width:240px;
+}
+/* */
+
+/* Center Server List */
+/*
+#app-mount .wrapper-3NnKdC.guilds-1SWlCJ .scroller-1Bvpku {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/*
+
+/* -=-=-=-=- */
+
 /* AdditionalTheming For Slook*/
 /* People Colum */
 .peopleColumn-29fq28 {
@@ -228,6 +331,10 @@ body{
 }
 .container-1giJp5 {
   border-radius: 10px;
+}
+/* TitleBar */
+.theme-dark .container-1r6BKw.themed-ANHk51 {
+  background-color: #1E2023;
 }
 /* NitroSererBoosts */
 .theme-light .tierBody-16Chc9 {
@@ -409,7 +516,7 @@ body{
 }
 /* SearchDropbox */
 .theme-light .container-3ayLPN, .elevationBorderHigh-2WYJ {
-  background-color: #f3f1edef;
+  background-color: #ebe8e2ef;
   box-shadow: none;
 }
 
@@ -421,113 +528,50 @@ body{
   border-radius: 0px 0px 18px 0px;
   opacity: 0.85;
 }
-/* Keko #6043 osx Windows Replacement*/
-/*
-.theme-light .withFrame-haYltI {
-  background: var(--neb-tertiary);
-  margin: 0;
-  height: 24px;
+/* Spinning Compass */
+@keyframes spindefault {
+  from {
+     transform:rotate(0deg);
+  }
+  to {
+     transform:rotate(360deg);
+  }
 }
-.theme-dark .withFrame-haYltI {
-  background: #1D1F22;
-  margin: 0;
-  height: 24px;
+.circleIcon-LvPL6c:hover{
+  animation: spindefault 1s linear infinite;
 }
-.withFrame-haYltI .wordmarkWindows-1v0lYD svg {
-  width: 0;
+div[data-list-item-id="guildsnav___guild-discover-button"] svg:hover{
+   animation: spindefault 1s linear infinite;
 }
-.withFrame-haYltI .winButton-iRh8-Z > svg {
-  display: none;
-}
-.withFrame-haYltI .winButton-iRh8-Z:hover {
-  background-color: var(--background-teritary);
-}
-.withFrame-haYltI .winButton-iRh8-Z {
-  pointer-events: none;
-  margin-left: -3px;
-  top: 0;
-}
-.withFrame-haYltI .winButton-iRh8-Z::after {
-  content: "";
-  padding: 7px;
-  border-radius: 50px;
-  pointer-events: fill;
-  transition-duration: 200ms;
-}
-.withFrame-haYltI .winButtonClose-1HsbF- {
-  margin-right: 3px;
-}
-.withFrame-haYltI .winButtonClose-1HsbF-::after {
-  background-color: #e92a2a25;
-  margin-top: 3px;
-}
-.theme-light .withFrame-haYltI .winButtonClose-1HsbF-::after {
-  background-color: #380d074b;
-  margin-top: 3px;
-}
-.withFrame-haYltI .winButtonClose-1HsbF-:hover::after {
-  background-color: #e92a2a;
-  transform: scale(1.1);
-}
-.withFrame-haYltI .winButtonMinMax-PBQ2gm:nth-child(3)::after {
-  background-color: #ebdd1721;
-  margin-top: 4px;
-}
-.theme-light .withFrame-haYltI .winButtonMinMax-PBQ2gm:nth-child(3)::after {
-  background-color: #3738074b;
-  margin-top: 4px;
-}
-.withFrame-haYltI .winButtonMinMax-PBQ2gm:nth-child(3):hover::after {
-  background-color: #f7e81b;
-  transform: scale(1.1);
-}
-.withFrame-haYltI .winButtonMinMax-PBQ2gm:nth-child(4):after {
-  background-color: #12db3323;
-  margin-top: 4px;
-}
-.theme-light .withFrame-haYltI .winButtonMinMax-PBQ2gm:nth-child(4):after {
-  background-color: #07380f4b;
-  margin-top: 4px;
-}
-.withFrame-haYltI .winButtonMinMax-PBQ2gm:nth-child(4):hover::after {
-  background-color: #12db33;
-  transform: scale(1.1);
-  margin-top: 4px;
-}
-/* */
 
-/* ChannelistEdit By Leeprky#2063 */ /* REMOVE THE LINE BELOW */
-/*
- .sidebar-2K8pFh{
-  width:0px;
-  transition:.5s ease;
-}
-.platform-win .base-3dtUhz{
-  border-radius: 8px 0 0;
-}
-.wrapper-1Rf91z:hover+.base-3dtUhz>.content-98HsJk>.sidebar-2K8pFh{
-  width: 240px;
-}
-.sidebar-2K8pFh:hover{
-  width:240px;
-}
-.panels-j1Uci_ {
-	border-bottom-left-radius: 7px !important;
-}
-.mask-1qbNWk.icon-1IxfJ2 {
-	height: 11px;
-	width: 11px;
-	margin-left: 26%;
-	margin-bottom: 15%
-} 
+/* Colourful Permissions */
+/* Permissons (Red) */
+.deny-3nAuT6 {color: #ff2e2e;}
+.deny-3nAuT6:hover {background: #ff2e2e !important; color: white;}
+.deny-3nAuT6.selected-2YhbGh {background: #ff582e !important;}
+.deny-3nAuT6.selected-2YhbGh:hover {background: #ff2e2e; !important;}
+/* Permissons (Yellow) */
+.passthrough-1c2ewQ {color: #faeb1ad8;}
+.passthrough-1c2ewQ:hover {background: #faeb1ae1 !important; color: white;}
+.passthrough-1c2ewQ.selected-2YhbGh {background: #faeb1adc !important;}
+.passthrough-1c2ewQ.selected-2YhbGh:hover {background: rgba(255, 177, 61, 0.897); !important;}
+/* Permissons (Green) */
+.allow-1PzSY3 {color: #0ee986;}
+.allow-1PzSY3:hover {background: #0ee986 !important; color: white;}
+.allow-1PzSY3.selected-2YhbGh {background: #0ee986 !important;}
+.allow-1PzSY3.selected-2YhbGh:hover {background: #0ee986 !important;}
 
-/*
-/* /* 
 /* EmojiConstistant */
-
 .sprite-2iCowe { 
   background-position: 0px 0px !important;
 }
+/* EmojiAnimation */
+.buttons-3JBrkn {opacity: 0; transition: opacity 0.1s;}
+.channelTextArea-rNsIhG:hover .buttons-3JBrkn {opacity: 1.0;}
+.attachWrapper-2TRKBi {order:1; margin-left:9px;}
+.attachButton-2WznTc {padding-right:0px}
+.uploadModal-2ifh8j .buttons-3JBrkn {opacity: 1.0;}
+
 /* Removes the popups on click */
 .container-ZRw2kD {display:none;}    
 .popoutContainer-1MXdqN {display:none;}
@@ -571,7 +615,7 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
   top: 6px;
 }
 .theme-light .withFrame-haYltI {
-  height: 23px;
+  height: 24px;
   margin-top: 4px;
 }
 .theme-dark .wordmark-2iDDfm:after {
@@ -587,7 +631,7 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
   top: 6px;
 }
 .theme-dark .withFrame-haYltI {
-  height: 23px;
+  height: 24px;
   margin-top: 4px;
 }
 /* Add transparency & blur to the loading screen */
@@ -929,9 +973,9 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 }
 .message-2qnXI6:hover {
   background-color: var(--background-floating)
-}
+};
 .contents-2mQqc9 {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 .message-2qnXI6:not(.groupStart-23k01U) .buttonContainer-DHceWr {
   margin-top: 50px;
@@ -954,6 +998,7 @@ code {
 .userPopout-3XzG_A {
   box-shadow: none;
 }
+
 /* Channelist*/
 .sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
   border-radius: 0px 18px 0 0 !important
@@ -988,7 +1033,7 @@ code {
   background-color: #222324d7;
 }
 .theme-light .container-2fRDfG, .scrollableContainer-2NUZem {
-  background-color: #ddebeb63;
+  background-color: #f1f1ee63;
 }
 .container-2fRDfG::after /* reply divider */ {
   content: "";
@@ -1216,7 +1261,8 @@ code {
   opacity: 0.5;
   pointer-events: none;
 }
-/* Bubble Member List By Leeprky#2063*/
+
+/* Bubble Member List */
 :root {
   --hover-animation-speed: 0.35s;
   --seperator-color: var(--background-accent);
@@ -1267,12 +1313,18 @@ margin-right: 40px;
 bottom: 75px;
 background-color: rgba(216, 27, 27, 0);
 }
-.chatContent-a9vAAp {
-background-color: var(--background-primary);
+.theme-light .chatContent-a9vAAp {
+background-color: #D8D1CB;
 border-radius: 0 15px 0 0 !important;
 margin-left: -0px;
 margin-right: 15px;
 }
+.theme-dark .chatContent-a9vAAp {
+  background-color: #24262B;
+  border-radius: 0 15px 0 0 !important;
+  margin-left: -0px;
+  margin-right: 15px;
+  }
 .channelTextArea-rNsIhG, .channelTextArea-2VhZ6z { 
   margin-left: 25px;
 }
@@ -1283,6 +1335,29 @@ margin-right: 15px;
   position: relative;
   left: -1px
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ========================================== /*
 /* ========================================== /*
