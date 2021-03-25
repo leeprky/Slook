@@ -7,6 +7,13 @@ USRBG Profile Modals by Tropix126.
 =========================================== */
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
 
+/*
+Slook User Modals by Leeprky
+=========================================== */
+@import url('https://github.com/leeprky/slook_theme/blob/main/PlayingBackground/PlayingModals.css');
+/*
+
+/* -=-=-=-=-=-=-=-=-=-=- */
 
 /* Glasscord Support - No Lightmode*/
 /*
@@ -42,6 +49,7 @@ body{
 --glasscord-titlebar: osx or windows available.
 
 /* -=-=-=--=-=-=-=-=-=-=-=-= */
+
 /* SLOOK */
 
 .root-SR8cQa {
@@ -568,6 +576,7 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
   background-color: rgba(0,0,0,0.8);
   backdrop-filter: blur(5px);
 }
+/* Tags */
 /* SLookDev */
 .avatar-1BDn8e + h2 > span.timestamp-3ZCmNB::before {
   content: var(--epictext);
@@ -586,12 +595,41 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 .theme-dark .avatar-1BDn8e[src*="224524143482241035"] + h2 > span.timestamp-3ZCmNB::before {
   --epictext: 'Slook Dev';
   --epic-bg: var(--background-modifier-accent);
-  --epictxtcolor: rgb(28, 204, 101);
+  --epictxtcolor: rgb(238, 234, 231);
+  margin-left: 1px;
 }
 .theme-light .avatar-1BDn8e[src*="224524143482241035"] + h2 > span.timestamp-3ZCmNB::before {
   --epictext: 'Slook Dev';
   --epic-bg: var(--background-modifier-accent);
   --epictxtcolor: rgb(32, 34, 33);
+  margin-left: 1px;
+}
+/* Verified */
+/* Keko#6043 */
+.theme-dark .avatar-1BDn8e[src*="487034485984985128"] + h2 > span.timestamp-3ZCmNB::before {
+  --epictext: '✔️';
+  --epic-bg: var(--background-modifier-accent);
+  --epictxtcolor: rgb(238, 234, 231);
+  margin-left: 1px;
+}
+.theme-light .avatar-1BDn8e[src*="487034485984985128"] + h2 > span.timestamp-3ZCmNB::before {
+  --epictext: '✔️';
+  --epic-bg: var(--background-modifier-accent);
+  --epictxtcolor: rgb(32, 34, 33);
+  margin-left: 1px;
+}
+/* 01C1 #8560 */
+.theme-dark .avatar-1BDn8e[src*="541359304893136896"] + h2 > span.timestamp-3ZCmNB::before {
+  --epictext: '✔️';
+  --epic-bg: var(--background-modifier-accent);
+  --epictxtcolor: rgb(238, 234, 231);
+  margin-left: 1px;
+}
+.theme-light .avatar-1BDn8e[src*="541359304893136896"] + h2 > span.timestamp-3ZCmNB::before {
+  --epictext: '✔️';
+  --epic-bg: var(--background-modifier-accent);
+  --epictxtcolor: rgb(32, 34, 33);
+  margin-left: 1px;
 }
 /* JumpToPresentPill */
 .jumpToPresentBar-G1R9s6 .barButtonMain-3K-jeJ { display: none; }
@@ -1021,6 +1059,8 @@ code {
 .footer-1fjuF6 {
   display: none;
 }
+
+/* -=-=-=-=-=-=-=-=-=-=-= */
 /* ThemeTogglerArea */
 .theme-light .powercord-product {
   background-color: rgba(240, 237, 231, 0.329);
