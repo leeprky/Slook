@@ -1,4 +1,4 @@
-## SLOOT THEME V1.13
+## SLOOK THEME V1.13
 A Discord Theme Focused On Your Messages.
 
 ## INFO
