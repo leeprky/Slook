@@ -200,11 +200,10 @@ USRBG Profile Modals by Tropix126.
 }
 .theme-dark .root-3R2ngo {
   background-color: #030303;
-  
 }
 /* NagBar */
 .button-2PWmas, .notice-2X5hT5 {
-  background-color: #4aa516af;
+  background-color: #4aa516c0;
 }
 /* Upload Modal */
 .theme-light .uploadModal-2ifh8j {
@@ -235,7 +234,26 @@ USRBG Profile Modals by Tropix126.
   background-color: rgba(240, 235, 229, 0.719);
   border-radius: 0px 0px 18px 18px;
 }
-
+/* Powercord Toasts */
+.theme-light .powercord-toast {
+  background-color: #D8D1CB;
+}
+.powercord-toast .header {
+  background-color: #D8D1CB;
+}
+.powercord-toast .contents {
+  background-color: #D8D1CB;
+}
+.powercord-toast .contents .inner {
+  background-color: #e4ded9;
+}
+.powercord-toast .buttons {
+  background-color: #D8D1CB;
+}
+.progressBar-3u8FBM, .small-1CUeBa, .animating-3Qqqzp {
+  background: linear-gradient(to left, rgb(216, 209, 203), rgb(153, 161, 251));
+}
+/* Add Friends Area */
 .theme-light .noResults-ZTbl5V, .scroller-hUf6zQ, .footer-1eyGBa {
   background-color: #E9E3DC;
   margin: 0;
@@ -327,12 +345,18 @@ USRBG Profile Modals by Tropix126.
   background-color: #111110ef;
 }
 /* SearchDropbox */
-.theme-light .container-3ayLPN, .elevationBorderHigh-2WYJ09 {
-  background-color: #ebe8e4ef;
+.theme-light .container-3ayLPN, .elevationBorderHigh-2WYJ {
+  background-color: #f3f1edef;
+  box-shadow: none;
 }
 
 .theme-dark .container-3ayLPN, .elevationBorderHigh-2WYJ09 {
   background-color: #161615ef;
+}
+/* ServerBackgrounds */
+.animatedContainer-1NSq4T, .bannerImage-3KhIJ6 {
+  border-radius: 0px 0px 18px 0px;
+  opacity: 0.85;
 }
 /* Keko #6043 osx Windows Replacement*/
 /*
@@ -552,7 +576,7 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
    --rs-small-spacing: 1px;
    --rs-large-spacing: 0px;
    --rs-width: 2px;
-   --rs-avatar-shape: 100%;
+   --rs-avatar-shape: 40%;
    --rs-online-color: #0ee986;
    --rs-idle-color: #faeb1a;
    --rs-dnd-color: #ff2e2e;
