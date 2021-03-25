@@ -282,20 +282,39 @@ body{
 .theme-light .powercord-toast {
   background-color: #D8D1CB;
 }
-.powercord-toast .header {
+.theme-light .powercord-toast .header {
   background-color: #D8D1CB;
 }
-.powercord-toast .contents {
+.theme-light .powercord-toast .contents {
   background-color: #D8D1CB;
 }
-.powercord-toast .contents .inner {
+.theme-light .powercord-toast .contents .inner {
   background-color: #e4ded9;
 }
-.powercord-toast .buttons {
+.theme-light .powercord-toast .buttons {
   background-color: #D8D1CB;
 }
-.progressBar-3u8FBM, .small-1CUeBa, .animating-3Qqqzp {
+.theme-light .progressBar-3u8FBM, .small-1CUeBa, .animating-3Qqqzp {
   background: linear-gradient(to left, rgb(216, 209, 203), rgb(153, 161, 251));
+}
+
+.theme-dark .powercord-toast {
+  background-color: #1D1F22
+}
+.theme-dark .powercord-toast .header {
+  background-color: #1D1F22
+}
+.theme-dark .powercord-toast .contents {
+  background-color: #1D1F22
+}
+.theme-dark .powercord-toast .contents .inner {
+  background-color: #1D1F22
+}
+.theme-dark .powercord-toast .buttons {
+  background-color: #1D1F22
+}
+.theme-dark .progressBar-3u8FBM, .small-1CUeBa, .animating-3Qqqzp {
+  background: linear-gradient(to left, rgb(29, 31, 34), rgb(153, 161, 251));
 }
 /* Add Friends Area */
 .theme-light .noResults-ZTbl5V, .scroller-hUf6zQ, .footer-1eyGBa {
