@@ -1,4 +1,4 @@
-## SLOOT THEME V1.12
+## SLOOT THEME V1.13
 A Discord Theme Focused On Your Messages.
 
 ## INFO
@@ -7,10 +7,10 @@ Slook Theme primary goal is to make you focus on your chats while looking stylis
 So Enjoy!
 - Any Issues open up one or DM Leeprky#2063
 
-If You Wish To Use The Popout ChannelList Please go to line "414" And remove it
+If You Wish To Use The Popout ChannelList Please go to line "413" And remove it
 *Make Sure Horizontal Server List Is OFF*
 
-If You Wish To Use The OSX Windows Bar Please go to line "339* And remove it.
+If You Wish To Use The OSX Windows Bar Please go to line "337* And remove it.
 *Windows Only*
 
 ## How To Install SLOOK V1.12
