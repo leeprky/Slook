@@ -193,6 +193,12 @@ USRBG Profile Modals by Tropix126.
 .theme-light .perk-2WeBWW {
   background-color: #f0ede8;
 }
+.theme-dark .tierBody-16Chc9 {
+  background-color: #1b1b1a;
+}
+.theme-dark .perk-2WeBWW {
+  background-color: #252523;
+}
 /* NagBar */
 .button-2PWmas, .notice-2X5hT5 {
   background-color: #4aa516af;
@@ -219,20 +225,38 @@ USRBG Profile Modals by Tropix126.
   margin-left: 25px;
 }
 /* Add Friends To DM */
-.header-1TKi98 {
+.theme-dark .header-1TKi98 {
   background-color: rgb(233, 227, 220);
 }
-.errorState-KkUH_2 {
+.theme-light .errorState-KkUH_2 {
   background-color: rgba(240, 235, 229, 0.719);
   border-radius: 0px 0px 18px 18px;
 }
-.noResults-ZTbl5V, .scroller-hUf6zQ, .footer-1eyGBa {
+
+.theme-light .noResults-ZTbl5V, .scroller-hUf6zQ, .footer-1eyGBa {
   background-color: #E9E3DC;
   margin: 0;
   box-shadow: none;
 }
 .theme-light .footerSeparator-M9dQY1 {
   background-color: rgba(212, 200, 200, 0.829);
+}
+
+.theme-dark .header-1TKi98 {
+  background-color: #1c1d1f;
+}
+.theme-dark .errorState-KkUH_2 {
+  background-color: #3a3c3f;
+  border-radius: 0px 0px 18px 18px;
+}
+
+.theme-dark .noResults-ZTbl5V, .scroller-hUf6zQ, .footer-1eyGBa {
+  background-color: #1D1F22;
+  margin: 0;
+  box-shadow: none;
+}
+.theme-dark .footerSeparator-M9dQY1 {
+  background-color: #0a0a0a;
 }
 /* Gif Area */
 .theme-light .container-3ISnnM {
@@ -242,12 +266,27 @@ USRBG Profile Modals by Tropix126.
 .theme-light .header-1TOWci {
   margin-top: 10px;
 }
+
+.theme-dark .container-3ISnnM {
+  background-color: #181716;
+  margin-top: 10px;
+}
+.theme-dark .header-1TOWci {
+  margin-top: 10px;
+}
 /* FindCommunites */
 .theme-light .pageWrapper-1PgVDX {
   background-color: #D7D2CD;
 }
 .theme-light .card-3DjzTQ {
   background-color: #cac4bd;
+}
+
+.theme-dark .pageWrapper-1PgVDX {
+  background-color: #1D1F22;
+}
+.theme-dark .card-3DjzTQ {
+  background-color: #0f0f0f;
 }
 /* AutoComplete */
 .list-17lzo8 {
@@ -277,9 +316,20 @@ USRBG Profile Modals by Tropix126.
 .theme-light .footer-2gL1pp {
   background-color: #ebe8e4ef;
 }
+
+.theme-light .root-1gCeng {
+  background-color: #0e0d0def;
+}
+.theme-light .footer-2gL1pp {
+  background-color: #111110ef;
+}
 /* SearchDropbox */
-.container-3ayLPN, .elevationBorderHigh-2WYJ09 {
+.theme-light .container-3ayLPN, .elevationBorderHigh-2WYJ09 {
   background-color: #ebe8e4ef;
+}
+
+.theme-dark .container-3ayLPN, .elevationBorderHigh-2WYJ09 {
+  background-color: #161615ef;
 }
 /* Keko #6043 osx Windows Replacement*/
 /*
@@ -383,7 +433,36 @@ USRBG Profile Modals by Tropix126.
 
 /*
 /* /* 
+/* EmojiConstistant */
 
+.sprite-2iCowe { 
+  background-position: 0px 0px !important;
+}
+/* Removes the popups on click */
+.container-ZRw2kD {display:none;}    
+.popoutContainer-1MXdqN {display:none;}
+ /* no cursor change on emoji hover */
+.emoji { 
+    cursor: default; 
+}
+.sprite-2iCowe:hover { 
+  filter: grayscale(0) !important;
+} 
+
+.emojiUploader-1f0pVx,
+div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyStart-2NDFzi alignStretch-DpGPf3 noWrap-3jynv6 marginBottom4-2qk4Hy"] {
+    display: none
+}
+.emojiRow-zIc7ZX {
+    display: inline-flex;
+    margin-right: 50px
+}
+img[src="/assets/9a43e631d506ae4818ecefc825dc02ad.svg"],
+img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] { 
+  filter: invert(1); 
+}
+/* Removes the tooltip from hovering on Emotes */
+.clickCTA-2B6Kbs {display:none;}
 /* DiscordTextTopLeftSlook */
 .wordmark-2iDDfm svg {
   width: 0px;
@@ -814,7 +893,7 @@ code {
   display: none;
 }
 /* ThemeTogglerArea */
-.powercord-product {
+.theme-light .powercord-product {
   background-color: rgba(240, 237, 231, 0.329);
 }
 
