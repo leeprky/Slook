@@ -1,5 +1,5 @@
 /*
-1.14.1.5
+1.14.1.6
 /*
 /* Imports */
 @import url("https://ghostmander.github.io/discordfont/DiscordFont.css");
@@ -350,6 +350,9 @@ body{
 .upsell-1vK3zR {
   display: none;
 }
+.theme-dark .autocomplete-1vrmpx {
+  height: 35px ;
+}
 
 /* SlookChatBox */
 /* Name */
@@ -551,7 +554,7 @@ body{
 .theme-dark .progressBar-3u8FBM, .small-1CUeBa, .animating-3Qqqzp {
   background: linear-gradient(to left, rgb(29, 31, 34), rgb(153, 161, 251));
 }
-
+/* 
 /* Explore Buttons */
   /* Tiffany blue Discord join/explore buttons */
   .circleIconButton-jET_ig svg path{
@@ -589,6 +592,7 @@ body{
 .theme-dark .footerSeparator-M9dQY1 {
   background-color: #0a0a0a;
 }
+
 /* Gif Area */
 .theme-light .container-3ISnnM {
   background-color: #ece6df;
