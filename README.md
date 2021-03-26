@@ -1,4 +1,4 @@
-## SLOOK THEME V1.13.2
+## SLOOK THEME V1.14.1
 A Discord Theme Focused On Your Messages.
 
 ## INFO
@@ -16,7 +16,7 @@ If You Wish To Disable The OSX Windows Bar Please go to line "211* and add a "/*
 If you wish to use Glasscord With This Theme Please go to line "19" And Remove It.
 *Must Have Glasscord* - "https://github.com/AryToNeX/Glasscord"
 
-## How To Install SLOOK V1.13.2
+## How To Install SLOOK V1.14.1
 
 > Head to C:\Users\[USER]\powercord\src\Powercord
 
