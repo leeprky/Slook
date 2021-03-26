@@ -350,10 +350,13 @@ body{
 .upsell-1vK3zR {
   display: none;
 }
-.theme-dark .autocomplete-1vrmpx {
-  height: 35px ;
+.theme-dark .navButton-2gQCx- {
+  background-color: rgba(5, 5, 5, 0.589);
 }
-
+/* EMOJI MATCHING */
+.contentTitle-2tG_sM {
+  margin-bottom: -10px;
+}
 /* SlookChatBox */
 /* Name */
 .username-1A8OIy {
