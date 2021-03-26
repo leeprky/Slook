@@ -1,5 +1,5 @@
 /*
-1.14.2
+1.14.1.1
 /*
 /* Imports */
 @import url("https://ghostmander.github.io/discordfont/DiscordFont.css");
@@ -210,6 +210,10 @@ body{
   --deprecated-text-input-border-disabled: #dcddde;
   --deprecated-text-input-prefix: #b9bbbe;
 }
+
+.root-SR8cQa {
+  box-shadow: none;
+}
 /* OPTIONAL */
 /* Keko #6043 osx Windows Replacement*/
 
@@ -285,7 +289,7 @@ body{
   margin-top: 0px;
 }
 /* ChannelistEdit By Leeprky#2063 */ /* REMOVE THE LINE BELOW */
-/* - DELETE
+/*
 .sidebar-2K8pFh{
   width: 0px;
   transition: 0.6s ease;
@@ -300,7 +304,6 @@ body{
   width:240px;
 }
 /* */
-
 /* Center Server List */
 /*
 #app-mount .wrapper-3NnKdC.guilds-1SWlCJ .scroller-1Bvpku {
@@ -338,7 +341,14 @@ body{
 /* */
 /* -=-=-=-=- */
 
+.selected-1Tbx07 {
+  display: none;
+}
+.upsell-1vK3zR {
+  display: none;
+}
 /* SlookChatBox */
+/* Name */
 .username-1A8OIy {
   font-size: 1.25rem;
   line-height: 2.375rem;
@@ -1172,6 +1182,10 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
   background-color: #d1cecb;
   box-shadow: none;
 }
+.theme-dark .headerTop-3C2Zn0 {
+  background-color: #18191aaf;
+  border-radius: 12px
+}
 /* MemberViewBig */
 .body-3ND3kc {
   background-color: #35333331;
@@ -1205,14 +1219,14 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 .theme-light .body-3iLsc4 {
   border-radius: 12px;
   margin-top: 5px;
-  height: 130px;
+  height: 200px;
   background-color: rgba(248, 240, 240, 0.76);
   box-shadow: none;
 }
 .theme-dark .body-3iLsc4 {
   border-radius: 12px;
   margin-top: 5px;
-  height: 130px;
+  height: 200px;
   background-color: rgba(32, 31, 31, 0.76);
   box-shadow: none;
 }
