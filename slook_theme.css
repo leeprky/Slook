@@ -1,5 +1,5 @@
 /*
-1.14.1.4
+1.14.1.5
 /*
 /* Imports */
 @import url("https://ghostmander.github.io/discordfont/DiscordFont.css");
@@ -22,7 +22,7 @@ Slook User Modals by Leeprky
 
 /* Glasscord Support - No Lightmode*/
 /* YOU NEED GLASSCORD INSTALLED */
-/* - DELETE
+/*
 :root{
 	--glasscord-win-blur: blurbehind;
 	--glasscord-macos-vibrancy: fullscreen-ui;
@@ -38,9 +38,9 @@ body{
 	border-color: transparent;
 }
 .theme-dark {
-	--background-primary: #0c0c0c00!important;
-	--background-secondary: #0a0a0a1c!important;
-	--background-tertiary: #12121388!important;
+	--background-primary: #0c0c0c3d!important;
+	--background-secondary: #0a0a0a21!important;
+	--background-tertiary: #12121349!important;
 };
 .guilds-1SWlCJ {
     background-color: transparent;
@@ -218,14 +218,14 @@ body{
 }
 /* OPTIONAL */
 /* Keko #6043 osx Windows Replacement*/
-
+/*
 .theme-light .withFrame-haYltI {
   background: var(--neb-tertiary);
   margin: 0;
   height: 24px;
 }
 .theme-dark .withFrame-haYltI {
-  background: #1D1F22;
+  background: transparent;
   margin: 0;
   height: 24px;
 }
@@ -424,7 +424,15 @@ body{
   margin-top: 6px;
   border-radius: 8px;
 }
-  
+/* UnreadBar */
+.barButtonMain-3K-jeJ, .span-1mKrMp {
+  background-color: #4aa516a4;
+  border-radius: 0px 0px 0px 12px;
+}
+.barButtonAlt-mYL1lj {
+  background-color: #3d88127a;
+  border-radius: 0px 0px 12px 0px;
+}
 /* AdditionalTheming For Slook*/
 /* People Colum */
 .peopleColumn-29fq28 {
@@ -454,7 +462,7 @@ body{
 }
 /* TitleBar */
 .theme-dark .container-1r6BKw.themed-ANHk51 {
-  background-color: #1E2023;
+  background-color: transparent;
 }
 /* NitroSererBoosts */
 .theme-light .tierBody-16Chc9 {
@@ -1432,13 +1440,13 @@ bottom: 75px;
 background-color: rgba(216, 27, 27, 0);
 }
 .theme-light .chatContent-a9vAAp {
-background-color: #D8D1CB;
+background-color: transparent;
 border-radius: 0 15px 0 0 !important;
 margin-left: -0px;
 margin-right: 15px;
 }
 .theme-dark .chatContent-a9vAAp {
-  background-color: #24262B;
+  background-color: transparent;
   border-radius: 0 15px 0 0 !important;
   margin-left: -0px;
   margin-right: 10px;
