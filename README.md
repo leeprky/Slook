@@ -35,11 +35,11 @@ MIT, see LICENSE.md for more details
 ## DARKMODE
 ![preview](./previews/dark1.png)
 ![preview](./previews/dark2.png)
-![preview](./previews/dark3.jpg)
+![preview](./previews/dark3.png)
 # LIGHTMODE
 ![preview](./previews/light1.png)
 ![preview](./previews/light2.png)
-![preview](./previews/light3.jpg)
+![preview](./previews/light3.png)
 
 
 ## MY OTHER THEMES
