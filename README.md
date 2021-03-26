@@ -32,20 +32,15 @@ MIT, see LICENSE.md for more details
 
 ## Previews
 
-![preview](./previews/preview1.png)
-![preview](./previews/preview2.png)
-![preview](./previews/preview3.jpg)
-![preview](./previews/preview4.jpg)
-## No ChannelList
-![preview](./previews/preview5.png)
+## DARKMODE
+![preview](./previews/dark1.png)
+![preview](./previews/dark2.png)
+![preview](./previews/dark3.jpg)
+# LIGHTMODE
+![preview](./previews/light1.png)
+![preview](./previews/light2.png)
+![preview](./previews/light3.jpg)
 
-## Light Mode
-![preview](./previews/preview1.1.png)
-![preview](./previews/preview1.2.png)
-![preview](./previews/preview1.3.png)
-![preview](./previews/preview1.4.png)
-## No ChannelList
-![preview](./previews/preview1.5.png)
 
 ## MY OTHER THEMES
 
