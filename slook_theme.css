@@ -1,5 +1,5 @@
 /*
-1.14.1.1
+1.14.1.3
 /*
 /* Imports */
 @import url("https://ghostmander.github.io/discordfont/DiscordFont.css");
@@ -1184,6 +1184,10 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 }
 .theme-dark .headerTop-3C2Zn0 {
   background-color: #18191aaf;
+  border-radius: 12px
+}
+.theme-light .headerTop-3C2Zn0 {
+  background-color: #DBD7D1;
   border-radius: 12px
 }
 /* MemberViewBig */
