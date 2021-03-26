@@ -3,6 +3,8 @@
 /*
 /* Imports */
 @import url("https://ghostmander.github.io/discordfont/DiscordFont.css");
+@import url("https://nyri4.github.io/Discolored/main.css");
+@import url("https://raw.githack.com/Snapperito/Settings-Icons/main/source.css");
 
 /* USRBG */ 
 /*
@@ -1183,11 +1185,11 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
   box-shadow: none;
 }
 .theme-dark .headerTop-3C2Zn0 {
-  background-color: #18191aaf;
+  background-color: #1616153d;
   border-radius: 12px
 }
 .theme-light .headerTop-3C2Zn0 {
-  background-color: #DBD7D1;
+  background-color: transparent;
   border-radius: 12px
 }
 /* MemberViewBig */
