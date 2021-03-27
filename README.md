@@ -41,8 +41,8 @@ MIT, see LICENSE.md for more details
 ![preview](./previews/light2.png)
 ![preview](./previews/light3.png)
 ## SETTINGS
-![preview](./previews/settinglight1.png)
-![preview](./previews/settingdark1.png)
+![preview](./previews/settingslight1.png)
+![preview](./previews/settingsdark1.png)
 
 
 ## MY OTHER THEMES
