@@ -1,5 +1,5 @@
 /*
-1.14.1.8
+1.14.1.9
 /*
 /* Imports */
 @import url("https://ghostmander.github.io/discordfont/DiscordFont.css");
@@ -339,9 +339,19 @@ body{
 /* BoldText */
 .headerText-2F0828 {
   font-size: 18px;
+  font-family:'Discord'; 
 }
 .header-2RyJ0Y {
   font-size: 16px;
+  font-family:'Discord'; 
+}
+.title-3sZWYQ {
+  font-size: 15px;
+  font-family:'Discord'; 
+}
+.container-2ax-kl {
+  font-size: 15px;
+  font-family:'Discord'; 
 }
 /* Remove Nitro Gif Thing */
 .selected-1Tbx07 {
@@ -352,12 +362,6 @@ body{
 }
 .theme-dark .navButton-2gQCx- {
   background-color: rgba(5, 5, 5, 0.589);
-}
-.title-3sZWYQ {
-  font-size: 15px;
-}
-.container-2ax-kl {
-  font-size: 15px;
 }
 /* EMOJI MATCHING */
 .contentTitle-2tG_sM {
@@ -375,7 +379,7 @@ body{
   display: inline;
   margin-bottom:  15px;
   margin-left: 2px; 
-   font-family:'Discord'; 
+  font-family:'Discord'; 
   /* */
 }
 .cozy-3raOZG .timestamp-3ZCmNB {
