@@ -40,6 +40,9 @@ MIT, see LICENSE.md for more details
 ![preview](./previews/light1.png)
 ![preview](./previews/light2.png)
 ![preview](./previews/light3.png)
+## SETTINGS
+![preview](./previews/settinglight1.png)
+![preview](./previews/settingdark1.png)
 
 
 ## MY OTHER THEMES
