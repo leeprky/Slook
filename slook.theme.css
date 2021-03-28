@@ -466,6 +466,9 @@ background-color: #DAD6D1
 .container-1giJp5 {
  border-radius: 10px;
 }
+.theme-dark .header-1TKi98 {
+  background-color: #0D0C0C;
+}
 /* UnreadBar Channels */
 .theme-dark .unread-1xRYoj {
  background-color: rgba(39, 37, 37, 0.705);
