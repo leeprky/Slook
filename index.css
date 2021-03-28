@@ -57,7 +57,28 @@ div[data-list-item-id="guildsnav___guild-discover-button"] svg:hover{
 .sprite-2iCowe { 
   background-position: 0px 0px !important;
 }
+.contentWidth-xLB44s {
+  margin-top: 50px;
+}
+.list-I3aHXn {
+  margin-top: 50px;
+}
+.theme-dark .header-2mZ9Ov {
+  background-color: rgba(0, 0, 0, 0.247);
+}
+.theme-light .header-2mZ9Ov {
+  background-color: #E5DCDA;
+}
 
+.theme-light .layers-3iHuyZ>.layer-3QrUeG:nth-child(2), .perksModal-fSYqOq {
+  background-color: rgba(238, 228, 228, 0.589)!important;
+  backdrop-filter: blur(9px);
+}
+
+.theme-dark .layers-3iHuyZ>.layer-3QrUeG:nth-child(2), .perksModal-fSYqOq {
+  background-color: rgba(24, 23, 23, 0.281)!important;
+  backdrop-filter: blur(9px);
+}
 /* Removes the popups on click */
 .container-ZRw2kD {display:none;}    
 .popoutContainer-1MXdqN {display:none;}
@@ -455,6 +476,7 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 }
 .form-2fGMdU::before {
   display: none;
+
 }
 /* ServerChat */
 
