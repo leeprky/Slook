@@ -3,9 +3,9 @@
 /* V2.0
 /*
 /* Imports */
-@import url("https://ghostmander.github.io/discordfont/DiscordFont.css");
-@import url("https://nyri4.github.io/Discolored/main.css");
-@import url("https://raw.githack.com/Snapperito/Settings-Icons/main/source.css");
+@import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
+@import url(https://nyri4.github.io/Discolored/main.css);
+@import url(https://raw.githack.com/Snapperito/Settings-Icons/main/source.css);
 
 /* HorizontalServerList */ /*
 @import url("https://raw.githack.com/DiscordStyles/HorizontalServerList/master/HorizontalServerList.theme.css");
@@ -15,7 +15,7 @@
 /*
 USRBG Profile Modals by Tropix126.
 =========================================== */
-@import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
+@import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
 
 /* -=-=-=-=-=-=-=-=-=-=- */
 
@@ -128,7 +128,7 @@ body{
    --background-floating: #18191caf;
    --background-modifier-hover: rgba(79,84,92,0.16);
    --background-modifier-active: rgba(79,84,92,0.24);
-   --background-modifier-selected: rgba(79,84,92,0.32);
+   --background-modifier-selected: rgba(14, 15, 15, 0.32);
    --background-modifier-accent: hsla(0,0%,100%,0.06);
    --background-mentioned: rgba(89, 250, 26, 0.055);
    --background-mentioned-hover: rgba(58, 180, 20, 0.08);
