@@ -1,4 +1,4 @@
-## SLOOK THEME V1.14.1
+## SLOOK THEME V2
 A Discord Theme Focused On Your Messages.
 
 ## INFO
@@ -7,14 +7,7 @@ Slook Theme primary goal is to make you focus on your chats while looking stylis
 So Enjoy!
 - Any Issues open up one or DM Leeprky#2063
 
-> If You Wish To Use The Popout ChannelList Please go to line "288" And Remove it
-*Make Sure Horizontal Server List Is OFF If Installed*
-
-> If You Wish To Disable The OSX Windows Bar Please go to line "215* and add a "/*"
-*Windows Only*
-
-> If you wish to use Glasscord With This Theme Please go to line "23" And Remove It.
-*Must Have Glasscord* - "https://github.com/AryToNeX/Glasscord"
+## V2 CAME AROUND DUE TO NOW USING GITHACK TO UPDATE
 
 ## How To Install SLOOK V1.14.1
 
