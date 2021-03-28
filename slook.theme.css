@@ -428,7 +428,12 @@ body{
 .title-3sZWYQ {
   color:#000;
 }
-
+.hljs-comment, .hljs-quote {
+  color: #100;
+}
+.toggleExpandSection-3WJYqa {
+  color: rgb(20, 20, 20);
+}
 /* BoldText */
 .headerText-2F0828 {
   font-size: 18px;
