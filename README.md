@@ -36,7 +36,7 @@ MIT, see LICENSE.md for more details
 ![preview](./previews/light3.png)
 ![preview](./previews/light4.jpg)
 ## GLASSCORD
-![preview](./previews/glasscord1.png)
+![preview](./previews/glasscord1.jpg)
 ![preview](./previews/glasscord2.jpg)
 
 ## MY OTHER THEMES
