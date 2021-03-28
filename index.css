@@ -449,6 +449,25 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 .form-2fGMdU::before {
   display: none;
 }
+/* ServerChat */
+
+.container-UC8Ug1 {
+  background-color: rgba(29, 27, 27, 0.925);
+}
+.colorStandard-2KCXvj {
+  color: rgb(221, 222, 231)
+}
+.colorHeaderSecondary-3Sp3Ft {
+  color: rgb(221, 222, 231)
+}
+.colorHeaderPrimary-26Jzh- {
+  color: rgb(221, 222, 231)
+}
+.lookFilled-1Gx00P.colorGrey-2DXtkV {
+  color: #fff;
+  background-color: #292a2c;
+}
+
 /* Chatbox */
 
 .channelTextArea-rNsIhG {
