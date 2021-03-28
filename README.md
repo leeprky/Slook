@@ -9,7 +9,7 @@ So Enjoy!
 
 ## V2 CAME AROUND DUE TO NOW USING GITHACK TO UPDATE
 
-## How To Install SLOOK V1.14.1
+## How To Install SLOOK V2.0
 
 > Head to C:\Users\[USER]\powercord\src\Powercord
 
@@ -25,17 +25,11 @@ MIT, see LICENSE.md for more details
 
 ## Previews
 
-## DARKMODE
 ![preview](./previews/dark1.png)
-![preview](./previews/dark2.png)
-![preview](./previews/dark3.png)
-# LIGHTMODE
-![preview](./previews/light1.png)
-![preview](./previews/light2.png)
-![preview](./previews/light3.png)
-## SETTINGS
-![preview](./previews/settingslight1.png)
-![preview](./previews/settingsdark1.png)
+![preview](./previews/dark1.png)
+![preview](./previews/dark1.png)
+![preview](./previews/dark1.png)
+![preview](./previews/dark1.png)
 
 
 ## MY OTHER THEMES
