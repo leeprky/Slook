@@ -1,3 +1,13 @@
+/**
+ * @name Slook
+ * @author Leeprky
+ * @version 2.0
+ * @description BetterDiscord Sloot Theme From Powercord
+ * @source https://github.com/leeprky/slook_theme
+*/
+
+/* IGNORE ABOVE IF ON POWERCORD */
+
 @import url("https://raw.githack.com/leeprky/slook_theme/main/index.css");
 /* V2.0
 /*
@@ -50,9 +60,7 @@ body{
   background-color: rgba(24, 22, 22, 0.349);
   border-radius: 10px 0px 0px 0px;
 }
-
 /* Glasscord Ends */ /* 
-
 --glasscord-win-blur: blurbehind or transparent available.
 --glasscord-titlebar: osx or windows available.
 
