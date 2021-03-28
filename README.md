@@ -9,7 +9,7 @@ So Enjoy!
 
 ## V2 CAME AROUND DUE TO NOW USING GITHACK TO UPDATE
 
-## How To Install SLOOK V1.14.1
+## How To Install SLOOK V2.0
 
 > Head to C:\Users\[USER]\powercord\src\Powercord
 
