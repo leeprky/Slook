@@ -485,7 +485,10 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 }
 /* ServerChat */
 
-.container-UC8Ug1 {
+.theme-light .container-UC8Ug1 {
+  background-color: rgba(228, 224, 217, 0.925);
+}
+.theme-dark .container-UC8Ug1 {
   background-color: rgba(29, 27, 27, 0.925);
 }
 .colorStandard-2KCXvj {
