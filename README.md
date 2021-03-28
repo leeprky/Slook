@@ -26,13 +26,13 @@ MIT, see LICENSE.md for more details
 ## Previews
 
 ## DARKMODE
-![preview](./previews/dark1.png)
-![preview](./previews/dark2.png)
+![preview](./previews/dark1.jpg)
+![preview](./previews/dark2.jpg)
 ![preview](./previews/dark3.png)
 ![preview](./previews/dark4.jpg)
 # LIGHTMODE
-![preview](./previews/light1.png)
-![preview](./previews/light2.png)
+![preview](./previews/light1.jpg)
+![preview](./previews/light2.jpg)
 ![preview](./previews/light3.png)
 ![preview](./previews/light4.jpg)
 
