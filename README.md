@@ -5,17 +5,11 @@ A Discord Theme Focused On Your Messages.
 
 Slook Theme primary goal is to make you focus on your chats while looking stylish :)
 So Enjoy!
-- Any Issues DM Leeprky#2063
+- Any Issues open up one or DM Leeprky#2063
 
-## V2 
+## V2 CAME AROUND DUE TO NOW USING GITHACK TO UPDATE
 
-V2 Came Around due to it now being the final version with some bug fixes along the way & possibly new features.
-It now using index.css to import real-time so no more git pulling
-And Very few bugs now are in the theme
-
-Hope You Enjoy! - Any Issues DM Leeprky#2063
-
-## How To Install SLOOK V2.0
+## How To Install SLOOK V1.14.1
 
 > Head to C:\Users\[USER]\powercord\src\Powercord
 
@@ -31,11 +25,16 @@ MIT, see LICENSE.md for more details
 
 ## Previews
 
+## DARKMODE
 ![preview](./previews/dark1.png)
-![preview](./previews/dark1.png)
-![preview](./previews/dark1.png)
-![preview](./previews/dark1.png)
-![preview](./previews/dark1.png)
+![preview](./previews/dark2.png)
+![preview](./previews/dark3.png)
+![preview](./previews/dark4.jpg)
+# LIGHTMODE
+![preview](./previews/light1.png)
+![preview](./previews/light2.png)
+![preview](./previews/light3.png)
+![preview](./previews/light4.jpg)
 
 
 ## MY OTHER THEMES
