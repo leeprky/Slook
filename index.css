@@ -1,17 +1,8 @@
 
-/* 1.15 */
+
+/* V2.0 */
 /* USE THEME FILE FOR UPDATING CUSTOMIZABLE AREA */
 
-/* Remove Nitro Gif Thing */
-.selected-1Tbx07 {
-  display: none;
-}
-.upsell-1vK3zR {
-  display: none;
-}
-.theme-dark .navButton-2gQCx- {
-  background-color: rgba(5, 5, 5, 0.589);
-}
 /* EMOJI MATCHING */
 .contentTitle-2tG_sM {
   margin-bottom: -10px;
@@ -327,12 +318,6 @@ div[data-list-item-id="guildsnav___guild-discover-button"] svg:hover{
 .sprite-2iCowe { 
   background-position: 0px 0px !important;
 }
-/* EmojiAnimation */
-.buttons-3JBrkn {opacity: 0; transition: opacity 0.3s;}
-.channelTextArea-rNsIhG:hover .buttons-3JBrkn {opacity: 1.0;}
-.attachWrapper-2TRKBi {order:1; margin-right: 15px;}
-.attachButton-2WznTc {padding-right:0px}
-.uploadModal-2ifh8j .buttons-3JBrkn {opacity: 1.0;}
 
 /* Removes the popups on click */
 .container-ZRw2kD {display:none;}    
@@ -482,6 +467,7 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 .search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb { width: 240px; transition: 0.25s; background-color: var(--background-tertiary);}
 .search-2oPWTC:not(.open-6_Y_aH) .iconContainer-O4O2CN { transform: scale(1.2); transition: 0.25s;}
 .search-2oPWTC:not(.open-6_Y_aH):hover .iconContainer-O4O2CN { transform: scale(1); transition: 0.25s;}
+
 /* Avatars */
  :root {
    --rs-small-spacing: 1px;
@@ -964,26 +950,6 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
   display: none;
 }
 
-/* -- */
-/* MemberListRemove */
-.iconWrapper-2OrFZ1 {
-  height: 24px;
-  width: auto;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  margin: 0 2px;
-}
-.selected-1GqIat .icon-22AiRD {
-  display: none;
-}
-.page-3njELR {
-  max-width: 1040px;
-}
-.contentWidth-xLB44s {
-  max-width: 808px;
-}
-
 /* Better roles */
 .role-2irmRk {
   position: relative;
@@ -1074,8 +1040,8 @@ margin-right: 15px;
 .theme-dark .chatContent-a9vAAp {
   background-color: transparent;
   border-radius: 0 15px 0 0 !important;
-  margin-left: -0px;
-  margin-right: 10px;
+  margin-left: -10px;
+  margin-right: -10px
   }
 .channelTextArea-rNsIhG, .channelTextArea-2VhZ6z { 
   margin-left: 25px;
@@ -1087,8 +1053,6 @@ margin-right: 15px;
   position: relative;
   left: -1px
 }
-
-
 
 
 
