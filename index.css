@@ -1,5 +1,3 @@
-
-
 /* V2.0 */
 /* USE THEME FILE FOR UPDATING CUSTOMIZABLE AREA */
 
@@ -29,6 +27,10 @@
   position: relative;
   left: 5px;
   padding-right: 5px
+}
+/* Search Options */
+.option-96V44q, .resultsGroup-r_nuzN .searchClearHistory-2cSSMO {
+  background-color: #222020;
 }
 /* Tags  */
 .rem-2m9HGf.botTag-2WPJ74 {
