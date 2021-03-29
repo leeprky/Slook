@@ -470,6 +470,10 @@ background-color: #DAD6D1
   left: 5px;
   padding-right: 5px
 }
+/* Hide Chat If Not Perm */
+.channelTextAreaDisabled-8rmlrp>div {
+  display: none;
+}
 /* ServerBackgrounds */
 .animatedContainer-1NSq4T, .bannerImage-3KhIJ6 {
   border-radius: 0px 0px 18px 0px;
