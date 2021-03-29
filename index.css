@@ -313,6 +313,10 @@ background-color: #DAD6D1
 .theme-dark .progressBar-3u8FBM, .small-1CUeBa, .animating-3Qqqzp {
  background: linear-gradient(to left, rgb(29, 31, 34), rgb(153, 161, 251));
 }
+/* Embed */
+.theme-light .embedWrapper-lXpS3L, .mbedFull-2tM8--, .embed-IeVjo6, .markup-2BOw-j {
+  background-color: #c1ccbc63;
+}
 /* Search Options */
 .option-96V44q, .resultsGroup-r_nuzN .searchClearHistory-2cSSMO {
   background-color: #222020;
