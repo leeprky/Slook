@@ -369,6 +369,10 @@ body{
   color: var(--text-muted);
   display: none;
 }
+/* Timestamp From Pinged Messages */
+.timestamp-1E3uAL {
+  display: none;
+}
 .message-2qnXI6 .avatar-1BDn8e {
   top: 16px;
   width: 45px;
