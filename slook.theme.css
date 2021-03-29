@@ -120,6 +120,7 @@ body{
 }
 
 /* MainColouring */
+/*
 .theme-dark {
    --header-primary: #fff;
    --header-secondary: #b9bbbe;
@@ -223,6 +224,7 @@ body{
   --deprecated-text-input-border-disabled: #dcddde;
   --deprecated-text-input-prefix: #b9bbbe;
 }
+*/
 /* OPTIONAL */
 /* Keko #6043 osx Windows Replacement*/
 /*
