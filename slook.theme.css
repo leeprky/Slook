@@ -68,6 +68,12 @@ body{
 .nowPlayingColumn-2sl4cE {
   background-color: #1D1F22;
 }
+/* Linux Fix For ServerList By "Tom" #3111 */
+/*
+#app-mount .app-1q1i1E .base-3dtUhz {
+  top: calc(var(--server-container) + 38px) !important;
+}
+/* */
 /* Glasscord Ends */ /* 
 --glasscord-win-blur: blurbehind or transparent available.
 --glasscord-titlebar: osx or windows available.
