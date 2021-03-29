@@ -469,6 +469,16 @@ background-color: #DAD6D1
   color: #c7cacc;
   font-size: 11px
 }
+/* Chat??? */
+.cozy-3raOZG .messageContent-2qWWxC {
+  background-color: transparent;
+}
+.fontSize18Padding-2RUesG {
+  background-color: transparent;
+}
+.container-1ov-mD>* {
+  background-color: transparent;
+}
 
 /* Separate the channels list from the chat box. - 755166410824482937 */
 .sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
