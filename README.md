@@ -41,7 +41,7 @@ MIT, see LICENSE.md for more details
 ## GLASSCORD
 ![preview](./previews/glasscord1.jpg)
 ![preview](./previews/glasscord2.jpg)
-![preview](./previews/giphy.mp4)
+![preview](./previews/giphy.gif)
 
 ## MY OTHER THEMES
 
