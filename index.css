@@ -492,7 +492,10 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 }
 .form-2fGMdU::before {
   display: none;
-
+  
+.theme-dark .inputDefault-_djjkz {
+  color:#e0e5e7
+}
 }
 /* ServerChat */
 
