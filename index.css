@@ -1,3 +1,4 @@
+
 /* V2.0 */
 /* SLOOK */
 
@@ -221,10 +222,6 @@ background-color: #DAD6D1
 /* UnreadBar Channels */
 .theme-dark .unread-1xRYoj {
  background-color: rgba(39, 37, 37, 0.705);
-}
-/* TitleBar */
-.theme-dark .container-1r6BKw.themed-ANHk51 {
- background-color: #1D1F22;
 }
 /* NitroSererBoosts */
 .theme-light .tierBody-16Chc9 {
@@ -684,6 +681,19 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
   margin-left: 1px;
 }
 .theme-light .avatar-1BDn8e[src*="541359304893136896"] + h2 > span.timestamp-3ZCmNB::before {
+  --epictext: '✔️';
+  --epic-bg: var(--background-modifier-accent);
+  --epictxtcolor: rgb(32, 34, 33);
+  margin-left: 1px;
+}
+/* "Tom"#3111 */
+.theme-dark .avatar-1BDn8e[src*="781675547221688320"] + h2 > span.timestamp-3ZCmNB::before {
+  --epictext: '✔️';
+  --epic-bg: var(--background-modifier-accent);
+  --epictxtcolor: rgb(238, 234, 231);
+  margin-left: 1px;
+}
+.theme-light .avatar-1BDn8e[src*="781675547221688320"] + h2 > span.timestamp-3ZCmNB::before {
   --epictext: '✔️';
   --epic-bg: var(--background-modifier-accent);
   --epictxtcolor: rgb(32, 34, 33);
