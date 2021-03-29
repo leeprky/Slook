@@ -72,6 +72,13 @@ body{
   background-color: #1D1F22;
 }
 
+.container-2lgZY8 {
+  -webkit-app-region: drag;
+}
+.guilds-1SWlCJ, .base-3dtUhz, .sidebar-2K8pFh {
+  -webkit-app-region: none;
+}
+
 /* Linux Fix For ServerList By "Tom" #3111 */
 /*
 #app-mount .app-1q1i1E .base-3dtUhz {
