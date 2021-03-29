@@ -570,7 +570,7 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
   content: "SLOOK";
   font-size: 20px;
   text-transform: uppercase;
-  background: var(--background-accent);
+  background: rgb(12, 12, 12);
   background-size: 400% 400%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -586,7 +586,7 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
   content: "SLOOK";
   text-transform: uppercase;
   font-size: 23px;
-  background: var(--background-accent);
+  background: #eee9ee;
   background-size: 400% 400%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
