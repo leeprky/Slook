@@ -7,7 +7,10 @@ Slook Theme primary goal is to make you focus on your chats while looking stylis
 So Enjoy!
 - Any Issues open up one or DM Leeprky#2063
 
-## V2 CAME AROUND DUE TO NOW USING GITHACK TO UPDATE
+## V2 
+
+The Theme uses GITHACK - @import url("") To Update Now
+This means that my theme will auto update wiith the powercord installer, but also means less frequent updates.
 
 ## How To Install SLOOK V2.0
 
