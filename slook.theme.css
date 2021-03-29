@@ -439,7 +439,7 @@ body{
   background-color: var(--background-mentioned)
 }
 /* TitleBar */
-#app-mount .app-1q1i1E .base-3dtUhz {
+.app-1q1i1E .base-3dtUhz {
   top: calc(var(--server-container) + 4px) !important;
 }
 .theme-light .container-1r6BKw.themed-ANHk51 {
