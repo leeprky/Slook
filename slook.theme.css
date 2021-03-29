@@ -32,7 +32,7 @@ USRBG Profile Modals by Tropix126.
 /* Glasscord Support - No Lightmode*/
 /* YOU NEED GLASSCORD INSTALLED - ONCE DELETED LINE BELOW PLEASE RESTART DISCORD
 - REFER TO: https://github.com/leeprky/cybercordtheme-transparent*/
-/*
+
 :root{
 	--glasscord-win-blur: blurbehind;
 	--glasscord-macos-vibrancy: fullscreen-ui;
@@ -80,7 +80,7 @@ body{
 }
 
 /* Windows Fix For ServerList */
-/*
+
 #app-mount .app-1q1i1E .base-3dtUhz {
   top: calc(var(--server-container) + 4px) !important;
 }
@@ -939,6 +939,15 @@ body{
   background-color: rgba(19, 20, 19, 0.199);
   border-radius: 18px 0px 0px 0px;
 }
+.theme-light .container-1r6BKw.themed-ANHk51 {
+  background-color: #DDD8D4;
+}
+.theme-dark .container-1r6BKw.themed-ANHk51 {
+  background-color: rgba(19, 20, 19, 0.199);
+}
+.sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
+  border-radius: 18px 18px 0 0 !important;
+}
 /* BetterReplies Support USE TYPE 2*/
 /*
 .cozy-3raOZG .repliedMessage-VokQwo {
@@ -1350,4 +1359,3 @@ ON LINE 1 YOU WILL NEED TO FORK IF YOU WISH TO EDIT OR SIMPLY PASTE THE CONTENTS
 /* USE @import url("https://raw.githack.com/leeprky/slook_theme/main/index.css"); 
 FOR UPDATING BECUASE I HAVE UPDATED TO A ON THE FLY UPDATE SYSTEM 
 ON LINE 1 YOU WILL NEED TO FORK IF YOU WISH TO EDIT OR SIMPLY PASTE THE CONTENTS BELOW */
-
