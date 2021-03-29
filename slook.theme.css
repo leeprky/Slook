@@ -73,6 +73,9 @@ body{
 #app-mount .app-1q1i1E .base-3dtUhz {
   top: calc(var(--server-container) + 38px) !important;
 }
+.platform-osx .container-1r6BKw {
+  -webkit-app-region: none;
+}
 /* */
 /* Glasscord Ends */ /* 
 --glasscord-win-blur: blurbehind or transparent available.
