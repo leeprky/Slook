@@ -469,6 +469,7 @@ background-color: #DAD6D1
   color: #c7cacc;
   font-size: 11px
 }
+
 /* Chat??? */
 .cozy-3raOZG .messageContent-2qWWxC {
   background-color: transparent;
@@ -477,6 +478,9 @@ background-color: #DAD6D1
   background-color: transparent;
 }
 .container-1ov-mD>* {
+  background-color: transparent;
+}
+.placeholder-37qJjk, .slateTextArea-1Mkdgw {
   background-color: transparent;
 }
 
