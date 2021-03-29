@@ -171,7 +171,7 @@ body{
 }
 .theme-light {
   --header-primary: #0d0d0e;
-  --header-secondary: #232425;
+  --header-secondary: #233d70;
   --text-normal: #0d0d0e;
   --text-muted: #747f8d;
   --text-link: #28a318f1;
@@ -425,7 +425,7 @@ body{
   bottom: 2px;
   text-indent: 0;
 }
-.title-3sZWYQ {
+.theme-light .title-3sZWYQ {
   color:#000;
 }
 .hljs-comment, .hljs-quote {
