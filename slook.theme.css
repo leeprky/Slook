@@ -80,7 +80,7 @@ body{
 }
 
 /* Windows Fix For ServerList */
-
+/*
 #app-mount .app-1q1i1E .base-3dtUhz {
   top: calc(var(--server-container) + 4px) !important;
 }
