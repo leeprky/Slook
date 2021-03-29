@@ -447,6 +447,9 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 .item-1tOPte {
   margin-left: 2px
 }
+.theme-dark .hljs-comment, .hljs-quote {
+  color: rgb(226, 217, 217);
+}
 /* ChannelRoleArea */
 .theme-light .container-SDBvD6 {
   background-color: #D8D1CB;
