@@ -416,6 +416,10 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
    padding-bottom: 10px;
    top: 5px;
  }
+.navButtonActive-1MkytQ {
+  background-color: rgb(29, 27, 27);
+  color: rgb(230, 216, 216);
+}
  /* Add transparency & blur to the loading screen */
 .container-16j22k {
   background-color: rgba(0,0,0,0.8);
