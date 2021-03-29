@@ -982,6 +982,10 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
   height: 1px;
   top: 33px;
 }
+/* Remove Bot Tags */
+.botTagCozy-, .botTag-1un5a6, .botTagRegular-2HEhHi, .botTag-2WPJ74, .rem-2m9HGf {
+  display: none;
+}
 
 /* -=-=-=-=-=-=-=-=-=-=-= */
 /* ThemeTogglerArea */
