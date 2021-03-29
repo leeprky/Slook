@@ -146,6 +146,9 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
   background-color: rgba(0,0,0,0.8);
   backdrop-filter: blur(5px);
 }
+.theme-dark .perksModalContentWrapper-2HU6uL {
+  background-color: #212324;
+}
 /* Tags */
 /* SLookDev */
 .avatar-1BDn8e + h2 > span.timestamp-3ZCmNB::before {
