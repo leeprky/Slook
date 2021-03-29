@@ -1,5 +1,161 @@
 /* V2.0 */
-/* USE THEME FILE FOR UPDATING CUSTOMIZABLE AREA */
+/* SLOOK */
+
+.root-SR8cQa {
+  transform: translateZ(0);
+}
+.header-QKLPzZ .wrapper-3t9DeA::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .5;
+  pointer-events: none;
+  background: var(--user-background) center/cover no-repeat;
+  -webkit-mask: linear-gradient(black, transparent 80%);
+}
+
+.headerInfo-30uryT,
+.tabBarItem-1b8RUP,
+.activity-1ythUs {
+  z-index: 1;
+  position: relative;
+}
+
+.reduce-motion .userPopout-3XzG_A {
+	transform:translateZ(0);
+}
+
+.userPopout-3XzG_A .wrapper-3t9DeA::after {
+	content: '';
+	position: fixed;
+	top: 0;
+  border-radius: 10px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	pointer-events: none;
+	opacity: .5;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: var(--user-popout-position) center;
+	background-image: var(--user-background);
+	-webkit-mask-image: linear-gradient(#000, transparent);
+}
+
+.userPopout-3XzG_A  .header-2BwW8b,
+.userPopout-3XzG_A  .scroller-2FKFPG,
+.userPopout-3XzG_A  .footer-1fjuF6 {
+	z-index: 1;
+}
+
+/* MainColouring */
+.theme-dark {
+   --header-primary: #fff;
+   --header-secondary: #b9bbbe;
+   --text-normal: #dcddde;
+   --text-muted: #72767d;
+   --text-link: #00b0f4;
+   --channels-default: #8e9297;
+   --interactive-normal: #b9bbbe;
+   --interactive-hover: #dcddde;
+   --interactive-active: rgb(231, 222, 222);
+   --interactive-muted: #313233;
+   --background-primary: #24262b;
+   --background-secondary: #1d1f22ad;
+   --background-secondary-alt: #2224277a;
+   --background-tertiary: #1D1F22;
+   --background-accent: #1e1f20;
+   --background-floating: #18191caf;
+   --background-modifier-hover: rgba(79,84,92,0.16);
+   --background-modifier-active: rgba(79,84,92,0.24);
+   --background-modifier-selected: rgba(14, 15, 15, 0.32);
+   --background-modifier-accent: hsla(0,0%,100%,0.06);
+   --background-mentioned: rgba(89, 250, 26, 0.055);
+   --background-mentioned-hover: rgba(58, 180, 20, 0.08);
+   --background-message-hover: rgba(4,4,5,0.07);
+   --background-help-warning: rgba(250,166,26,0.1);
+   --background-help-info: rgba(0,176,244,0.1);
+   --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
+   --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+   --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
+   --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+   --logo-primary: #fff;
+   --focus-primary: #d3e8f0;
+   --radio-group-dot-foreground: #8ea1e1;
+   --guild-header-text-shadow: 0 1px 1px rgba(20, 19, 19, 0.4);
+   --channeltextarea-background: #40444b;
+   --activity-card-background: #202225;
+   --textbox-markdown-syntax: #8e9297;
+   --deprecated-card-bg: rgba(32,34,37,0.6);
+   --deprecated-card-editable-bg: rgba(32,34,37,0.3);
+   --deprecated-store-bg: #36393f;
+   --deprecated-quickswitcher-input-background: #72767d;
+   --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
+   --deprecated-text-input-bg: rgba(0,0,0,0.1);
+   --deprecated-text-input-border: rgba(0,0,0,0.3);
+   --deprecated-text-input-border-hover: #040405;
+   --deprecated-text-input-border-disabled: #202225;
+   --deprecated-text-input-prefix: #dcddde;
+   --usernamme-discord-font: true;
+}
+.theme-light {
+  --header-primary: #0d0d0e;
+  --header-secondary: #233d70;
+  --text-normal: #0d0d0e;
+  --text-muted: #747f8d;
+  --text-link: #28a318f1;
+  --channels-default: #1f2022;
+  --interactive-normal: #4f5660;
+  --interactive-hover: #2e3338;
+  --interactive-active: #40a113;
+  --interactive-muted: #c2c5c7;
+  --background-primary: rgb(216, 209, 203);
+  --background-secondary: rgba(219, 214, 210, 0.61);
+  --background-secondary-alt: #dad6d100;
+  --background-tertiary: rgba(219, 214, 210, 0.61);
+  --background-accent: #424344e5;
+  --background-floating: rgba(226, 219, 215, 0.884);
+  --background-modifier-hover: rgba(116,127,141,0.08);
+  --background-modifier-active: rgba(116,127,141,0.16);
+  --background-modifier-selected: rgba(116,127,141,0.24);
+  --background-modifier-accent: rgba(6,6,7,0.08);
+  --background-modifier-accent: hsla(0,0%,100%,0.06);
+  --background-mentioned: rgba(63, 177, 18, 0.116);
+  --background-message-hover: rgba(6,6,7,0.02);
+  --background-help-warning: rgba(250,166,26,0.1);
+  --background-help-info: rgba(0,103,224,0.1);
+  --scrollbar-thin-thumb: rgba(79,84,92,0.3);
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: #ccc;
+  --scrollbar-auto-track: #f2f2f2;
+  --scrollbar-auto-scrollbar-color-thumb: #e3e5e8;
+  --scrollbar-auto-scrollbar-color-track: #f2f3f5;
+  --elevation-stroke: 0 0 0 1px rgba(6,6,7,0.08);
+  --elevation-low: 0 1px 0 rgba(6,6,7,0.1),0 1.5px 0 rgba(6,6,7,0.025),0 2px 0 rgba(6,6,7,0.025);
+  --elevation-medium: 0 4px 4px rgba(0,0,0,0.08);
+  --elevation-high: 0 8px 16px rgba(0,0,0,0.16);
+  --logo-primary: #7289da;
+  --focus-primary: #00b0f4;
+  --radio-group-dot-foreground: #4e5d94;
+  --guild-header-text-shadow: 0 1px 1px hsla(0,0%,100%,0.4);
+  --channeltextarea-background: #ebedef63;
+  --activity-card-background: #fff;
+  --textbox-markdown-syntax: #6a7480;
+  --deprecated-card-bg: #f8f9f9;
+  --deprecated-card-editable-bg: rgba(246,246,247,0.6);
+  --deprecated-store-bg: #f8f9f9;
+  --deprecated-quickswitcher-input-background: #fff;
+  --deprecated-quickswitcher-input-placeholder: rgba(79,84,92,0.3);
+  --deprecated-text-input-bg: rgba(79,84,92,0.02);
+  --deprecated-text-input-border: rgba(79,84,92,0.3);
+  --deprecated-text-input-border-hover: #b9bbbe;
+  --deprecated-text-input-border-disabled: #dcddde;
+  --deprecated-text-input-prefix: #b9bbbe;
+}
 
 .theme-light .title-3sZWYQ {
   color:#000;
