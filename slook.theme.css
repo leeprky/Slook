@@ -32,7 +32,7 @@ USRBG Profile Modals by Tropix126.
 /* Glasscord Support - No Lightmode*/
 /* YOU NEED GLASSCORD INSTALLED - ONCE DELETED LINE BELOW PLEASE RESTART DISCORD
 - REFER TO: https://github.com/leeprky/cybercordtheme-transparent*/
-/*
+
 :root{
 	--glasscord-win-blur: blurbehind;
 	--glasscord-macos-vibrancy: fullscreen-ui;
@@ -80,7 +80,7 @@ body{
 }
 
 /* Windows Fix For ServerList */
-/*
+
 #app-mount .app-1q1i1E .base-3dtUhz {
   top: calc(var(--server-container) + 4px) !important;
 }
@@ -100,7 +100,6 @@ body{
 /* Glasscord Ends */ /* 
 --glasscord-win-blur: blurbehind or transparent available.
 --glasscord-titlebar: osx or windows available.
-
 /* -=-=-=--=-=-=-=-=-=-=-=-= */
 
 /* SLOOK */
@@ -367,24 +366,19 @@ body{
     color: rgba(30, 143, 15, 0.925) !important; 
     padding-left: 5px
 }
-
 [class*='modeSelected'] [class*='name']:before
 {
     content: "> ";
 }
-
-
 .theme-light [class*='modeUnread'] [class*='name']
 {
     color: #28a318f1 !important; 
     padding-left: 3px
 }
-
 [class*='modeUnread'] [class*='name']:after
 {
     content: " <";
 }
-
 /* */
 /* -=-=-=-=- */
 /* SlookChatBox */
@@ -555,14 +549,12 @@ body{
 .nowPlayingColumn-2sl4cE {
   background-color: #1D1F22;
 }
-
 .container-2lgZY8 {
   -webkit-app-region: drag;
 }
 .guilds-1SWlCJ, .base-3dtUhz, .sidebar-2K8pFh {
   -webkit-app-region: none;
 }
-
 /* Windows Fix For ServerList */
 /*
 #app-mount .app-1q1i1E .base-3dtUhz {
@@ -584,7 +576,6 @@ body{
 /* Glasscord Ends */ /* 
 --glasscord-win-blur: blurbehind or transparent available.
 --glasscord-titlebar: osx or windows available.
-
 /* -=-=-=--=-=-=-=-=-=-=-=-= */
 
 /* SLOOK */
@@ -864,7 +855,6 @@ body{
 {
     content: " <";
 }
-
 /* */
 /* -=-=-=-=- */
 /* SlookChatBox */
