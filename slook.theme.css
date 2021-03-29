@@ -32,7 +32,7 @@ USRBG Profile Modals by Tropix126.
 /* Glasscord Support - No Lightmode*/
 /* YOU NEED GLASSCORD INSTALLED - ONCE DELETED LINE BELOW PLEASE RESTART DISCORD
 - REFER TO: https://github.com/leeprky/cybercordtheme-transparent*/
-/*
+
 :root{
 	--glasscord-win-blur: blurbehind;
 	--glasscord-macos-vibrancy: fullscreen-ui;
@@ -43,14 +43,17 @@ body{
     background-color: transparent;
 }
 #app-mount{
-	background-color: transparent;
+	background-color: rgba(0, 0, 0, 0.301);
 	border-radius: 10px 10px 10px 10px; 
 	border-color: transparent;
 }
+#app-mount .guilds-1SWlCJ .scrollerBase-289Jih {
+  background: transparent;
+}
 .theme-dark {
-	--background-primary: #0c0c0c3d!important;
-	--background-secondary: #0a0a0a21!important;
-	--background-tertiary: #12121349!important;
+	--background-primary: #0c0c0c00!important;
+	--background-secondary: #0a0a0a10!important;
+	--background-tertiary: #12121325!important;
 };
 .guilds-1SWlCJ {
     background-color: transparent;
@@ -68,6 +71,7 @@ body{
 .nowPlayingColumn-2sl4cE {
   background-color: #1D1F22;
 }
+
 /* Linux Fix For ServerList By "Tom" #3111 */
 /*
 #app-mount .app-1q1i1E .base-3dtUhz {
@@ -427,7 +431,18 @@ body{
   position: relative;
   background-color: var(--background-mentioned)
 }
-
+/* TitleBar */
+#app-mount .app-1q1i1E .base-3dtUhz {
+  top: calc(var(--server-container) + 4px) !important;
+}
+.theme-light .container-1r6BKw.themed-ANHk51 {
+  background-color: #DDD8D4;
+  border-radius: 18px 0px 0px 0px;
+}
+.theme-dark .container-1r6BKw.themed-ANHk51 {
+  background-color: rgba(19, 20, 19, 0.199);
+  border-radius: 18px 0px 0px 0px;
+}
 /* BetterReplies Support USE TYPE 2*/
 .cozy-3raOZG .repliedMessage-VokQwo {
   height: 13px;
