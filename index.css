@@ -1589,3 +1589,9 @@ div[class*="topSectionPlaying-"],
 .recentMentionsPopout-3rCiI6 {
   max-height: 80vh !important;
 }
+
+/* New Messages */
+.newMessagesBar-265mhP {
+  border-radius: 0 0 10px 10px;
+  background-color: unset;
+}
