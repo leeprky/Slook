@@ -1346,6 +1346,12 @@ ON LINE 1 YOU WILL NEED TO FORK IF YOU WISH TO EDIT OR SIMPLY PASTE THE CONTENTS
   margin-left: 4px;
   box-shadow: none;
 }
+
+/* Toolbar Member List Icon */
+.toolbar-1t6TWx [aria-label="Member List"] {
+  display: none;
+}
+
 /* USE @import url("https://raw.githack.com/leeprky/slook_theme/main/index.css"); 
 FOR UPDATING BECUASE I HAVE UPDATED TO A ON THE FLY UPDATE SYSTEM 
 ON LINE 1 YOU WILL NEED TO FORK IF YOU WISH TO EDIT OR SIMPLY PASTE THE CONTENTS BELOW */

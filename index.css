@@ -1553,3 +1553,39 @@ div[class*="topSectionPlaying-"],
 .hasMoreButton-1MELpI {
   color: rgba(var(--alt-color)) !important;
 }
+
+/* Chat Message Fixes */
+.message-2qnXI6 .contents-2mQqc9 .avatar-1BDn8e {
+  top: 6px !important;
+}
+.hasReply-34In-r .contents-2mQqc9 .avatar-1BDn8e {
+  top: 30px !important;
+}
+.username-1A8OIy, .repliedTextPreview-2NBljf {
+  margin-bottom: 2px !important;
+}
+.cozy-3raOZG .repliedTextPreview-2NBljf .repliedTextContent-1R3vnK {
+  margin-left: -67px !important;
+}
+.repliedMessage-VokQwo:before {
+  border-color: rgb(79, 84, 92);
+  top: 50%;
+  margin-bottom: 0px !important;
+}
+.repliedMessage-VokQwo .repliedTextPreview-2NBljf .repliedTextContent-1R3vnK {
+  line-height: 20px;
+  top: 2px;
+  right: 4px;
+}
+.cozy-3raOZG .contents-2mQqc9 .messageContent-2qWWxC {
+  margin-left: -70px !important;
+  margin-top: 1px;
+}
+.groupStart-23k01U .contents-2mQqc9 .messageContent-2qWWxC {
+  margin-top: -5px !important;
+}
+
+/* Inbox Fix */
+.recentMentionsPopout-3rCiI6 {
+  max-height: 80vh !important;
+}
