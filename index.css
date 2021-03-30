@@ -1648,3 +1648,13 @@ div[class*="topSectionPlaying-"],
 .scroller-RmtA4e {
   padding-right: 4px !important;
 }
+
+/* Server Container */
+.container-1CE3eW .templatesList-2E6rTe {
+  padding: 0px;
+}
+
+.container-1CE3eW .content-1LAB8Z {
+  padding-left: 16px;
+  padding-right: 16px;
+}
