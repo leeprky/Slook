@@ -1595,3 +1595,8 @@ div[class*="topSectionPlaying-"],
   border-radius: 0 0 10px 10px;
   background-color: unset;
 }
+
+/* Base Container */
+.children-19S4PO:after {
+  display: none;
+}
