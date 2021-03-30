@@ -1628,3 +1628,8 @@ div[class*="topSectionPlaying-"],
   padding-right: 15px !important;
   padding-top: 9px !important;
 }
+
+/* Sidebar Container */
+.scroller-RmtA4e {
+  padding-right: 4px !important;
+}
