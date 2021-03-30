@@ -1611,5 +1611,20 @@ div[class*="topSectionPlaying-"],
 .messagesPopout-24nkyi {
   padding-right: 8px !important;
   padding-bottom: 2px !important;
-  padding: 8px;
+}
+
+/* Inbox Container */
+.container-3iAQ-0 {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.scroller-2UmRce {
+  padding-bottom: 8px !important;
+}
+
+.scroller-tlc3kG {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 9px !important;
 }
