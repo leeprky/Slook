@@ -32,7 +32,7 @@ USRBG Profile Modals by Tropix126.
 /* Glasscord Support - No Lightmode*/
 /* YOU NEED GLASSCORD INSTALLED - ONCE DELETED LINE BELOW PLEASE RESTART DISCORD
 - REFER TO: https://github.com/leeprky/cybercordtheme-transparent*/
-/*
+/* OPTIOANL GLASSCORD - MUST BE INSTALLED
 :root{
 	--glasscord-win-blur: blurbehind;
 	--glasscord-macos-vibrancy: fullscreen-ui;
@@ -104,7 +104,7 @@ body{
 
 /* OPTIONAL */
 /* Keko #6043 osx Windows Replacement*/
-/*
+/* OPTIONAL OSX ON WINDOWS.
 .theme-light .withFrame-haYltI {
   background: var(--neb-tertiary);
   margin: 0;
@@ -177,7 +177,7 @@ body{
   margin-top: 0px;
 }
 /* ChannelistRemove By Leeprky#2063 */ /* REMOVE THE LINE BELOW */
-/* - DELETE LINE 22 ALSO IF USING THIS
+/* - OPTIONAL CHANNEL LIST - DELETE LINE 22 ALSO IF USING THIS
 .sidebar-2K8pFh{
   width: 0px;
   transition: 0.6s ease;
@@ -192,7 +192,7 @@ body{
 }
 /* */
 /* Center Server List */
-/*
+/* OPTIONAL SERVER LIST
 #app-mount .wrapper-3NnKdC.guilds-1SWlCJ .scroller-1Bvpku {
   display: flex;
   justify-content: center;
