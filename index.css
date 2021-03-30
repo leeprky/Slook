@@ -1584,3 +1584,8 @@ div[class*="topSectionPlaying-"],
 .groupStart-23k01U .contents-2mQqc9 .messageContent-2qWWxC {
   margin-top: -5px !important;
 }
+
+/* Inbox Fix */
+.recentMentionsPopout-3rCiI6 {
+  max-height: 80vh !important;
+}
