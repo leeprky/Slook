@@ -1606,3 +1606,10 @@ div[class*="topSectionPlaying-"],
   padding-right: 6px !important;
   padding: 6px;
 }
+
+/* Pinned Messages Container */
+.messagesPopout-24nkyi {
+  padding-right: 8px !important;
+  padding-bottom: 2px !important;
+  padding: 8px;
+}
