@@ -1585,8 +1585,8 @@ div[class*="topSectionPlaying-"],
   margin-top: -5px !important;
 }
 
-/* Inbox Fix */
-.recentMentionsPopout-3rCiI6 {
+/* Pinned Messages & Inbox Fix */
+.messagesPopoutWrap-1MQ1bW, .recentMentionsPopout-3rCiI6 {
   max-height: 80vh !important;
 }
 
