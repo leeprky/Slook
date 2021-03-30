@@ -1600,3 +1600,9 @@ div[class*="topSectionPlaying-"],
 .children-19S4PO:after {
   display: none;
 }
+
+/* Actions Container */
+.scroller-3BxosC {
+  padding-right: 6px !important;
+  padding: 6px;
+}
