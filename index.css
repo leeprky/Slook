@@ -1122,7 +1122,7 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
   cursor: default;
   transform: translateX(-10px);
   transition: transform var(--hover-animation-speed);
-  overflow: visible;
+  overflow: inherit;
 }
 .members-1998pB {
 border-radius: 18px 18px 18px 18px !important;
