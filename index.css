@@ -1696,3 +1696,8 @@ div[class*="topSectionPlaying-"],
 .hasContent-1cNJDh {
   margin-left: 28px;
 }
+
+/* Discover Container */
+.scroller-1d5FgU {
+  padding-right: 20px !important;
+}
