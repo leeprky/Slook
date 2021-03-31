@@ -1606,3 +1606,93 @@ div[class*="topSectionPlaying-"],
   padding-right: 6px !important;
   padding: 6px;
 }
+
+/* Pinned Messages Container */
+.messagesPopout-24nkyi {
+  padding-right: 8px !important;
+  padding-bottom: 2px !important;
+}
+
+.messagesPopout-24nkyi .avatar-1BDn8e {
+  margin-top: 6px;
+}
+
+.messagesPopout-24nkyi .cozy-3raOZG.wrapper-2a6GCs {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 68px;
+}
+
+.messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G .messageGroupCozy-2iY6cT {
+  margin-left: 0px;
+}
+
+/* Inbox Container */
+.container-3iAQ-0 {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.scroller-2UmRce {
+  padding-bottom: 8px !important;
+  padding: 8px;
+}
+
+.scroller-tlc3kG {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  padding-top: 9px !important;
+}
+
+/* Sidebar Container */
+.scroller-RmtA4e {
+  padding-right: 4px !important;
+}
+
+/* Server Container */
+.container-1CE3eW .templatesList-2E6rTe {
+  padding: 0px;
+}
+
+/* Text Channel Container */
+.container-3RCQyg {
+  margin-left: 32px;
+}
+
+/* Container Fix */
+.content-1LAB8Z {
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+
+/* Invite Container */
+.scroller-2hZ97C {
+  padding-top: 14px;
+  padding-right: 22px !important;
+}
+
+/* Search Container */
+.scroller-3GIiMh {
+  padding-right: 16px !important;
+}
+
+.searchResult-9tQ1uo .avatar-1BDn8e {
+  margin-top: 2px;
+}
+
+.searchResultsWrap-3-pOjs {
+  margin-left: 20px;
+}
+
+.scroller-2LSbBU {
+  padding-right: 6px !important;
+}
+
+.wrapper-39oAo3 {
+  margin-left: 10px;
+}
+
+/* Chat Divider Fix */
+.hasContent-1cNJDh {
+  margin-left: 28px;
+}
