@@ -469,7 +469,7 @@ background-color: #DAD6D1
 }
 
 /* Chat??? */
-.cozy-3raOZG .messageContent-2qWWxC {
+.messageContent-2qWWxC {
   background-color: transparent;
 }
 .fontSize18Padding-2RUesG {
@@ -1695,4 +1695,9 @@ div[class*="topSectionPlaying-"],
 /* Chat Divider Fix */
 .hasContent-1cNJDh {
   margin-left: 28px;
+}
+
+/* Discover Container */
+.scroller-1d5FgU {
+  padding-right: 20px !important;
 }
