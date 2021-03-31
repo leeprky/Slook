@@ -32,7 +32,7 @@ USRBG Profile Modals by Tropix126.
 /* Glasscord Support - No Lightmode*/
 /* YOU NEED GLASSCORD INSTALLED - ONCE DELETED LINE BELOW PLEASE RESTART DISCORD
 - REFER TO: https://github.com/leeprky/cybercordtheme-transparent*/
-/* OPTIOANL GLASSCORD - MUST BE INSTALLED
+
 :root{
 	--glasscord-win-blur: blurbehind;
 	--glasscord-macos-vibrancy: fullscreen-ui;
@@ -65,12 +65,7 @@ body{
   background-color: rgba(24, 22, 22, 0.349);
   border-radius: 10px 0px 0px 0px;
 }
-.peopleColumn-29fq28 {
-  background-color: #1D1F22;
-}
-.nowPlayingColumn-2sl4cE {
-  background-color: #1D1F22;
-}
+
 
 .container-2lgZY8 {
   -webkit-app-region: drag;
@@ -84,6 +79,129 @@ body{
   padding-right: 5px !important;
 }
 
+.theme-dark .root-1gCeng {
+ background-color: var(--background-secondary)
+}
+.container-1giJp5 {
+ border-radius: 10px;
+}
+.theme-dark .header-1TKi98 {
+  background-color: rgba(12, 12, 12, 0.322);
+}
+
+.colorHeaderSecondary-3Sp3Ft {
+  color: rgb(41, 42, 44);
+}
+
+.theme-dark .unread-1xRYoj {
+  background-color: transparent;
+}
+/* NitroSererBoosts */
+.theme-dark .tierBody-16Chc9 {
+  background-color: rgba(12, 12, 12, 0.322);
+}
+.theme-dark .perk-2WeBWW {
+  background-color: rgba(12, 12, 12, 0.322);
+}
+.theme-dark .root-3R2ngo {
+  background-color: rgba(12, 12, 12, 0.322);
+}
+/* NagBar */
+.button-2PWmas, .notice-2X5hT5 {
+ background-color: #4aa516c0;
+}
+/* Upload Modal */
+.theme-dark .uploadModal-2ifh8j {
+  background-color: rgba(12, 12, 12, 0.322);
+}
+.theme-dark .uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC {
+  background-color: rgba(12, 12, 12, 0.322);
+}
+.uploadModal-2ifh8j .inner-3nWsbo .comment-4IWttf {
+ margin-left: 2px;
+ width: 470px;
+}
+.uploadModal-2ifh8j .inner-3nWsbo .comment-4IWttf .label-3aiqT2 {
+ text-transform: uppercase;
+ margin-left: 25px;
+}
+/* Add Friends To DM */
+.theme-dark .header-1TKi98 {
+ background-color: rgb(233, 227, 220);
+}
+/* Powercord Toasts */
+.theme-dark .powercord-toast {
+  background-color: rgba(12, 12, 12, 0.322);
+}
+.theme-dark .powercord-toast .header {
+  background-color: rgba(12, 12, 12, 0.322);
+}
+.theme-dark .powercord-toast .contents {
+  background-color: rgba(12, 12, 12, 0.322);
+}
+.theme-dark .powercord-toast .contents .inner {
+  background-color: rgba(12, 12, 12, 0.322);
+}
+.theme-dark .powercord-toast .buttons {
+  background-color: rgba(12, 12, 12, 0.322);
+}
+.theme-dark .progressBar-3u8FBM, .small-1CUeBa, .animating-3Qqqzp {
+ background: linear-gradient(to left, rgb(29, 31, 34), rgb(153, 161, 251));
+}
+/* Add Friends Area */
+.theme-dark .header-1TKi98 {
+  background-color: rgba(12, 12, 12, 0.322);
+}
+.theme-dark .errorState-KkUH_2 {
+  background-color: rgba(12, 12, 12, 0.322);
+  border-radius: 0px 0px 18px 18px;
+}
+
+.theme-dark .noResults-ZTbl5V, .scroller-hUf6zQ, .footer-1eyGBa {
+  background-color: rgba(12, 12, 12, 0.322);
+  margin: 0;
+  box-shadow: none;
+}
+.theme-dark .footerSeparator-M9dQY1 {
+  background-color: rgba(12, 12, 12, 0.322);
+}
+/* Gif Area */
+.theme-dark .container-3ISnnM {
+  background-color: rgba(12, 12, 12, 0.322);
+  margin-top: 10px;
+}
+.theme-dark .header-1TOWci {
+  margin-top: 10px;
+}
+/* FindCommunites */
+.theme-dark .pageWrapper-1PgVDX {
+  background-color: rgba(12, 12, 12, 0.322);
+}
+.theme-dark .card-3DjzTQ {
+  background-color: rgba(12, 12, 12, 0.322);
+}
+/* AutoComplete */
+.list-17lzo8 {
+  background-color: #1a1a1bb6;
+}
+.categoryHeader-O1zU94 {
+  background-color: #202122
+}
+.theme-dark .autocomplete-1vrmpx {
+  background-color: transparent;
+  border-radius: 10px;
+}
+/* NitroScreen */
+.theme-dark .root-1gCeng {
+  background-color: rgba(12, 12, 12, 0.322);
+}
+.theme-dark .footer-2gL1pp {
+  background-color: rgba(12, 12, 12, 0.322);
+}
+/* SearchDropbox */
+.theme-dark .container-3ayLPN, .elevationBorderHigh-2WYJ09 {
+  background-color: rgba(12, 12, 12, 0.322);
+}
 /* Windows Fix For ServerList */
 /*
 #app-mount .app-1q1i1E .base-3dtUhz {
