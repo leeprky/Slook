@@ -416,8 +416,6 @@ background-color: transparent;
 display: none;
 }
 
-/* Glasscord Customs */
-
 .chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
   left: 5px !important;
   padding-right: 5px !important;
@@ -440,7 +438,6 @@ display: none;
 .theme-dark .unread-1xRYoj {
   background-color: transparent;
 }
-/* NitroSererBoosts */
 .theme-dark .tierBody-16Chc9 {
   background-color: rgba(12, 12, 12, 0.322);
 }
@@ -450,11 +447,9 @@ display: none;
 .theme-dark .root-3R2ngo {
   background-color: rgba(12, 12, 12, 0.322);
 }
-/* NagBar */
 .button-2PWmas, .notice-2X5hT5 {
  background-color: #4aa516c0;
 }
-/* Upload Modal */
 .theme-dark .uploadModal-2ifh8j {
   background-color: rgba(12, 12, 12, 0.322);
 }
@@ -469,11 +464,9 @@ display: none;
  text-transform: uppercase;
  margin-left: 25px;
 }
-/* Add Friends To DM */
 .theme-dark .header-1TKi98 {
  background-color: rgb(233, 227, 220);
 }
-/* Powercord Toasts */
 .theme-dark .powercord-toast {
   background-color: rgba(12, 12, 12, 0.322);
 }
@@ -492,7 +485,6 @@ display: none;
 .theme-dark .progressBar-3u8FBM, .small-1CUeBa, .animating-3Qqqzp {
  background: linear-gradient(to left, rgb(29, 31, 34), rgb(153, 161, 251));
 }
-/* Add Friends Area */
 .theme-dark .header-1TKi98 {
   background-color: rgba(12, 12, 12, 0.322);
 }
@@ -509,7 +501,6 @@ display: none;
 .theme-dark .footerSeparator-M9dQY1 {
   background-color: rgba(12, 12, 12, 0.322);
 }
-/* Gif Area */
 .theme-dark .container-3ISnnM {
   background-color: rgba(12, 12, 12, 0.322);
   margin-top: 10px;
@@ -517,14 +508,12 @@ display: none;
 .theme-dark .header-1TOWci {
   margin-top: 10px;
 }
-/* FindCommunites */
 .theme-dark .pageWrapper-1PgVDX {
   background-color: rgba(12, 12, 12, 0.322);
 }
 .theme-dark .card-3DjzTQ {
   background-color: rgba(12, 12, 12, 0.322);
 }
-/* AutoComplete */
 .list-17lzo8 {
   background-color: #1a1a1bb6;
 }
@@ -535,17 +524,17 @@ display: none;
   background-color: transparent;
   border-radius: 10px;
 }
-/* NitroScreen */
 .theme-dark .root-1gCeng {
   background-color: rgba(12, 12, 12, 0.322);
 }
 .theme-dark .footer-2gL1pp {
   background-color: rgba(12, 12, 12, 0.322);
 }
-/* SearchDropbox */
 .theme-dark .container-3ayLPN, .elevationBorderHigh-2WYJ09 {
   background-color: rgba(12, 12, 12, 0.322);
-}
+
+/* GlasscordCodeEnd*/
+
 /* Windows Fix For ServerList */
 /*
 #app-mount .app-1q1i1E .base-3dtUhz {
@@ -564,9 +553,8 @@ display: none;
 .platform-osx .container-1r6BKw {
   -webkit-app-region: none;
 }
+
 /* Glasscord Ends */ /* 
---glasscord-win-blur: blurbehind or transparent available.
---glasscord-titlebar: osx or windows available.
 /* -=-=-=--=-=-=-=-=-=-=-=-= */
 
 /* OPTIONAL */
