@@ -1691,3 +1691,8 @@ div[class*="topSectionPlaying-"],
 .wrapper-39oAo3 {
   margin-left: 10px;
 }
+
+/* Chat Divider Fix */
+.hasContent-1cNJDh {
+  margin-left: 28px;
+}
