@@ -1654,12 +1654,13 @@ div[class*="topSectionPlaying-"],
   padding: 0px;
 }
 
-.container-1CE3eW .content-1LAB8Z {
-  padding-left: 16px;
-  padding-right: 16px;
-}
-
 /* Text Channel Container */
 .container-3RCQyg {
   margin-left: 32px;
+}
+
+/* Container Fix */
+.content-1LAB8Z {
+  padding-left: 16px !important;
+  padding-right: 16px !important;
 }
