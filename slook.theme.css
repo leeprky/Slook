@@ -79,6 +79,11 @@ body{
   -webkit-app-region: none;
 }
 
+.chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
+  left: 5px !important;
+  padding-right: 5px !important;
+}
+
 /* Windows Fix For ServerList */
 /*
 #app-mount .app-1q1i1E .base-3dtUhz {
