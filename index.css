@@ -1670,3 +1670,12 @@ div[class*="topSectionPlaying-"],
   padding-top: 14px;
   padding-right: 22px !important;
 }
+
+/* Search Container */
+.scroller-3GIiMh {
+  padding-right: 16px !important;
+}
+
+.searchResult-9tQ1uo .avatar-1BDn8e {
+  margin-top: 2px;
+}
