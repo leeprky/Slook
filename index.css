@@ -1122,48 +1122,128 @@ margin-right: 15px;
   left: -1px
 }
 
-/* New Messages Pill By Leeprky#2063 */
+/* SlookChatBox */
+/* Name */
+.username-1A8OIy {
+  font-size: 1.15rem;
+  line-height: 2.375rem;
+  color: var(--header-primary);
+  display: inline;
+  margin-bottom:  15px;
+  margin-left: 0px;  /* - DISCORD USERNAME FONT
+  font-family:'Discord'; 
+  /* /* */
+}
+.cozy-3raOZG .timestamp-3ZCmNB {
+  font-size: 0.65rem;
+  height: 1.975rem;
+  color: #b6b9b4;
+  vertical-align:-webkit-baseline-middle;
+  font-family: 'Discord';
+}
+.message-2qnXI6 .avatar-1BDn8e {
+  margin-bottom: -10px;
+  width: 50px;
+  height: 50px;
+  left: 10px
+}
+.message-2qnXI6 .contents-2mQqc9 .avatar-1BDn8e {
+  top: 15px !important;
+}
+.cozy-3raOZG .messageContent-2qWWxC {
+  margin-left: -68px;
+  padding-left: 72px;
+  margin-top: -5px;
+}
+/* Compact Support */
+.compact-T3H92H .contents-2mQqc9 {
+  height: 50px;
+}
+.compact-T3H92H .timestamp-3ZCmNB, .cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
+  display: none;
+}
+.messagesWrapper-1sRNjr, .scrollerContent-WzeG7R {
+  margin-left: 10px
+}
+/* Better Looking New Messages Pill By Leeprky#2063 */
+:root {
+  --newmessagesbar: rgba(165, 22, 22, 0.986);
+}
 .unreadPill-2HyYtt {
   color: rgb(252, 248, 248);
-  background-color: #d40000c5;
+  background-color:var(--newmessagesbar);
   border-radius: 5px;
   width: 50px;
-  height: 18px;
-  margin-bottom: -50px;
-  margin-left: -63px;
+  height: 14px;
+  margin-bottom: 9px;
+  margin-left: -10px;
   position: static;
   font-family: "Discord";
   padding-left: 3px;
 }
+.divider-JfaTT5 {
+  border-top: thin solid var(--newmessagesbar);
+  width: 420px;
+  height: 10px;
+  left: 70px;
+}
+/* Day History Pill */
 .unreadPillCap-3_K2q2 {
   width: 0px;
   height: 0px;
 }
-.theme-dark .isUnread-3Ef-o9 .content-1o0f9g {
-  color: #e7dddd;
-  font-family: "Discord";
-  margin-bottom: 20px;
+.content-1o0f9g {
+  font-size: 0.65rem;
 }
 .theme-dark .content-1o0f9g {
-  color: #f0ebeb;
+  color: #e7dddd;
   font-family: "Discord";
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-.theme-light .isUnread-3Ef-o9 .content-1o0f9g {
-  color: #131212;
-  font-family: "Discord";
+  margin-top: 00rem;
+  font-size: 0.60rem;
+  background-color: var(--newmessagesbar);
 }
 .theme-light .content-1o0f9g {
   color: #1b1a1a;
   font-family: "Discord";
+  margin-top: 00rem;
+  font-size: 0.60rem;
+  background-color: var(--newmessagesbar);
 }
-.group-spacing-16 .divider-3_HH5L.hasContent-1_DUdQ {
-  margin-top: 1.5rem;
-  margin-bottom: 2.5rem;
+/* @ Colour Height */
+.compact-T3H92H.wrapper-2a6GCs, .cozy-3raOZG.wrapper-2a6GCs {
+  padding-top: .125rem;
+  padding-bottom: 10px;
 }
-.divider-JfaTT5 {
-  border-top: thin solid var(--background-accent);
+/* Timestamp From Pinged Messages */
+.timestamp-1E3uAL {
+  display: none;
+}
+.theme-light .mentioned-xhSam7:before {
+  background-color: #49A31F;
+  width: 3px;
+  left: -8px
+}
+.theme-dark .mentioned-xhSam7:before {
+  background-color: #e6ebe3;
+  width: 3px;
+  left: -8px
+}
+.message-2qnXI6 {
+  margin-left: 16px;
+}
+.message-2qnXI6:hover {
+  background-color: var(--background-floating);
+  border-radius: 10px
+};
+.contents-2mQqc9 {
+  margin-top: 1px;
+}
+.message-2qnXI6:not(.groupStart-23k01U) .buttonContainer-DHceWr {
+  margin-top: 10px;
+}
+.mentioned-xhSam7 {
+  position: relative;
+  background-color: var(--background-mentioned)
 }
 
 /* Toolbar Member List Icon */
