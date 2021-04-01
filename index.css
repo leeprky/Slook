@@ -1733,4 +1733,13 @@ div[class*="topSectionPlaying-"],
   left: 5px;
 }
 
+/* Profile Container */
+.infoScroller-3EYYns {
+  padding-right: 20px !important;
+}
+
+.listRow-hutiT_ {
+  margin-right: 8px;
+}
+
 /* END OF INDEX.CSS */
