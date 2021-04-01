@@ -667,30 +667,93 @@ display: none;
   color: var(--header-primary);
   display: inline;
   margin-bottom:  15px;
-  margin-left: 2px;  /* - DISCORD USERNAME FONT
+  margin-left: 0px;  /* - DISCORD USERNAME FONT
   font-family:'Discord'; 
-  /*
-  /* */
+  /* /* */
 }
-.timestamp-3ZCmNB {
-  font-size: 0.75rem;
-  line-height: 1.375rem;
-  color: var(--text-muted);
-  display: none;
-}
-/* Timestamp From Pinged Messages */
-.timestamp-1E3uAL {
-  display: none;
+.cozy-3raOZG .timestamp-3ZCmNB {
+  font-size: 0.65rem;
+  height: 1.975rem;
+  color: #b6b9b4;
+  vertical-align:-webkit-baseline-middle;
+  font-family: 'Discord';
 }
 .message-2qnXI6 .avatar-1BDn8e {
-  top: 16px;
-  width: 45px;
-  height: 45px;
+  margin-bottom: -10px;
+  width: 50px;
+  height: 50px;
+  left: 10px
+}
+.message-2qnXI6 .contents-2mQqc9 .avatar-1BDn8e {
+  top: 15px !important;
 }
 .cozy-3raOZG .messageContent-2qWWxC {
   margin-left: -68px;
   padding-left: 72px;
   margin-top: -5px;
+}
+/* Compact Support */
+.compact-T3H92H .contents-2mQqc9 {
+  height: 50px;
+}
+.compact-T3H92H .timestamp-3ZCmNB, .cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
+  display: none;
+}
+.messagesWrapper-1sRNjr, .scrollerContent-WzeG7R {
+  margin-left: 10px
+}
+/* Better Looking New Messages Pill By Leeprky#2063 */
+:root {
+  --newmessagesbar: rgba(165, 22, 22, 0.986);
+}
+.unreadPill-2HyYtt {
+  color: rgb(252, 248, 248);
+  background-color:var(--newmessagesbar);
+  border-radius: 5px;
+  width: 50px;
+  height: 14px;
+  margin-bottom: 9px;
+  margin-left: -10px;
+  position: static;
+  font-family: "Discord";
+  padding-left: 3px;
+}
+.divider-JfaTT5 {
+  border-top: thin solid var(--newmessagesbar);
+  width: 420px;
+  height: 10px;
+  left: 70px;
+}
+/* Day History Pill */
+.unreadPillCap-3_K2q2 {
+  width: 0px;
+  height: 0px;
+}
+.content-1o0f9g {
+  font-size: 0.65rem;
+}
+.theme-dark .content-1o0f9g {
+  color: #e7dddd;
+  font-family: "Discord";
+  margin-top: 00rem;
+  font-size: 0.60rem;
+  background-color: var(--newmessagesbar);
+}
+.theme-light .content-1o0f9g {
+  color: #1b1a1a;
+  font-family: "Discord";
+  margin-top: 00rem;
+  font-size: 0.60rem;
+  background-color: var(--newmessagesbar);
+}
+/* @ Colour Height */
+.compact-T3H92H.wrapper-2a6GCs, .cozy-3raOZG.wrapper-2a6GCs {
+  padding-top: .125rem;
+  padding-bottom: 10px;
+}
+/* Timestamp From Pinged Messages */
+.timestamp-1E3uAL {
+  display: none;
 }
 .theme-light .mentioned-xhSam7:before {
   background-color: #49A31F;
