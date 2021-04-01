@@ -634,7 +634,7 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 }
 /* Tags */
 /* SLookDev */
-.avatar-1BDn8e + h2 > span.timestamp-3ZCmNB::before {
+/* .avatar-1BDn8e + h2 > span.timestamp-3ZCmNB::before {
   content: var(--epictext);
   color: var(--epictxtcolor);
   background: var(--epic-bg);
@@ -659,47 +659,7 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
   --epic-bg: var(--background-modifier-accent);
   --epictxtcolor: rgb(32, 34, 33);
   margin-left: 1px;
-}
-/* Verified */
-/* Keko#6043 */
-.theme-dark .avatar-1BDn8e[src*="487034485984985128"] + h2 > span.timestamp-3ZCmNB::before {
-  --epictext: '✔️';
-  --epic-bg: var(--background-modifier-accent);
-  --epictxtcolor: rgb(238, 234, 231);
-  margin-left: 1px;
-}
-.theme-light .avatar-1BDn8e[src*="487034485984985128"] + h2 > span.timestamp-3ZCmNB::before {
-  --epictext: '✔️';
-  --epic-bg: var(--background-modifier-accent);
-  --epictxtcolor: rgb(32, 34, 33);
-  margin-left: 1px;
-}
-/* 01C1 #8560 */
-.theme-dark .avatar-1BDn8e[src*="541359304893136896"] + h2 > span.timestamp-3ZCmNB::before {
-  --epictext: '✔️';
-  --epic-bg: var(--background-modifier-accent);
-  --epictxtcolor: rgb(238, 234, 231);
-  margin-left: 1px;
-}
-.theme-light .avatar-1BDn8e[src*="541359304893136896"] + h2 > span.timestamp-3ZCmNB::before {
-  --epictext: '✔️';
-  --epic-bg: var(--background-modifier-accent);
-  --epictxtcolor: rgb(32, 34, 33);
-  margin-left: 1px;
-}
-/* "Tom"#3111 */
-.theme-dark .avatar-1BDn8e[src*="781675547221688320"] + h2 > span.timestamp-3ZCmNB::before {
-  --epictext: '✔️';
-  --epic-bg: var(--background-modifier-accent);
-  --epictxtcolor: rgb(238, 234, 231);
-  margin-left: 1px;
-}
-.theme-light .avatar-1BDn8e[src*="781675547221688320"] + h2 > span.timestamp-3ZCmNB::before {
-  --epictext: '✔️';
-  --epic-bg: var(--background-modifier-accent);
-  --epictxtcolor: rgb(32, 34, 33);
-  margin-left: 1px;
-}
+} */
 /* JumpToPresentPill */
 .jumpToPresentBar-G1R9s6 .barButtonMain-3K-jeJ { display: none; }
 .jumpToPresentBar-G1R9s6 {
