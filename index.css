@@ -1202,8 +1202,154 @@ margin-right: 15px;
   margin-top: 1.5rem;
   margin-bottom: 2.5rem;
 }
+.divider-JfaTT5 {
+  border-top: thin solid var(--background-accent);
+}
 
+/* Toolbar Member List Icon */
+.toolbar-1t6TWx [aria-label="Member List"] {
+  display: none;
+}
 
+/* Call Dock By shotguntown#4936 */
+.wrapper-3EGhDO {
+  background-color: var(--background-secondary);
+  border-radius: 18px;
+  padding: 0px;
+}
+.colorable-1bkp8v.white-3GPOIp, .colorable-1bkp8v.white-3GPOIp .centerIcon-2G6o-T {
+  color: currentColor;
+}
+.colorable-1bkp8v.primary-3NQg8g,
+.colorable-1bkp8v.primary-3NQg8g.active-1QRrIS, .colorable-1bkp8v.primary-3NQg8g:hover, 
+.colorable-1bkp8v.white-3GPOIp,
+.centerButton-3CaNcJ,
+.colorable-1bkp8v.white-3GPOIp.active-1QRrIS, .colorable-1bkp8v.white-3GPOIp:hover,
+.colorable-1bkp8v.red-33-Lnk {
+  background: none !important;
+}
+
+/* Playing AvatarBackground */
+.theme-light .userPopout-3XzG_A .header-2BwW8b, .userPopout-3XzG_A .scroller-2FKFPG, .userPopout-3XzG_A .footer-1fjuF6 {
+  background-color: #d3d0cd;
+}
+.theme-dark .userPopout-3XzG_A .header-2BwW8b, .userPopout-3XzG_A .scroller-2FKFPG, .userPopout-3XzG_A .footer-1fjuF6 {
+  background-color: #34373d;
+  border-radius: 12px;
+}
+.theme-light .body-3iLsc4, .theme-light .footer-1fjuF6 {
+  background-color: #d1cecb;
+  box-shadow: none;
+}
+.theme-dark .headerTop-3C2Zn0 {
+  background-color: #1616153d;
+  border-radius: 12px
+}
+.theme-light .headerTop-3C2Zn0 {
+  background-color: transparent;
+  border-radius: 12px
+}
+/*Call Area */
+.spriteWrapper-3DD_XY {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  bottom: 0;
+  right: 0;
+  box-shadow: none;
+}
+
+/* SlookSpotify */
+.theme-dark .spotify-seek-bar {
+  background: rgba(22, 226, 63, 0.884);
+}
+.theme-light .spotify-seek-bar {
+  background: rgba(11, 250, 59, 0.884);
+}
+.theme-dark .spotify-seek-bar-progress {
+  background-color: rgba(255, 255, 255, 0.753) !important;
+}
+.theme-light .spotify-seek-bar-progress {
+  background-color: rgb(0, 0, 0) !important;
+}
+.powercord-spotify .avatarWrapper-2yR4wp {
+  animation-name: spinny;
+  animation-duration: 6000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes spinny {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}
+.powercord-spotify .spotify-cover {
+  border-radius: 20px !important;
+}
+
+/* TitleBar */
+.app-1q1i1E .base-3dtUhz {
+  top: calc(var(--server-container) + 4px) !important;
+}
+.theme-light .container-1r6BKw.themed-ANHk51 {
+  background-color: #DDD8D4;
+  border-radius: 18px 0px 0px 0px;
+}
+.theme-dark .container-1r6BKw.themed-ANHk51 {
+  background-color: rgba(19, 20, 19, 0.199);
+  border-radius: 18px 0px 0px 0px;
+}
+
+/* MemberViewBig */
+.body-3ND3kc {
+  background-color: #35333331;
+  border-radius: 15px;
+  margin-top: 12px;
+}
+.theme-light .body-3ND3kc {
+  background-color: #ece4e47c;
+  border-radius: 15px;
+  margin-top: 12px;
+}
+.topSectionNormal-2-vo2m {
+  background-color: #35333331;
+  border-radius: 18px;
+}
+.theme-light .topSectionNormal-2-vo2m {
+  background-color: #ece4e47c;
+  border-radius: 18px;
+}
+.theme-dark .topSectionNormal-2-vo2m {
+  background-color: #1f1d1d7c;
+  border-radius: 18px;
+}
+.body-3iLsc4 {
+  border-radius: 12px;
+  margin-top: 5px;
+  height: 130px;
+  background-color: #100;
+  box-shadow: none;
+}
+.theme-light .body-3iLsc4 {
+  border-radius: 12px;
+  margin-top: 5px;
+  height: 200px;
+  background-color: rgba(248, 240, 240, 0.76);
+  box-shadow: none;
+}
+.theme-dark .body-3iLsc4 {
+  border-radius: 12px;
+  margin-top: 5px;
+  height: 200px;
+  background-color: rgba(32, 31, 31, 0.76);
+  box-shadow: none;
+}
+.footer-1fjuF6 {
+  display: none;
+}
 
 /* BLURPLE SHIT */
 :root {
@@ -1213,6 +1359,57 @@ margin-right: 15px;
 
 .theme-light {
   --logo-primary: rgba(var(--alt-color));
+}
+
+.root-SR8cQa {
+  transform: translateZ(0);
+}
+.header-QKLPzZ .wrapper-3t9DeA::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .5;
+  pointer-events: none;
+  background: var(--user-background) center/cover no-repeat;
+  -webkit-mask: linear-gradient(black, transparent 80%);
+}
+
+.headerInfo-30uryT,
+.tabBarItem-1b8RUP,
+.activity-1ythUs {
+  z-index: 1;
+  position: relative;
+}
+
+.reduce-motion .userPopout-3XzG_A {
+	transform:translateZ(0);
+}
+
+.userPopout-3XzG_A .wrapper-3t9DeA::after {
+	content: '';
+	position: fixed;
+	top: 0;
+  border-radius: 10px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	pointer-events: none;
+	opacity: .5;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: var(--user-popout-position) center;
+	background-image: var(--user-background);
+	-webkit-mask-image: linear-gradient(#000, transparent);
+}
+
+.userPopout-3XzG_A  .header-2BwW8b,
+.userPopout-3XzG_A  .scroller-2FKFPG,
+.userPopout-3XzG_A  .footer-1fjuF6 {
+	z-index: 1;
 }
 
 /* Clyde / Powercord */
