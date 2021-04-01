@@ -963,7 +963,10 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
   color: #fff;
   background-color: #292a2c;
 }
-
+/* Delete Message Box Fix */
+.theme-dark .message-2qRu38 {
+  background-color: #141313;
+}
 /* Chatbox */
 
 .channelTextArea-rNsIhG {
