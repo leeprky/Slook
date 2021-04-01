@@ -1169,6 +1169,23 @@ margin-right: 15px;
 .messagesWrapper-1sRNjr, .scrollerContent-WzeG7R {
   margin-left: 10px
 }
+/* Crash Screen */
+.title-3trS3_ {
+  font-size: 30px;
+  line-height: 8px;
+  margin-bottom: 24px;
+  font-weight: 600;
+  color: var(--header-primary);
+  font-family: 'Discord';
+}
+.note-450gs3, .title-3trS3_ {
+  font-family: 'Discord';
+  font-size: 15px;
+}
+.theme-dark .image-3zK3Wt, .theme-light .image-3zK3Wt {
+  background-image: url(https://imgur.com/djaysMB.png);
+}
+
 /* Better Looking New Messages Pill By Leeprky#2063 */
 :root {
   --newmessagesbar: rgba(165, 22, 22, 0.986);
@@ -1178,7 +1195,7 @@ margin-right: 15px;
   background-color:var(--newmessagesbar);
   border-radius: 5px;
   width: 50px;
-  height: 14px;
+  height: 16px;
   margin-bottom: 9px;
   margin-left: -10px;
   position: static;
@@ -1202,7 +1219,7 @@ margin-right: 15px;
 .theme-dark .content-1o0f9g {
   color: #e7dddd;
   font-family: "Discord";
-  margin-top: 7px;
+  margin-top: -7px;
   font-size: 0.60rem;
   background-color: var(--newmessagesbar);
 }
@@ -1249,6 +1266,7 @@ margin-right: 15px;
   position: relative;
   background-color: var(--background-mentioned)
 }
+
 
 /* Toolbar Member List Icon */
 .toolbar-1t6TWx [aria-label="Member List"] {
