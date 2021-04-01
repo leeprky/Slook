@@ -1182,8 +1182,17 @@ margin-right: 15px;
   font-family: 'Discord';
   font-size: 15px;
 }
-.theme-dark .image-3zK3Wt, .theme-light .image-3zK3Wt {
+.image-3zK3Wt, .theme-light .image-3zK3Wt {
   background-image: url(https://imgur.com/djaysMB.png);
+}
+
+.flexWrapper-2EgxO2 {
+  background-image: url(https://imgur.com/L0Iih63.jpg);
+  background-position: 50%;
+}
+.theme-light .flexWrapper-2EgxO2 {
+  background-image: url(https://imgur.com/GZyPIBZ.jpg);
+  background-position: 50%;
 }
 
 /* Better Looking New Messages Pill By Leeprky#2063 */
