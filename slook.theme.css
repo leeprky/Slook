@@ -657,166 +657,7 @@ display: none;
 }
 /*
 
-/* MainColouring */
-/* OPTIONAL COLOUR CHANGES
-.theme-dark {
-   --header-primary: #fff;
-   --header-secondary: #b9bbbe;
-   --text-normal: #dcddde;
-   --text-muted: #72767d;
-   --text-link: #00b0f4;
-   --channels-default: #8e9297;
-   --interactive-normal: #b9bbbe;
-   --interactive-hover: #dcddde;
-   --interactive-active: #fff;
-   --interactive-muted: #313233;
-   --background-primary: #24262b;
-   --background-secondary: #1d1f22ad;
-   --background-secondary-alt: #2224277a;
-   --background-tertiary: #1D1F22;
-   --background-accent: #dadde2;
-   --background-floating: #18191caf;
-   --background-modifier-hover: rgba(79,84,92,0.16);
-   --background-modifier-active: rgba(79,84,92,0.24);
-   --background-modifier-selected: rgba(14, 15, 15, 0.32);
-   --background-modifier-accent: hsla(0,0%,100%,0.06);
-   --background-mentioned: rgba(89, 250, 26, 0.055);
-   --background-mentioned-hover: rgba(58, 180, 20, 0.08);
-   --background-message-hover: rgba(4,4,5,0.07);
-   --background-help-warning: rgba(250,166,26,0.1);
-   --background-help-info: rgba(0,176,244,0.1);
-   --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
-   --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
-   --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
-   --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
-   --logo-primary: #fff;
-   --focus-primary: #d3e8f0;
-   --radio-group-dot-foreground: #8ea1e1;
-   --guild-header-text-shadow: 0 1px 1px rgba(20, 19, 19, 0.4);
-   --channeltextarea-background: #40444b;
-   --activity-card-background: #202225;
-   --textbox-markdown-syntax: #8e9297;
-   --deprecated-card-bg: rgba(32,34,37,0.6);
-   --deprecated-card-editable-bg: rgba(32,34,37,0.3);
-   --deprecated-store-bg: #36393f;
-   --deprecated-quickswitcher-input-background: #72767d;
-   --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
-   --deprecated-text-input-bg: rgba(0,0,0,0.1);
-   --deprecated-text-input-border: rgba(0,0,0,0.3);
-   --deprecated-text-input-border-hover: #040405;
-   --deprecated-text-input-border-disabled: #202225;
-   --deprecated-text-input-prefix: #dcddde;
-   --usernamme-discord-font: true;
-}
-.theme-light {
-  --header-primary: #0d0d0e;
-  --header-secondary: #233d70;
-  --text-normal: #0d0d0e;
-  --text-muted: #747f8d;
-  --text-link: #28a318f1;
-  --channels-default: #1f2022;
-  --interactive-normal: #4f5660;
-  --interactive-hover: #2e3338;
-  --interactive-active: #40a113;
-  --interactive-muted: #c2c5c7;
-  --background-primary: rgb(216, 209, 203);
-  --background-secondary: rgba(219, 214, 210, 0.61);
-  --background-secondary-alt: #dad6d100;
-  --background-tertiary: rgba(219, 214, 210, 0.61);
-  --background-accent: #424344e5;
-  --background-floating: rgba(226, 219, 215, 0.884);
-  --background-modifier-hover: rgba(116,127,141,0.08);
-  --background-modifier-active: rgba(116,127,141,0.16);
-  --background-modifier-selected: rgba(116,127,141,0.24);
-  --background-modifier-accent: rgba(6,6,7,0.08);
-  --background-modifier-accent: hsla(0,0%,100%,0.06);
-  --background-mentioned: rgba(63, 177, 18, 0.116);
-  --background-message-hover: rgba(6,6,7,0.02);
-  --background-help-warning: rgba(250,166,26,0.1);
-  --background-help-info: rgba(0,103,224,0.1);
-  --scrollbar-thin-thumb: rgba(79,84,92,0.3);
-  --scrollbar-thin-track: transparent;
-  --scrollbar-auto-thumb: #ccc;
-  --scrollbar-auto-track: #f2f2f2;
-  --scrollbar-auto-scrollbar-color-thumb: #e3e5e8;
-  --scrollbar-auto-scrollbar-color-track: #f2f3f5;
-  --elevation-stroke: 0 0 0 1px rgba(6,6,7,0.08);
-  --elevation-low: 0 1px 0 rgba(6,6,7,0.1),0 1.5px 0 rgba(6,6,7,0.025),0 2px 0 rgba(6,6,7,0.025);
-  --elevation-medium: 0 4px 4px rgba(0,0,0,0.08);
-  --elevation-high: 0 8px 16px rgba(0,0,0,0.16);
-  --logo-primary: #7289da;
-  --focus-primary: #00b0f4;
-  --radio-group-dot-foreground: #4e5d94;
-  --guild-header-text-shadow: 0 1px 1px hsla(0,0%,100%,0.4);
-  --channeltextarea-background: #ebedef63;
-  --activity-card-background: #fff;
-  --textbox-markdown-syntax: #6a7480;
-  --deprecated-card-bg: #f8f9f9;
-  --deprecated-card-editable-bg: rgba(246,246,247,0.6);
-  --deprecated-store-bg: #f8f9f9;
-  --deprecated-quickswitcher-input-background: #fff;
-  --deprecated-quickswitcher-input-placeholder: rgba(79,84,92,0.3);
-  --deprecated-text-input-bg: rgba(79,84,92,0.02);
-  --deprecated-text-input-border: rgba(79,84,92,0.3);
-  --deprecated-text-input-border-hover: #b9bbbe;
-  --deprecated-text-input-border-disabled: #dcddde;
-  --deprecated-text-input-prefix: #b9bbbe;
-}
-
-/* -=-=-=-=- */
-
 /* SLOOK */
-
-.root-SR8cQa {
-  transform: translateZ(0);
-}
-.header-QKLPzZ .wrapper-3t9DeA::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: .5;
-  pointer-events: none;
-  background: var(--user-background) center/cover no-repeat;
-  -webkit-mask: linear-gradient(black, transparent 80%);
-}
-
-.headerInfo-30uryT,
-.tabBarItem-1b8RUP,
-.activity-1ythUs {
-  z-index: 1;
-  position: relative;
-}
-
-.reduce-motion .userPopout-3XzG_A {
-	transform:translateZ(0);
-}
-
-.userPopout-3XzG_A .wrapper-3t9DeA::after {
-	content: '';
-	position: fixed;
-	top: 0;
-  border-radius: 10px;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	pointer-events: none;
-	opacity: .5;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: var(--user-popout-position) center;
-	background-image: var(--user-background);
-	-webkit-mask-image: linear-gradient(#000, transparent);
-}
-
-.userPopout-3XzG_A  .header-2BwW8b,
-.userPopout-3XzG_A  .scroller-2FKFPG,
-.userPopout-3XzG_A  .footer-1fjuF6 {
-	z-index: 1;
-}
 
 /* SlookChatBox */
 /* Name */
@@ -879,20 +720,8 @@ display: none;
   background-color: var(--background-mentioned)
 }
 
-/* TitleBar */
-.app-1q1i1E .base-3dtUhz {
-  top: calc(var(--server-container) + 4px) !important;
-}
-.theme-light .container-1r6BKw.themed-ANHk51 {
-  background-color: #DDD8D4;
-  border-radius: 18px 0px 0px 0px;
-}
-.theme-dark .container-1r6BKw.themed-ANHk51 {
-  background-color: rgba(19, 20, 19, 0.199);
-  border-radius: 18px 0px 0px 0px;
-}
 /* BetterReplies Support USE TYPE 2*/
-
+/*
 .cozy-3raOZG .repliedMessage-VokQwo {
   height: 13px;
   margin-top: -4px;
@@ -903,7 +732,8 @@ display: none;
   margin-top: 15px
 }
 .repliedTextPreview-2NBljf.clickable-1bVtEA {
-  margin-top: 5px
+  margin-top: 5px;
+  margin-left: 10px
 }
 .toprole-wrapper.role {
   position: relative;
@@ -912,7 +742,6 @@ display: none;
   bottom: 2px;
   text-indent: 0;
 }
- */
 
 /* SlookSpotify */
 /* DARKMODE IMGUR - https://imgur.com/L0Iih63.jpg
@@ -927,35 +756,6 @@ display: none;
   background-color: #106e4431;
   background-image: url(https://imgur.com/GZyPIBZ.jpg); 
   border-radius: 8px 8px 0px 0px;
-}
-.theme-dark .spotify-seek-bar {
-  background: rgba(22, 226, 63, 0.884);
-}
-.theme-light .spotify-seek-bar {
-  background: rgba(11, 250, 59, 0.884);
-}
-.theme-dark .spotify-seek-bar-progress {
-  background-color: rgba(255, 255, 255, 0.753) !important;
-}
-.theme-light .spotify-seek-bar-progress {
-  background-color: rgb(0, 0, 0) !important;
-}
-.powercord-spotify .avatarWrapper-2yR4wp {
-  animation-name: spinny;
-  animation-duration: 6000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-@keyframes spinny {
-  from {
-      transform:rotate(0deg);
-  }
-  to {
-      transform:rotate(360deg);
-  }
-}
-.powercord-spotify .spotify-cover {
-  border-radius: 20px !important;
 }
 /* Playing AvatarBackground / Modal By Leeprky#2063 */
 
@@ -978,72 +778,6 @@ display: none;
   background-image: url(https://imgur.com/GZyPIBZ.jpg);
   border-radius: 18px;
 }
-.theme-light .userPopout-3XzG_A .header-2BwW8b, .userPopout-3XzG_A .scroller-2FKFPG, .userPopout-3XzG_A .footer-1fjuF6 {
-  background-color: #d3d0cd;
-}
-.theme-dark .userPopout-3XzG_A .header-2BwW8b, .userPopout-3XzG_A .scroller-2FKFPG, .userPopout-3XzG_A .footer-1fjuF6 {
-  background-color: #34373d;
-  border-radius: 12px;
-}
-.theme-light .body-3iLsc4, .theme-light .footer-1fjuF6 {
-  background-color: #d1cecb;
-  box-shadow: none;
-}
-.theme-dark .headerTop-3C2Zn0 {
-  background-color: #1616153d;
-  border-radius: 12px
-}
-.theme-light .headerTop-3C2Zn0 {
-  background-color: transparent;
-  border-radius: 12px
-}
-/* MemberViewBig */
-.body-3ND3kc {
-  background-color: #35333331;
-  border-radius: 15px;
-  margin-top: 12px;
-}
-.theme-light .body-3ND3kc {
-  background-color: #ece4e47c;
-  border-radius: 15px;
-  margin-top: 12px;
-}
-.topSectionNormal-2-vo2m {
-  background-color: #35333331;
-  border-radius: 18px;
-}
-.theme-light .topSectionNormal-2-vo2m {
-  background-color: #ece4e47c;
-  border-radius: 18px;
-}
-.theme-dark .topSectionNormal-2-vo2m {
-  background-color: #1f1d1d7c;
-  border-radius: 18px;
-}
-.body-3iLsc4 {
-  border-radius: 12px;
-  margin-top: 5px;
-  height: 130px;
-  background-color: #100;
-  box-shadow: none;
-}
-.theme-light .body-3iLsc4 {
-  border-radius: 12px;
-  margin-top: 5px;
-  height: 200px;
-  background-color: rgba(248, 240, 240, 0.76);
-  box-shadow: none;
-}
-.theme-dark .body-3iLsc4 {
-  border-radius: 12px;
-  margin-top: 5px;
-  height: 200px;
-  background-color: rgba(32, 31, 31, 0.76);
-  box-shadow: none;
-}
-.footer-1fjuF6 {
-  display: none;
-}
 /*Call Area */
 /* DARKMODE IMGUR - https://imgur.com/L0Iih63.jpg
   LIGHTMODE IMGUR - https://imgur.com/GZyPIBZ.jpg
@@ -1059,31 +793,6 @@ display: none;
   background-size: 1200px;
   border-radius: 12px 0px 0px 12px;
   box-shadow: none;
-}
-.spriteWrapper-3DD_XY {
-  position: absolute;
-  top: 100px;
-  left: 100px;
-  bottom: 0;
-  right: 0;
-  box-shadow: none;
-}
-/* Call Dock By shotguntown#4936 */
-.wrapper-3EGhDO {
-  background-color: var(--background-secondary);
-  border-radius: 18px;
-  padding: 0px;
-}
-.colorable-1bkp8v.white-3GPOIp, .colorable-1bkp8v.white-3GPOIp .centerIcon-2G6o-T {
-  color: currentColor;
-}
-.colorable-1bkp8v.primary-3NQg8g,
-.colorable-1bkp8v.primary-3NQg8g.active-1QRrIS, .colorable-1bkp8v.primary-3NQg8g:hover, 
-.colorable-1bkp8v.white-3GPOIp,
-.centerButton-3CaNcJ,
-.colorable-1bkp8v.white-3GPOIp.active-1QRrIS, .colorable-1bkp8v.white-3GPOIp:hover,
-.colorable-1bkp8v.red-33-Lnk {
-  background: none !important;
 }
 /* Activity Status */
 .theme-dark .activityPanel-28dQGo {
@@ -1103,12 +812,6 @@ display: none;
   box-shadow: none;
 }
 
-/* Toolbar Member List Icon */
-.toolbar-1t6TWx [aria-label="Member List"] {
-  display: none;
-}
-
 /* USE @import url("https://raw.githack.com/leeprky/slook_theme/main/index.css"); 
 FOR UPDATING BECUASE I HAVE UPDATED TO A ON THE FLY UPDATE SYSTEM 
 ON LINE 1 YOU WILL NEED TO FORK IF YOU WISH TO EDIT OR SIMPLY PASTE THE CONTENTS BELOW */
-
