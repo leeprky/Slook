@@ -284,7 +284,7 @@ background-color: #DAD6D1
  background-color: #D8D1CB;
 }
 .theme-light .powercord-toast .contents .inner {
- background-color: #e4ded9;
+ background-color: #070706;
 }
 .theme-light .powercord-toast .buttons {
  background-color: #D8D1CB;
@@ -303,7 +303,7 @@ background-color: #DAD6D1
  background-color: #1D1F22
 }
 .theme-dark .powercord-toast .contents .inner {
- background-color: #1D1F22
+ background-color: #e0e6ee
 }
 .theme-dark .powercord-toast .buttons {
  background-color: #1D1F22
@@ -876,10 +876,6 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 .container-16j22k {
   background-color: rgba(0,0,0,0.8);
   backdrop-filter: blur(5px);
-}
-/* Powercord Toast Fix */
-.theme-dark .powercord-toast .contents .inner {
-  background-color: #d9dde4;
 }
  /* BetterStatus By Leeprky#2063 */
 .description-2L932D {
