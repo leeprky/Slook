@@ -877,6 +877,10 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
   background-color: rgba(0,0,0,0.8);
   backdrop-filter: blur(5px);
 }
+/* Powercord Toast Fix */
+.theme-dark .powercord-toast .contents .inner {
+  background-color: #d9dde4;
+}
  /* BetterStatus By Leeprky#2063 */
 .description-2L932D {
   display: none;
