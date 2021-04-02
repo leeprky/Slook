@@ -2084,4 +2084,47 @@ div[class*="topSectionPlaying-"],
   margin-top: 10px;
 }
 
+/* Stages Rework */
+.scroller-1SuHJo {
+  padding-right: 16px !important;
+  padding-top: 40px;
+}
+
+.scroller-1SuHJo .container-2t1JyW {
+  padding-top: 12px;
+  padding-left: 20px;
+  border-radius: 8px 8px 8px 8px;
+}
+
+.scroller-1SuHJo .content-3YMskv {
+  height: 50% !important;
+}
+
+.scroller-1SuHJo .rowContainer-2tYerQ {
+  margin-bottom: 0px  !important;
+  margin-top: 6px;
+  height: 55%  !important;
+  border-radius: 8px 8px 8px 8px;
+}
+
+.scroller-1SuHJo .participants-soO0aD {
+  border-radius: 8px 8px 8px 8px;
+}
+
+.container-pTf0Ly .sidebarVisible-F3zEoe {
+  margin-right: 0px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.container-pTf0Ly .container-1EOCj2 {
+  width: 252px !important;
+  border-radius: 0px 0px 0px 0px !important;
+  background-color: rgb(28, 31, 34) !important;
+}
+
+.container-pTf0Ly .container-1EOCj2 .participantMemberContainer-3JuhCc {
+  overflow: inherit !important;
+}
+
 /* END OF INDEX.CSS */
