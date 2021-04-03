@@ -1944,20 +1944,62 @@ div[class*="topSectionPlaying-"],
 }
 
 /* Inbox Container */
-.container-3iAQ-0 {
-  padding-left: 7px;
-  padding-right: 7px;
-}
-
-.scroller-2UmRce {
-  padding-bottom: 8px !important;
-  padding: 8px;
-}
-
-.scroller-tlc3kG {
+.recentMentionsPopout-3rCiI6 .container-3iAQ-0, .recentMentionsPopout-3rCiI6 .scroller-tlc3kG {
   padding-left: 15px !important;
   padding-right: 15px !important;
   padding-top: 9px !important;
+}
+
+.recentMentionsPopout-3rCiI6 .scroller-2UmRce {
+  padding-right: 0px !important;
+  padding: 0px;
+}
+
+.recentMentionsPopout-3rCiI6 .header-2-Imhb, .recentMentionsPopout-3rCiI6 .channelHeader-3Gd2xq {
+	-webkit-box-shadow: var(--elevation-low);
+}
+
+.recentMentionsPopout-3rCiI6 .messagesPopout-24nkyi .cozy-3raOZG.wrapper-2a6GCs {
+	padding-top: 0px !important;
+}
+
+.recentMentionsPopout-3rCiI6 .channel-3pEHab {
+  margin-bottom: 26px;
+	padding-bottom: 0px !important;
+	border-radius: 8px 8px 8px 8px;
+}
+
+.recentMentionsPopout-3rCiI6 .channelHeader-3Gd2xq {
+  padding-left: 26px !important;
+	border-radius: 8px 8px 0px 0px;
+	border: 1px solid var(--background-tertiary);
+}
+
+.recentMentionsPopout-3rCiI6 .messageContainer-gbhlwo, .recentMentionsPopout-3rCiI6 .messages-3G3erD {
+	border: 1px solid var(--background-tertiary);
+}
+
+.recentMentionsPopout-3rCiI6 .channelHeader-3Gd2xq .collapseButton-2ZsEjz {
+	padding: 10px !important;
+}
+
+.recentMentionsPopout-3rCiI6 .channelHeader-3Gd2xq .closeButton-1152MI, .recentMentionsPopout-3rCiI6 .channelHeader-3Gd2xq .markReadButton-qAjML_ {
+	margin-right: 12px;
+}
+
+.recentMentionsPopout-3rCiI6 .messageContainer-gbhlwo, .recentMentionsPopout-3rCiI6 .messages-3G3erD {
+	border-radius: 0px 0px 8px 8px !important;
+}
+
+.recentMentionsPopout-3rCiI6 .hasMore-sul95G {
+	max-width: 94%;
+	margin-left: 15px;
+	margin-bottom: 8px;
+	border-radius: 8px 8px 8px 8px;
+}
+
+.messagesPopoutWrap-1MQ1bW .channelHeader-3Gd2xq {
+	top: 8px !important;
 }
 
 /* Sidebar Container */
