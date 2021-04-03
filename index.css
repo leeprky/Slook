@@ -1931,8 +1931,16 @@ div[class*="topSectionPlaying-"],
   padding-left: 68px;
 }
 
+.messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G {
+	border-radius: 8px 8px 8px 8px !important;
+}
+
 .messagesPopout-24nkyi .messageGroupWrapper-o-Zw7G .messageGroupCozy-2iY6cT {
   margin-left: 0px;
+}
+
+.messagesPopoutWrap-1MQ1bW {
+	background-color: var(--background-secondary);
 }
 
 /* Inbox Container */
