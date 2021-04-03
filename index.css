@@ -590,6 +590,18 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 /* Removes the tooltip from hovering on Emotes */
 .clickCTA-2B6Kbs {display:none;}
 
+/* PowercordToasts By Leeprky#2063*/
+.powercord-toast {border-radius: 18px; background-color: transparent;}
+.powercord-toast .header { background-color: var(--toast-header); border-radius: 12px 12px 0px 0px;}
+.powercord-toast .buttons { background-color: var(--background-secondary); border-radius: 0px 0px 10px 10px;}
+.lookGhost-2Fn_0-.colorBrand-3pXr91 { color: #F4F7F5; background-color: var(--background-help-info)}
+.lookGhost-2Fn_0-.colorBrand-3pXr91:hover { color: #F4F7F5; background-color: var(--background-modifier-hover)}
+.lookOutlined-3sRXeN.colorRed-1TFJan {color: #F4F7F5; border-color: #f04747d0; background-color: #f0474738; }
+.lookOutlined-3sRXeN.colorRed-1TFJan:hover {color: #F4F7F5; border-color: #eb2e2ed0; background-color: #e93636a8; }
+.lookOutlined-3sRXeN.colorGrey-2DXtkV {color: #F4F7F5; border-color: #b6bec9; background-color: #747f8d93; }
+.lookOutlined-3sRXeN.colorGrey-2DXtkV:hover {color: #F4F7F5; border-color: #cbd3df; background-color: #99a6b893; }
+.powercord-toast .header { font-size: 15px; }
+
 /* DiscordTextTopLeftSlook */
 .wordmark-2iDDfm svg {
   width: 0px;
