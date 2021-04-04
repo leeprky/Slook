@@ -273,44 +273,7 @@ background-color: #DAD6D1
  background-color: rgba(240, 235, 229, 0.719);
  border-radius: 0px 0px 18px 18px;
 }
-/* Powercord Toasts */
-.theme-light .powercord-toast {
- background-color: #D8D1CB;
-}
-.theme-light .powercord-toast .header {
- background-color: #D8D1CB;
-}
-.theme-light .powercord-toast .contents {
- background-color: #D8D1CB;
-}
-.theme-light .powercord-toast .contents .inner {
- background-color: #070706;
-}
-.theme-light .powercord-toast .buttons {
- background-color: #D8D1CB;
-}
-.theme-light .progressBar-3u8FBM, .small-1CUeBa, .animating-3Qqqzp {
- background: linear-gradient(to left, rgb(216, 209, 203), rgb(153, 161, 251));
-}
 
-.theme-dark .powercord-toast {
- background-color: #1D1F22
-}
-.theme-dark .powercord-toast .header {
- background-color: #1D1F22
-}
-.theme-dark .powercord-toast .contents {
- background-color: #1D1F22
-}
-.theme-dark .powercord-toast .contents .inner {
- background-color: #e0e6ee
-}
-.theme-dark .powercord-toast .buttons {
- background-color: #1D1F22
-}
-.theme-dark .progressBar-3u8FBM, .small-1CUeBa, .animating-3Qqqzp {
- background: linear-gradient(to left, rgb(29, 31, 34), rgb(153, 161, 251));
-}
 /* Embed */
 .theme-light .embedWrapper-lXpS3L, .mbedFull-2tM8--, .embed-IeVjo6, .markup-2BOw-j {
   background-color: #c1ccbc63;
@@ -590,7 +553,7 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 /* Removes the tooltip from hovering on Emotes */
 .clickCTA-2B6Kbs {display:none;}
 
-/* PowercordToasts By Leeprky#2063*/
+/* PowercordToasts */
 .powercord-toast {border-radius: 18px; background-color: transparent;}
 .powercord-toast .header { background-color: var(--toast-header); border-radius: 12px 12px 0px 0px;}
 .powercord-toast .buttons { background-color: var(--background-secondary); border-radius: 0px 0px 10px 10px;}
@@ -601,6 +564,7 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 .lookOutlined-3sRXeN.colorGrey-2DXtkV {color: #F4F7F5; border-color: #b6bec9; background-color: #747f8d93; }
 .lookOutlined-3sRXeN.colorGrey-2DXtkV:hover {color: #F4F7F5; border-color: #cbd3df; background-color: #99a6b893; }
 .powercord-toast .header { font-size: 15px; }
+.powercord-toast .contents .inner { background-color: transparent; box-shadow: none; border: 0px; }
 
 /* DiscordTextTopLeftSlook */
 .wordmark-2iDDfm svg {
