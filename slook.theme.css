@@ -65,6 +65,10 @@ body{
   background-color: rgba(24, 22, 22, 0.349);
   border-radius: 10px 0px 0px 0px;
 }
+.chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
+  margin-left: 5px !important;
+  margin-right: 1px !important;
+}
 
 .platform-osx {
   -webkit-app-region: drag;
@@ -104,6 +108,15 @@ body{
 
 .container-2lgZY8 .base-3dtUhz .notice-3bPHh- {
   margin-bottom: 6px;
+}
+
+.pageWrapper-1PgVDX {
+  margin-left: 5px;
+  margin-right: 1px;
+  left: 0px !important;
+}
+.scroller-1d5FgU {
+  padding-right: 32px !important;
 }
 
 /* GlasscordCodeEnd*/

@@ -1927,7 +1927,7 @@ div[class*="topSectionPlaying-"],
 }
 
 .pageWrapper-1PgVDX {
-  border-radius: 18px 18px 0 0;
+  border-radius: 12px 12px 0 0;
   width: 85% !important;
   left: 5px;
 }
@@ -2037,6 +2037,25 @@ div[class*="topSectionPlaying-"],
 /* Notice Bar - Server & Roles Preview */
 .container-2lgZY8 .base-3dtUhz .notice-3bPHh- {
   border-radius: 8px !important;
+}
+
+/* Pop-up Container Rework */
+.layerContainer-yqaFcK .modal-3O0aXp {
+  border-radius: 12px;
+}
+
+.layerContainer-yqaFcK .header-1TKi98 {
+  border-radius: 12px 12px 0 0 !important;
+}
+
+.layerContainer-yqaFcK .footer-2gL1pp {
+  border-radius: 0 0 12px 12px !important;
+}
+
+.layerContainer-yqaFcK .root-1gCeng {
+  -webkit-box-shadow: var(--elevation-stroke),var(--elevation-high) !important;
+  box-shadow: var(--elevation-stroke),var(--elevation-high)  !important;
+  border-radius: 12px;
 }
 
 /* END OF INDEX.CSS */
