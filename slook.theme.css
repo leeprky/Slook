@@ -208,8 +208,8 @@ body{
   font-size: 0.65rem;
   height: 1.975rem;
   color: #b6b9b4;
-  vertical-align:-webkit-baseline-middle;
-  font-family: 'Discord';
+  vertical-align:-webkit-baseline-middle; 
+  font-family: 'Discord';  /* - DISCORD USERNAME FONT */
 }
 .message-2qnXI6 .avatar-1BDn8e {
   margin-bottom: -10px;
@@ -242,10 +242,10 @@ body{
   margin-bottom: 24px;
   font-weight: 600;
   color: var(--header-primary);
-  font-family: 'Discord';
+  font-family: 'Discord'; /* - DISCORD USERNAME FONT */
 }
 .note-450gs3, .title-3trS3_ {
-  font-family: 'Discord';
+  font-family: 'Discord'; /* - DISCORD USERNAME FONT */
   font-size: 15px;
 }
 .image-3zK3Wt, .theme-light .image-3zK3Wt {
@@ -274,7 +274,7 @@ body{
   margin-bottom: 9px;
   margin-left: -10px;
   position: static;
-  font-family: "Discord";
+  font-family: "Discord"; /* - DISCORD USERNAME FONT */
   padding-left: 3px;
 }
 .divider-JfaTT5 {
@@ -293,14 +293,14 @@ body{
 }
 .theme-dark .content-1o0f9g {
   color: #e7dddd;
-  font-family: "Discord";
+  font-family: "Discord"; /* - DISCORD USERNAME FONT */
   margin-top: -7px;
   font-size: 0.60rem;
   background-color: var(--newmessagesbar);
 }
 .theme-light .content-1o0f9g {
   color: #1b1a1a;
-  font-family: "Discord";
+  font-family: "Discord"; /* - DISCORD USERNAME FONT */
   margin-top: 00rem;
   font-size: 0.60rem;
   background-color: var(--newmessagesbar);
@@ -311,7 +311,7 @@ body{
   width: 0px;
 }
 .theme-light .wordmark-2iDDfm:after {
-  font-family: "Discord";
+  font-family: "Discord"; /* - DISCORD USERNAME FONT */
   content: "SLOOK";
   font-size: 20px;
   text-transform: uppercase;
@@ -328,7 +328,7 @@ body{
   background-color: #E0DCD8;
 }
 .theme-dark .wordmark-2iDDfm:after {
-  font-family: "Discord";
+  font-family: "Discord"; /* - DISCORD USERNAME FONT */
   content: "SLOOK";
   text-transform: uppercase;
   font-size: 23px;
@@ -351,25 +351,25 @@ body{
 /* BoldText */
 .headerText-2F0828 {
   font-size: 18px; 
-  font-family:'Discord'; 
+  font-family:'Discord';  /* - DISCORD USERNAME FONT */
 }
 .header-2RyJ0Y {
   font-size: 16px;
-  font-family:'Discord'; 
+  font-family:'Discord';  /* - DISCORD USERNAME FONT */
 }
 .title-3sZWYQ {
   font-size: 15px;
-  font-family:'Discord'; 
+  font-family:'Discord';  /* - DISCORD USERNAME FONT */
 }
 .container-2ax-kl {
   font-size: 15px;
-  font-family:'Discord'; 
+  font-family:'Discord';  /* - DISCORD USERNAME FONT */
 }
 /* PictureInPicture */
 .header-2Zv56X {
   font-size: 18px;
   color:#eaedf0; 
-  font-family: 'Discord'
+  font-family: 'Discord' /* - DISCORD USERNAME FONT */
 } 
 .description-22pzKs {
   color: #c7cacc;
