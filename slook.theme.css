@@ -190,6 +190,9 @@ body{
 /*
 
 /* SLOOK FONT */
+:root {
+  --discord-font: 'Discord'; /* De;ete For Regular Font */
+}
 
 /* SlookChatBox */
 /* Name */
