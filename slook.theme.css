@@ -66,8 +66,8 @@ body{
   border-radius: 10px 0px 0px 0px;
 }
 .chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
-  left: 5px !important;
-  padding-right: 5px !important;
+  margin-left: 5px !important;
+  margin-right: 1px !important;
 }
 
 .platform-osx {
