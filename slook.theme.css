@@ -16,7 +16,6 @@
 /* V2.5
 /*
 /* Imports */ 
-@import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 @import url(https://nyri4.github.io/Discolored/main.css); /*
 @import url(https://raw.githack.com/Snapperito/Settings-Icons/main/source.css);
 
@@ -306,43 +305,6 @@ body{
   background-color: var(--newmessagesbar);
 }
 
-/* DiscordTextTopLeftSlook */
-.wordmark-2iDDfm svg {
-  width: 0px;
-}
-.theme-light .wordmark-2iDDfm:after {
-  font-family: "Discord"; /* - DISCORD USERNAME FONT */
-  content: "SLOOK";
-  font-size: 20px;
-  text-transform: uppercase;
-  background: rgb(12, 12, 12);
-  background-size: 400% 400%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  position: absolute;
-  top: 6px;
-}
-.theme-light .withFrame-haYltI {
-  height: 24px;
-  margin-top: 4px;
-  background-color: #E0DCD8;
-}
-.theme-dark .wordmark-2iDDfm:after {
-  font-family: "Discord"; /* - DISCORD USERNAME FONT */
-  content: "SLOOK";
-  text-transform: uppercase;
-  font-size: 23px;
-  background: #eee9ee;
-  background-size: 400% 400%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  position: absolute;
-  top: 6px;
-}
-.theme-dark .withFrame-haYltI {
-  height: 24px;
-  margin-top: 4px;
-}
 /* Add transparency & blur to the loading screen */
 .container-16j22k {
   background-color: rgba(0,0,0,0.8);
