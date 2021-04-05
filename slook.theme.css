@@ -66,6 +66,16 @@ body{
   border-radius: 10px 0px 0px 0px;
 }
 
+.platform-osx {
+  -webkit-app-region: drag;
+}
+.platform-osx .guilds-1SWlCJ, .platform-osx .base-3dtUhz, .platform-osx .sidebar-2K8pFh {
+  -webkit-app-region: none;
+}
+.platform-osx .typeMacOS-3EmCyP {
+  -webkit-app-region: none !important;
+}
+
 /* GlasscordCodeEnd*/
 
 /* Windows Fix For ServerList */
