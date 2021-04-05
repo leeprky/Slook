@@ -2021,4 +2021,12 @@ div[class*="topSectionPlaying-"],
   overflow: unset !important;
 }
 
+.container-1D34oG .nowPlayingColumn-2sl4cE .nowPlayingScroller-2XrVUt {
+  width: 98% !important;
+}
+
+.container-1D34oG .nowPlayingColumn-2sl4cE .nowPlayingScroller-2XrVUt .itemCard-v9viV7 {
+  border-radius: 12px;
+}
+
 /* END OF INDEX.CSS */
