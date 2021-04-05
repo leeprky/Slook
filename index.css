@@ -867,7 +867,7 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
   padding-bottom: 5px;
 }
 /* Channelist*/
-.container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
+.container-3Mxszk, .applicationStore-1pNvnv {
   border-radius: 0px 18px 0 0 !important
 }
 .chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
@@ -1837,6 +1837,11 @@ div[class*="topSectionPlaying-"],
 	top: 8px !important;
 }
 
+.recentMentionsPopout-3rCiI6 .messages-3G3erD .divider-39oAwV {
+	left: 0px !important;
+  margin-left: 14px;
+}
+
 /* Sidebar Container */
 .scroller-RmtA4e {
   padding-right: 8px !important;
@@ -2010,6 +2015,28 @@ div[class*="topSectionPlaying-"],
 
 .container-pTf0Ly .container-1EOCj2 .participantMemberContainer-3JuhCc {
   overflow: inherit !important;
+}
+
+/* Friends Container */
+.container-1D34oG .listItemContents-95HL3L {
+  margin-left: 1px;
+}
+
+.container-1D34oG .listItemContents-95HL3L .userInfo-2zN2z8 {
+  overflow: unset !important;
+}
+
+.container-1D34oG .nowPlayingColumn-2sl4cE .nowPlayingScroller-2XrVUt {
+  width: 98% !important;
+}
+
+.container-1D34oG .nowPlayingColumn-2sl4cE .nowPlayingScroller-2XrVUt .itemCard-v9viV7 {
+  border-radius: 12px;
+}
+
+/* Notice Bar - Server & Roles Preview */
+.container-2lgZY8 .base-3dtUhz .notice-3bPHh- {
+  border-radius: 8px !important;
 }
 
 /* END OF INDEX.CSS */

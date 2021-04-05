@@ -69,7 +69,7 @@ body{
 .platform-osx {
   -webkit-app-region: drag;
 }
-.platform-osx .guilds-1SWlCJ, .platform-osx .base-3dtUhz, .platform-osx .sidebar-2K8pFh {
+.platform-osx .guilds-1SWlCJ, .platform-osx .base-3dtUhz, .platform-osx .sidebar-2K8pFh, .platform-osx .notice-3bPHh- {
   -webkit-app-region: none;
 }
 .platform-osx .typeMacOS-3EmCyP {
@@ -100,6 +100,10 @@ body{
 }
 .searchResultsWrap-3-pOjs .searchResultGroup-1DphGG .channelName-1JRO3C {
 	padding-left: 10px;
+}
+
+.container-2lgZY8 .base-3dtUhz .notice-3bPHh- {
+  margin-bottom: 6px;
 }
 
 /* GlasscordCodeEnd*/
