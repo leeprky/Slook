@@ -2012,4 +2012,13 @@ div[class*="topSectionPlaying-"],
   overflow: inherit !important;
 }
 
+/* Friends Container */
+.container-1D34oG .listItemContents-95HL3L {
+  margin-left: 1px;
+}
+
+.container-1D34oG .listItemContents-95HL3L .userInfo-2zN2z8 {
+  overflow: unset !important;
+}
+
 /* END OF INDEX.CSS */
