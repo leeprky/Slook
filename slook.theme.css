@@ -65,6 +65,10 @@ body{
   background-color: rgba(24, 22, 22, 0.349);
   border-radius: 10px 0px 0px 0px;
 }
+.chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
+  left: 5px !important;
+  padding-right: 5px !important;
+}
 
 .platform-osx {
   -webkit-app-region: drag;
