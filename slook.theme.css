@@ -318,7 +318,7 @@ body{
 
 /* Better Looking New Messages Pill By Leeprky#2063 */
 :root {
-  --newmessagesbar: rgba(165, 22, 22, 0.986);
+  --newmessagesbar: #008C67;
 }
 .unreadPill-2HyYtt {
   color: rgb(252, 248, 248);
