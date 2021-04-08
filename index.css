@@ -459,6 +459,10 @@ background-color: #DAD6D1
 .placeholder-37qJjk, .slateTextArea-1Mkdgw {
   background-color: transparent;
 }
+/* Spotify Invite Friends Thing */
+.attachButtonPlay-3iJ0mf {
+    color: var(--spotify-color)
+}
 
 /* Separate the channels list from the chat box. - 755166410824482937 */
 .sidebar-2K8pFh, .chat-3bRxxu, .container-3Mxszk, .container-1D34oG, .applicationStore-1pNvnv {
