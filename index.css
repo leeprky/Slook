@@ -5,6 +5,9 @@
 /* Import */
 @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 
+/* My Backbone Code */
+@import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
+
 
 /* DiscordTextTopLeftSlook */
 .wordmark-2iDDfm svg {
