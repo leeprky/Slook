@@ -2062,4 +2062,21 @@ div[class*="topSectionPlaying-"],
   border-radius: 12px;
 }
 
+
+/* Shrink server banners to header instead of disappearing. */
+[class*="animatedContainer-"] {
+    opacity: 1 !important;
+    transition: opacity .5s;
+}
+[class*="animatedContainer-"] > [class*="bannerImage-"] {
+    transition: margin .5s;
+}
+:not([class*="bannerVisible-"]) > [class*="animatedContainer-"] {
+    opacity: .35 !important;
+    height: 138px;
+}
+:not([class*="bannerVisible-"]) > [class*="animatedContainer-"] [class*="bannerImage-"] {
+    margin-top: -12px;
+}
+
 /* END OF INDEX.CSS */
