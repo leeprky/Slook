@@ -14,11 +14,9 @@ This means that my theme will auto update wiith the powercord installer, but als
 
 ## How To Install SLOOK V2.0
 
-> Head to C:\Users\[USER]\powercord\src\Powercord
+Open CMD & Copy This
 
-> Right Click "themes" and click Git Bash Here
-
-> Type "git clone https://github.com/leeprky/slook-theme"
+cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/slook_theme
 
 > Refresh Discord
 
