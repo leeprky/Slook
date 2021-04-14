@@ -316,6 +316,80 @@ body{
   background-position: 50%;
 }
 
+/* Bubble Member List */
+:root {
+  --hover-animation-speed: 0.35s;
+  --seperator-color: var(--background-accent);
+}
+.members-1998pB {
+  transition: transform var(--hover-animation-speed);
+}
+.membersWrap-2h-GB4 {
+ min-width: unset;
+ width: 40px;
+ justify-content: left;
+}
+.content-3QAtGj .subText-1KtqkB {
+ display: none;
+}
+.membersWrap-2h-GB4:hover .members-1998pB {
+  transform: translateX(-260px);
+}
+.membersWrap-2h-GB4 .members-1998pB .member-3-YXUe {
+  background-color: unset;
+  margin-left: 0px;
+  transition: margin-left var(--hover-animation-speed);
+}
+.membersWrap-2h-GB4:hover .members-1998pB .member-3-YXUe {
+  margin-left: 15px;
+}
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
+  transform: translateX(2px);
+}
+.membersWrap-2h-GB4 .membersGroup-v9BXpm {
+  cursor: default;
+  transform: translateX(-10px);
+  transition: transform var(--hover-animation-speed);
+  overflow: inherit;
+}
+.members-1998pB {
+border-radius: 18px 18px 18px 18px !important;
+left: 37px;
+margin-top: 100px;
+margin-bottom: 15px;
+}
+::-webkit-scrollbar {
+ display: none;
+}
+.membersWrap-2h-GB4 {
+left: 45px;
+margin-right: 40px;
+bottom: 75px;
+background-color: rgba(216, 27, 27, 0);
+}
+.theme-light .chatContent-a9vAAp {
+background-color: transparent;
+border-radius: 0 15px 0 0 !important;
+margin-left: -0px;
+margin-right: 15px;
+}
+.theme-dark .chatContent-a9vAAp {
+  background-color: transparent;
+  border-radius: 0 15px 0 0 !important;
+  margin-left: -10px;
+  margin-right: -10px
+  }
+.channelTextArea-rNsIhG, .channelTextArea-2VhZ6z { 
+  margin-left: 25px;
+}
+.base-gE7OpD {
+  right: -0px;
+}
+.buttons-3JBrkn {
+  position: relative;
+  left: -1px
+}
+
 /* Better Looking New Messages Pill By Leeprky#2063 */
 :root {
   --newmessagesbar: #008C67;
