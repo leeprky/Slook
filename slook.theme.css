@@ -6,8 +6,7 @@
  * @source https://github.com/leeprky/slook_theme
 */
 
-/* IGNORE ABOVE IF ON POWERCORD - BD ONLY */
-
+/* CSS VERSION 2.6 */
 @import url(https://raw.githack.com/leeprky/slook_theme/main/source/slook-source.css);
 
 /* V2.5
@@ -26,7 +25,7 @@ USRBG Profile Modals by Tropix126.
 @import url(https://raw.githack.com/Discord-Custom-Covers/usrbg/master/USRBG.theme.css);
 /* -=-=-=-=-=-=-=-=-=-=- */
 
-/* Glasscord */ /* DELETE THIS TO ENABLE
+/* Glasscord */ /* DELETE THIS TO ENABLE (IGNORE IF ON POWERCORD - BD ONLY)
 @import url(https://raw.githack.com/leeprky/slook_theme/main/Glasscord-Files/styles/glasscord-slook-theme.css)
   
 :root{
@@ -51,9 +50,26 @@ body{
 	--background-secondary: #0a0a0a10!important;
 	--background-tertiary: #12121325!important;
 };
-/* Glasscord End */
 
-/* CSS VERSION 2.6 */
+/* Server List Fix */
+/*
+/* Windows */ /* DELETE THIS TO ENABLE
+#app-mount .app-1q1i1E .base-3dtUhz {
+  top: calc(var(--server-container) + 4px) !important;
+}
+/* Linux */ /* DELETE THIS TO ENABLE
+#app-mount .app-1q1i1E .base-3dtUhz {
+  top: calc(var(--server-container) + 6px) !important;
+}
+/* OSX */ /* DELETE THIS TO ENABLE
+#app-mount .app-1q1i1E .base-3dtUhz {
+  top: calc(var(--server-container) + 38px) !important;
+}
+.platform-osx .container-1r6BKw {
+  -webkit-app-region: none;
+}
+
+/* Glasscord End */
 
 /* MainColouring */
 .theme-dark {
