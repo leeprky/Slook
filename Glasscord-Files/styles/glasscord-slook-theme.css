@@ -1,29 +1,6 @@
 /* Glasscord Support - No Lightmode*/
-/* YOU NEED GLASSCORD INSTALLED - ONCE DELETED LINE BELOW PLEASE RESTART DISCORD
-- REFER TO: https://github.com/leeprky/cybercordtheme-transparent*/
-/*
-:root{
-	--glasscord-win-blur: blurbehind;
-	--glasscord-macos-vibrancy: fullscreen-ui;
-	--glasscord-linux-blur: true;
-	--glasscord-titlebar: windows;  
-}
-body{
-    background-color: transparent;
-}
-#app-mount{
-	background-color: rgba(0, 0, 0, 0.301);
-	border-radius: 10px 10px 10px 10px; 
-	border-color: transparent;
-}
-#app-mount .guilds-1SWlCJ .scrollerBase-289Jih {
-  background: transparent;
-}
-.theme-dark {
-	--background-primary: #0c0c0c00!important;
-	--background-secondary: #0a0a0a10!important;
-	--background-tertiary: #12121325!important;
-};
+/* YOU NEED GLASSCORD INSTALLED */
+
 .guilds-1SWlCJ {
     background-color: transparent;
 }
