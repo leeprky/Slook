@@ -6,6 +6,26 @@
  * @source https://github.com/leeprky/slook_theme
 */
 
+/* IGNORE ABOVE IF ON POWERCORD - BD ONLY */
+
+@import url(https://raw.githack.com/leeprky/slook_theme/main/source/slook-source.css);
+
+/* V2.5
+/*
+/* Imports */ 
+@import url(https://nyri4.github.io/Discolored/main.css);
+@import url(https://raw.githack.com/Snapperito/Settings-Icons/main/source.css);
+
+/* HorizontalServerList */ 
+@import url(https://raw.githack.com/DiscordStyles/HorizontalServerList/master/HorizontalServerList.theme.css);
+
+/* USRBG */ 
+/*
+USRBG Profile Modals by Tropix126.
+=========================================== */
+@import url(https://raw.githack.com/Discord-Custom-Covers/usrbg/master/USRBG.theme.css);
+/* -=-=-=-=-=-=-=-=-=-=- */
+
 /* Glasscord */ /* DELETE THIS TO ENABLE
 @import url(https://raw.githack.com/leeprky/slook_theme/main/Glasscord-Files/styles/glasscord-slook-theme.css)
   
@@ -34,26 +54,6 @@ body{
 /* Glasscord End */
 
 /* CSS VERSION 2.6 */
-
-/* IGNORE ABOVE IF ON POWERCORD - BD ONLY */
-
-@import url(https://raw.githack.com/leeprky/slook_theme/main/source/slook-source.css);
-
-/* V2.5
-/*
-/* Imports */ 
-@import url(https://nyri4.github.io/Discolored/main.css);
-@import url(https://raw.githack.com/Snapperito/Settings-Icons/main/source.css);
-
-/* HorizontalServerList */ 
-@import url(https://raw.githack.com/DiscordStyles/HorizontalServerList/master/HorizontalServerList.theme.css);
-
-/* USRBG */ 
-/*
-USRBG Profile Modals by Tropix126.
-=========================================== */
-@import url(https://raw.githack.com/Discord-Custom-Covers/usrbg/master/USRBG.theme.css);
-/* -=-=-=-=-=-=-=-=-=-=- */
 
 /* MainColouring */
 .theme-dark {
