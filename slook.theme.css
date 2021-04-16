@@ -6,6 +6,33 @@
  * @source https://github.com/leeprky/slook_theme
 */
 
+/* Glasscord */ /* DELETE THIS TO ENABLE
+@import url(https://raw.githack.com/leeprky/slook_theme/main/Glasscord-Files/styles/glasscord-slook-theme.css)
+  
+:root{
+	--glasscord-win-blur: blurbehind;
+	--glasscord-macos-vibrancy: fullscreen-ui;
+	--glasscord-linux-blur: true;
+	--glasscord-titlebar: windows;  
+}
+body{
+    background-color: transparent;
+}
+#app-mount{
+	background-color: rgba(0, 0, 0, 0.301);
+	border-radius: 10px 10px 10px 10px; 
+	border-color: transparent;
+}
+#app-mount .guilds-1SWlCJ .scrollerBase-289Jih {
+  background: transparent;
+}
+.theme-dark {
+	--background-primary: #0c0c0c00!important;
+	--background-secondary: #0a0a0a10!important;
+	--background-tertiary: #12121325!important;
+};
+/* Glasscord End */
+
 /* CSS VERSION 2.6 */
 
 /* IGNORE ABOVE IF ON POWERCORD - BD ONLY */
