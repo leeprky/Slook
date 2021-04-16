@@ -25,14 +25,14 @@ USRBG Profile Modals by Tropix126.
 @import url(https://raw.githack.com/Discord-Custom-Covers/usrbg/master/USRBG.theme.css);
 /* -=-=-=-=-=-=-=-=-=-=- */
 
-/* Glasscord */ /* DELETE THIS TO ENABLE (IGNORE IF ON POWERCORD - BD ONLY)
+/* Glasscord */ /* - DELETE FOR GLASSCORD
 @import url(https://raw.githack.com/leeprky/slook_theme/main/Glasscord-Files/styles/glasscord-slook-theme.css);
   
 :root{
 	--glasscord-win-blur: blurbehind;
 	--glasscord-macos-vibrancy: fullscreen-ui;
 	--glasscord-linux-blur: true;
-	--glasscord-titlebar: windows;  
+	--glasscord-titlebar: osx;  
 }
 body{
     background-color: transparent;
@@ -48,27 +48,24 @@ body{
 .theme-dark {
 	--background-primary: #0c0c0c00!important;
 	--background-secondary: #0a0a0a10!important;
-	--background-tertiary: #12121325!important;
+	--background-tertiary: #1S2121325!important;
 };
 
-/* Server List Fix */
-/*
-/* Windows */ /* DELETE THIS TO ENABLE
-#app-mount .app-1q1i1E .base-3dtUhz {
-  top: calc(var(--server-container) + 4px) !important;
-}
-/* Linux */ /* DELETE THIS TO ENABLE
-#app-mount .app-1q1i1E .base-3dtUhz {
-  top: calc(var(--server-container) + 6px) !important;
-}
-/* OSX */ /* DELETE THIS TO ENABLE
-#app-mount .app-1q1i1E .base-3dtUhz {
-  top: calc(var(--server-container) + 38px) !important;
+#app-mount .guilds-1SWlCJ, .base-3dtUhz {
+  top: calc(var(--server-container) + -32px) !important;
 }
 .platform-osx .container-1r6BKw {
   -webkit-app-region: none;
 }
-
+#app-mount .app-1q1i1E .base-3dtUhz {
+  margin-top: 32px;
+}
+.panels-j1Uci_ {
+  background-color: transparent;
+}
+.scrollableContainer-2NUZem {
+  background-color: rgba(0, 0, 0, 0.534);
+}
 /* Glasscord End */
 
 /* MainColouring */
@@ -217,7 +214,6 @@ body{
   flex-direction: column;
 }
 /*
-
 /* SLOOK FONT */
 :root {
   --discord-font: 'Discord'; /* Delete For Regular Font */
@@ -297,4 +293,3 @@ body{
   color: #c7cacc;
   font-size: 11px
 }
-
