@@ -26,7 +26,7 @@ USRBG Profile Modals by Tropix126.
 /* -=-=-=-=-=-=-=-=-=-=- */
 
 /* Glasscord */ /* DELETE THIS TO ENABLE (IGNORE IF ON POWERCORD - BD ONLY)
-@import url(https://raw.githack.com/leeprky/slook_theme/main/Glasscord-Files/styles/glasscord-slook-theme.css)
+@import url(https://raw.githack.com/leeprky/slook_theme/main/Glasscord-Files/styles/glasscord-slook-theme.css);
   
 :root{
 	--glasscord-win-blur: blurbehind;
