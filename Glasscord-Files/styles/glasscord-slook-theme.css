@@ -1,0 +1,113 @@
+/* Glasscord Support - No Lightmode*/
+/* YOU NEED GLASSCORD INSTALLED - ONCE DELETED LINE BELOW PLEASE RESTART DISCORD
+- REFER TO: https://github.com/leeprky/cybercordtheme-transparent*/
+/*
+:root{
+	--glasscord-win-blur: blurbehind;
+	--glasscord-macos-vibrancy: fullscreen-ui;
+	--glasscord-linux-blur: true;
+	--glasscord-titlebar: windows;  
+}
+body{
+    background-color: transparent;
+}
+#app-mount{
+	background-color: rgba(0, 0, 0, 0.301);
+	border-radius: 10px 10px 10px 10px; 
+	border-color: transparent;
+}
+#app-mount .guilds-1SWlCJ .scrollerBase-289Jih {
+  background: transparent;
+}
+.theme-dark {
+	--background-primary: #0c0c0c00!important;
+	--background-secondary: #0a0a0a10!important;
+	--background-tertiary: #12121325!important;
+};
+.guilds-1SWlCJ {
+    background-color: transparent;
+}
+.guilds-1SWlCJ .scrollerBase-289Jih {
+  background-color: transparent;
+}
+.container-1r6BKw.themed-ANHk51 {
+  background-color: rgba(24, 22, 22, 0.349);
+  border-radius: 10px 0px 0px 0px;
+}
+.chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
+  margin-left: 5px !important;
+  margin-right: 1px !important;
+}
+
+.platform-osx {
+  -webkit-app-region: drag;
+}
+.platform-osx .guilds-1SWlCJ, .platform-osx .base-3dtUhz, .platform-osx .sidebar-2K8pFh, .platform-osx .notice-3bPHh- {
+  -webkit-app-region: none;
+}
+.platform-osx .typeMacOS-3EmCyP {
+  -webkit-app-region: none !important;
+}
+
+.messagesPopoutWrap-1MQ1bW, .recentMentionsPopout-3rCiI6  {
+	backdrop-filter: blur(5px);
+}
+.messageGroupWrapper-o-Zw7G, .messageContainer-gbhlwo, .messagesPopoutWrap-1MQ1bW .channel-3pEHab, .recentMentionsPopout-3rCiI6 .messages-3G3erD {
+	background-color: rgba(0, 0, 0, 0.175);
+}
+.messagesPopoutWrap-1MQ1bW .header-ykumBX, .messagesPopoutWrap-1MQ1bW .footer-1kmXd4, .recentMentionsPopout-3rCiI6 .channelHeader-3Gd2xq, .recentMentionsPopout-3rCiI6 .header-2-Imhb, .recentMentionsPopout-3rCiI6 .hasMore-sul95G {
+	background-color: rgba(0, 0, 0, 0.350);
+}
+.searchResultsWrap-3-pOjs .searchHeader-2XoQg7 {
+	background-color: rgba(0, 0, 0, 0.150);
+}
+.searchResultsWrap-3-pOjs, .searchResultsWrap-3-pOjs .scroller-3GIiMh {
+	background-color: var(--background-secondary);
+}
+.searchResultsWrap-3-pOjs .searchResultGroup-1DphGG {
+	background-color: rgba(0, 0, 0, 0.150);
+	border-radius: 4px;
+}
+.searchResultsWrap-3-pOjs .searchResultGroup-1DphGG .size16-1P40sf {
+	line-height: 40px !important;
+}
+.searchResultsWrap-3-pOjs .searchResultGroup-1DphGG .channelName-1JRO3C {
+	padding-left: 10px;
+}
+
+.container-2lgZY8 .base-3dtUhz .notice-3bPHh- {
+  margin-bottom: 6px;
+}
+
+.pageWrapper-1PgVDX {
+  margin-left: 5px;
+  margin-right: 1px;
+  left: 0px !important;
+}
+.scroller-1d5FgU {
+  padding-right: 32px !important;
+}
+
+/* GlasscordCodeEnd*/
+
+/* Windows Fix For ServerList */
+/*
+#app-mount .app-1q1i1E .base-3dtUhz {
+  top: calc(var(--server-container) + 4px) !important;
+}
+/* Linux Fix For ServerList */
+/*
+#app-mount .app-1q1i1E .base-3dtUhz {
+  top: calc(var(--server-container) + 6px) !important;
+}
+/* macOS Fix For ServerList */
+/*
+#app-mount .app-1q1i1E .base-3dtUhz {
+  top: calc(var(--server-container) + 38px) !important;
+}
+.platform-osx .container-1r6BKw {
+  -webkit-app-region: none;
+}
+
+/* Glasscord Ends */ /* 
+/* -=-=-=--=-=-=-=-=-=-=-=-= */
