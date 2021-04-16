@@ -19,7 +19,7 @@
 
 > Restart DiscordCanary Trough Task Manager/Tray.
 
-> Configure in naive.theme.css
+> Configure in slook.theme.css
 *If it doesn't turn Transparent restart your Discord Client again.*
 
 -- Any Issues Send a DM To Leeprky#2063
