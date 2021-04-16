@@ -869,9 +869,6 @@ background-color: rgba(216, 27, 27, 0);
   right: 15px;
 }
 
-.theme-light .container-2fRDfG, .scrollableContainer-2NUZem {
-  background-color: #f1f1ee63;
-}
 .container-2fRDfG::after /* reply divider */ {
   content: "";
   width: calc(100% - 10px); 
@@ -1000,8 +997,8 @@ margin-left: -0px;
 margin-right: 15px;
 }
 
-.channelTextArea-rNsIhG, .channelTextArea-2VhZ6z { 
-  margin-left: 25px;
+.theme-dark .channelTextArea-rNsIhG, .channelTextArea-2VhZ6z { 
+  background-color: #000;
 }
 .base-gE7OpD {
   right: -0px;
