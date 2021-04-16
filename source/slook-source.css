@@ -998,8 +998,10 @@ margin-right: 15px;
 }
 
 .theme-dark .channelTextArea-rNsIhG, .channelTextArea-2VhZ6z { 
-  background-color: #000;
+  background-color: var(--channeltextarea-background);
+  margin-left: 25px
 }
+
 .base-gE7OpD {
   right: -0px;
 }
