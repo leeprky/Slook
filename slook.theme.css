@@ -66,6 +66,9 @@ body{
 .scrollableContainer-2NUZem {
   background-color: rgba(0, 0, 0, 0.534);
 }
+.contentRegionScroller-26nc1e, .contentRegion-3nDuYy, .standardSidebarView-3F1I7i, .sidebarRegionScroller-3MXcoP {
+  background: rgba(22, 22, 22, 0.596);
+}
 /* Glasscord End */
 
 /* MainColouring */
