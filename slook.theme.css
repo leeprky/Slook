@@ -296,22 +296,3 @@ body{
   color: #c7cacc;
   font-size: 11px
 }
-
-.theme-dark .layer-3QrUeG:first-of-type::before {
-  content: "Hey SLOOK Users | THANKS FOR OVER 1000+ DOWNLOADS!! However This Theme Is So Badley Made I Made A Much More Customisable Version. -https://discord.gg/Ff3rqAYB89- Message Deleted Within 10h"; /* Warning Text */
-  z-index: 2;
-  background: #1d1f22ad; /* Container color */
-  color: #ffffff; /* Text Color */
-  position: fixed;
-  display: block;
-  text-align: center;
-  padding: 20px;
-  width: 300px;
-  height: 120px;
-  top: 88%;
-  left: 88.80%;
-  transform: translate(-50%, -50%);
-  border-radius: 12px;
-  box-shadow: 0 2px 10px #7289da27;
-  border: 3px solid #7289da2f;
-}
