@@ -1,15 +1,15 @@
 /*
  * @name Slook
  * @author Leeprky
- * @version 2.6.1
+ * @version 2.6.2
  * @description BetterDiscord Sloot Theme From Powercord/GooseMod.
  * @source https://github.com/leeprky/slook_theme
 */
 
-/* CSS VERSION 2.6.1 */
+/* CSS VERSION 2.6.2 */
 @import url(https://raw.githack.com/leeprky/Slook/main/source/slook-source.css);
 
-/* V2.6.1
+/* V2.6.2
 /*
 /* Imports */ 
 @import url(https://nyri4.github.io/Discolored/main.css);
@@ -348,4 +348,49 @@ left: 45px;
 margin-right: 40px;
 bottom: 75px;
 background-color: rgba(216, 27, 27, 0);
+}
+
+
+/* SlookChatBox OPTIONAL*/
+/* Name */
+.username-1A8OIy {
+  font-size: 1.15rem;
+  line-height: 2.375rem;
+  color: var(--header-primary);
+  display: inline;
+  margin-bottom:  15px;
+  margin-left: 0px;  /* - DISCORD USERNAME FONT
+  font-family:'Discord'; 
+  /* /* */
+}
+.cozy-3raOZG .timestamp-3ZCmNB {
+  font-size: 0.65rem;
+  height: 1.975rem;
+  color: #b6b9b4;
+  vertical-align:-webkit-baseline-middle; 
+  font-family: 'Discord';  /* - DISCORD USERNAME FONT */
+}
+.message-2qnXI6 .avatar-1BDn8e {
+  margin-bottom: -10px;
+  width: 50px;
+  height: 50px;
+  left: 10px
+}
+.message-2qnXI6 .contents-2mQqc9 .avatar-1BDn8e {
+  top: 15px !important;
+}
+.cozy-3raOZG .messageContent-2qWWxC {
+  margin-left: -68px;
+  padding-left: 72px;
+  margin-top: -5px;
+}
+/* Compact Support */
+.compact-T3H92H .contents-2mQqc9 {
+  height: 50px;
+}
+.compact-T3H92H .timestamp-3ZCmNB, .cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
+  display: none;
+}
+.messagesWrapper-1sRNjr, .scrollerContent-WzeG7R {
+  margin-left: 10px
 }
