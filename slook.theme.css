@@ -10,6 +10,8 @@
 /* HorizontalServerList */ 
 @import url(https://raw.githack.com/DiscordStyles/HorizontalServerList/master/HorizontalServerList.theme.css);
 
+@import "https://leeprky.github.io/themes/Ovel/imports/07-extra/version.css";
+
 /* Glasscord */ /* - DELETE FOR GLASSCORD
 @import url(https://raw.githack.com/leeprky/slook_theme/main/Glasscord-Files/styles/glasscord-slook-theme.css);
   
@@ -378,3 +380,5 @@ background-color: rgba(216, 27, 27, 0);
 .messagesWrapper-1sRNjr, .scrollerContent-WzeG7R {
   margin-left: 10px
 }
+
+:root {--outdated_slook-390: none; --version: "v3.0" }
