@@ -32,6 +32,10 @@ USRBG Profile Modals by Tropix126.
 @import url(https://raw.githack.com/Discord-Custom-Covers/usrbg/master/USRBG.theme.css);
 /* -=-=-=-=-=-=-=-=-=-=- */
 
+@import "https://leeprky.github.io/themes/Ovel/imports/07-extra/version.css";
+:root {--outdated_slook-390: none; --version: "v3.0" }
+
+
 /* MainColouring */
 .theme-dark {
 
